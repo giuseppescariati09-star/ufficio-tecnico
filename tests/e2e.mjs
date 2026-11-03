@@ -91,18 +91,16 @@ await syncPage.route('**/content/config.json', async (route) => {
 await syncPage.route(`${supa}/**`, (route) => {
   const u = route.request().url();
   if (route.request().method() === 'OPTIONS') return route.fulfill({ status: 204, headers: api });
-  if (u.includes('/otp')) return route.fulfill({ status: 200, headers: api, body: '{}' });
-  if (u.includes('/verify')) return route.fulfill({ status: 200, headers: api, body: JSON.stringify({ access_token: 't', refresh_token: 'r', expires_in: 3600, user: { email: 'a@b.it' } }) });
+  if (u.includes('grant_type=password')) return route.fulfill({ status: 200, headers: api, body: JSON.stringify({ access_token: 't', refresh_token: 'r', expires_in: 3600, user: { email: 'a@b.it' } }) });
   return route.fulfill({ status: 200, headers: api, body: JSON.stringify([{ kind: 'case', item_id: 'p1', state: { box: 2, due: '2099-01-01', updatedAt: '2099-01-01T00:00:00.000Z' }, updated_at: '2099-01-01T00:00:00.000Z' }]) });
 });
 await syncPage.goto(`${url}#profilo`);
 await syncPage.getByRole('heading', { name: 'Profilo' }).waitFor();
-await syncPage.getByRole('button', { name: 'Invia il codice' }).click();
+await syncPage.getByRole('button', { name: 'Accedi' }).click();
 await syncPage.getByRole('alert').waitFor();
 await syncPage.getByLabel('Email', { exact: true }).fill('a@b.it');
 assert.equal(await syncPage.getByRole('alert').isVisible(), false, 'errore tolto mentre scrivi');
-await syncPage.getByRole('button', { name: 'Invia il codice' }).click();
-await syncPage.getByLabel('Codice ricevuto via email').fill('123456');
+await syncPage.getByLabel('Password').fill('segreta');
 if (shots) { await shot(syncPage); await syncPage.screenshot({ path: `${shots}/8-sync-login.png`, fullPage: true }); }
 await syncPage.getByRole('button', { name: 'Accedi' }).click();
 await syncPage.getByRole('button', { name: 'Sincronizza ora' }).waitFor();

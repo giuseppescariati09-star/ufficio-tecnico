@@ -485,35 +485,27 @@ function syncSection() {
     onfocus: clearError, oninput: clearError,
     onblur: () => { if (email.value && !validEmail(email.value)) showError('Inserisci un\'email come nome@esempio.it.'); },
   });
-  const code = h('input', { id: 'sync-code', autocomplete: 'one-time-code', inputMode: 'numeric', placeholder: '123456', onfocus: clearError, oninput: clearError });
-  const codeField = h('label', { class: 'stacked', for: 'sync-code', hidden: true }, h('span', {}, 'Codice ricevuto via email'), code);
-  const label = () => (codeField.hidden ? 'Invia il codice' : 'Accedi');
+  const password = h('input', { id: 'sync-password', type: 'password', autocomplete: 'current-password', onfocus: clearError, oninput: clearError });
   const submit = h('button', { class: 'primary', onclick: async () => {
     const address = email.value.trim();
     if (!validEmail(address)) { email.focus(); showError('Inserisci un\'email come nome@esempio.it.'); return; }
-    const sending = codeField.hidden;
-    if (!sending && !code.value.trim()) { code.focus(); showError('Inserisci il codice ricevuto via email.'); return; }
-    submit.textContent = sending ? 'Invio…' : 'Accesso…';
+    if (!password.value) { password.focus(); showError('Inserisci la password.'); return; }
+    submit.textContent = 'Accesso…';
     try {
-      if (sending) {
-        await sync.requestCode(address);
-        codeField.hidden = false;
-        submit.textContent = label();
-        code.focus();
-      } else {
-        await sync.verifyCode(address, code.value.trim());
-        sync.forceFull();
-        await sync.syncNow();
-        renderProfile();
-      }
+      await sync.signIn(address, password.value);
+      sync.forceFull();
+      await sync.syncNow();
+      renderProfile();
     } catch (err) {
-      submit.textContent = label();
+      submit.textContent = 'Accedi';
       showError(err.message.startsWith('Failed') ? 'Serve la connessione. Riprova quando sei online.' : err.message);
     }
-  } }, 'Invia il codice');
+  } }, 'Accedi');
   return h('section', {}, title,
     h('p', { class: 'foot section-foot' }, 'Accedi su entrambi i dispositivi per ritrovare lo stesso progresso.'),
-    h('div', { class: 'group' }, h('label', { class: 'stacked', for: 'sync-email' }, h('span', {}, 'Email'), email), codeField),
+    h('div', { class: 'group' },
+      h('label', { class: 'stacked', for: 'sync-email' }, h('span', {}, 'Email'), email),
+      h('label', { class: 'stacked', for: 'sync-password' }, h('span', {}, 'Password'), password)),
     error,
     h('div', { class: 'stack sync-submit' }, submit));
 }

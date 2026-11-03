@@ -43,28 +43,27 @@ test('i dati vecchi senza data vengono inviati alla prima sincronizzazione', () 
   assert.equal(item.updated_at, '1970-01-01T00:00:00.000Z');
 });
 
-test('accesso con codice e sincronizzazione completa', async () => {
+test('accesso con password e sincronizzazione completa', async () => {
   const calls = [];
   const fetcher = async (url, opts) => {
     calls.push([url, opts]);
-    if (url.includes('/auth/v1/otp')) return json({});
-    if (url.includes('/auth/v1/verify')) return json({ access_token: 'tok', refresh_token: 'ref', expires_in: 3600, user: { email: 'a@b.it' } });
+    if (url.includes('grant_type=password')) return json({ access_token: 'tok', refresh_token: 'ref', expires_in: 3600, user: { email: 'a@b.it' } });
     if (url.includes('/rpc/sync_progress')) return json([{ kind: 'case', item_id: 'r', state: { box: 2, updatedAt: T2 } }]);
     return json({}, 404);
   };
   const store = createStore(memory());
   store.state.progress.a = { box: 1, updatedAt: T1 };
   const sync = createSync({ config, store, fetcher, storage: memory(), now: () => Date.parse(T2) });
-  await sync.requestCode('a@b.it');
-  assert.equal(JSON.parse(calls[0][1].body).create_user, false);
-  await sync.verifyCode('a@b.it', '123456');
+  await sync.signIn('a@b.it', 'segreta');
   assert.equal(sync.signedIn, true);
+  assert.equal(sync.email, 'a@b.it');
   const result = await sync.syncNow();
   assert.equal(result.ok, true);
   assert.equal(store.state.progress.r.box, 2);
   const rpc = calls.find(([u]) => u.includes('sync_progress'))[1];
   assert.equal(rpc.headers.Authorization, 'Bearer tok');
   assert.equal(JSON.parse(rpc.body).items[0].item_id, 'a');
+  assert.ok(!JSON.stringify(store.exportBackup()).includes('segreta'));
 });
 
 test('senza connessione i dati restano e l\'app non si blocca', async () => {
@@ -89,9 +88,9 @@ test('il token scaduto si rinnova; se non si può, chiede un nuovo accesso', asy
   assert.equal(sync.signedIn, false);
 });
 
-test('un codice sbagliato dà un messaggio chiaro', async () => {
-  const sync = createSync({ config, store: createStore(memory()), fetcher: async () => json({}, 403), storage: memory() });
-  await assert.rejects(sync.verifyCode('a@b.it', '000000'), /Codice non valido/);
+test('una password sbagliata dà un messaggio chiaro', async () => {
+  const sync = createSync({ config, store: createStore(memory()), fetcher: async () => json({}, 400), storage: memory() });
+  await assert.rejects(sync.signIn('a@b.it', 'no'), /Email o password/);
   assert.equal(sync.signedIn, false);
 });
 

@@ -120,14 +120,10 @@ export function createSync({ config, store, fetcher = (...a) => fetch(...a), sto
     get signedIn() { return Boolean(session); },
     get email() { return session?.email ?? ''; },
     get lastSyncAt() { return session?.lastSyncAt ?? ''; },
-    async requestCode(email) {
-      const res = await post('/auth/v1/otp', { email, create_user: false });
-      if (res.status === 429) throw new Error('Hai già chiesto un codice da poco. Riprova tra un minuto.');
-      if (!res.ok) throw new Error('Non riesco a inviare il codice. Controlla che l\'email sia quella abilitata.');
-    },
-    async verifyCode(email, code) {
-      const res = await post('/auth/v1/verify', { type: 'email', email, token: code });
-      if (!res.ok) throw new Error('Codice non valido o scaduto. Controlla le cifre o chiedine uno nuovo.');
+    async signIn(email, password) {
+      const res = await post('/auth/v1/token?grant_type=password', { email, password });
+      if (res.status === 429) throw new Error('Troppi tentativi. Riprova tra qualche minuto.');
+      if (!res.ok) throw new Error('Email o password non corrette. Controllale e riprova.');
       saveTokens(await res.json(), email);
     },
     syncNow() {

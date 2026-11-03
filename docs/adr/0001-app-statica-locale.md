@@ -16,7 +16,7 @@ Stato attuale: app statica su GitHub Pages, progresso in `localStorage`, backup 
 
 L'utente studierà su iPhone e iPad e ha scelto la sincronizzazione automatica (opzione B):
 - l'app resta statica e funziona offline;
-- solo il progresso viene salvato su Supabase, con accesso tramite codice via email;
+- solo il progresso viene salvato su Supabase, con accesso tramite email e password;
 - ogni dispositivo unisce i dati tenendo la modifica più recente per ogni elemento;
 - il backup manuale resta disponibile.
 
@@ -62,7 +62,7 @@ L'utente studierà su iPhone e iPad e ha scelto la sincronizzazione automatica (
 
 Il rischio principale del progetto è la correttezza delle domande, non la tecnologia. Con due dispositivi, però, il backup manuale aggiungerebbe un passaggio a ogni cambio e potrebbe sovrascrivere il lavoro. La sincronizzazione toglie questo rischio e protegge anche dalla cancellazione dei dati da parte di Safari.
 
-L'app non usa la libreria Supabase: chiama direttamente le sue API, così resta senza dipendenze esterne. Se l'app diventasse un prodotto, servirebbe rivedere account, pagamenti e diritti sui contenuti.
+L'accesso con codice via email richiederebbe un server SMTP proprio per modificare il modello dell'email, quindi si usa la password, salvabile nel portachiavi. L'app non usa la libreria Supabase: chiama direttamente le sue API, così resta senza dipendenze esterne. Se l'app diventasse un prodotto, servirebbe rivedere account, pagamenti e diritti sui contenuti.
 
 ## Scostamenti dagli standard dei progetti Lovable
 

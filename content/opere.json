@@ -3,97 +3,102 @@
   "id": "o1",
   "ufficio": "opere",
   "titolo": "Il RUP",
-  "testo": "Nel codice dei contratti del 2023, cosa significa RUP?",
+  "testo": "Una collega appena arrivata trova la sigla RUP in una determina e ti chiede cosa significa nel codice del 2023. Cosa le rispondi?",
   "opzioni": [
    "Responsabile unico del procedimento",
-   "Responsabile unico del progetto",
    "Referente ufficio pubblico",
+   "Responsabile unico del progetto",
    "Revisore unico delle procedure"
   ],
-  "corretta": 1,
-  "spiegazione": "Il D.Lgs. 36/2023 parla di responsabile unico del progetto.",
+  "corretta": 2,
+  "spiegazione": "Il D.Lgs. 36/2023 parla di responsabile unico del progetto. In atti e testi più vecchi puoi ancora trovare \"del procedimento\": riconoscilo, ma usa il nome attuale.",
   "norma": "D.Lgs. 36/2023",
   "articolo": "art. 15",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
  },
  {
   "id": "o2",
   "ufficio": "opere",
   "titolo": "Livelli di progetto",
-  "testo": "Quanti livelli di progettazione prevede il codice del 2023 per le opere pubbliche?",
+  "testo": "L'assessore ti chiede quanti livelli di progettazione servono per un'opera pubblica con il codice del 2023. Cosa gli dici?",
   "opzioni": [
-   "Uno",
-   "Due",
-   "Tre",
-   "Quattro"
+   "Due: progetto di fattibilità tecnico-economica e progetto esecutivo",
+   "Tre: fattibilità tecnico-economica, progetto definitivo e progetto esecutivo",
+   "Due: progetto preliminare e progetto definitivo",
+   "Uno solo: il progetto esecutivo"
   ],
-  "corretta": 1,
-  "spiegazione": "I livelli sono due: progetto di fattibilità tecnico-economica e progetto esecutivo.",
+  "corretta": 0,
+  "spiegazione": "I livelli sono due: il progetto di fattibilità tecnico-economica (PFTE) e il progetto esecutivo. Il vecchio schema a tre livelli non c'è più.",
   "norma": "D.Lgs. 36/2023",
   "articolo": "art. 41, c. 1",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
  },
  {
   "id": "o3",
   "ufficio": "opere",
   "titolo": "Affidamento diretto",
-  "testo": "Devi affidare lavori per 100.000 euro. Rientri nella soglia dell'affidamento diretto?",
+  "testo": "Devi affidare lavori per 100.000 euro. Puoi usare l'affidamento diretto?",
   "opzioni": [
    "No, il limite è 40.000 euro",
-   "Sì, il limite per i lavori è sotto 150.000 euro",
    "No, serve sempre una gara europea",
-   "Sì, ma solo per lavori sotto 120.000 euro"
+   "Sì, ma solo se prima consulti almeno tre operatori economici",
+   "Sì, per i lavori è previsto sotto 150.000 euro"
   ],
-  "corretta": 1,
-  "spiegazione": "Per i lavori l'affidamento diretto è previsto sotto 150.000 euro. Per servizi e forniture la soglia è sotto 140.000 euro.",
+  "corretta": 3,
+  "spiegazione": "Per i lavori l'affidamento diretto vale sotto 150.000 euro, anche senza consultare più operatori, scegliendo chi ha esperienze idonee. Per servizi e forniture, compresi ingegneria e architettura, il limite è sotto 140.000 euro.",
   "norma": "D.Lgs. 36/2023",
-  "articolo": "art. 50, c. 1",
+  "articolo": "art. 50, c. 1, lett. a) e b)",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
  },
  {
   "id": "o4",
   "ufficio": "opere",
   "titolo": "Più imprese in cantiere",
-  "testo": "In un cantiere è prevista la presenza di più imprese, anche non contemporanea. Cosa deve fare il committente?",
+  "testo": "Per un'opera è prevista la presenza di più imprese esecutrici, anche non contemporanea. Cosa deve fare il committente o il responsabile dei lavori?",
   "opzioni": [
-   "Niente, se i lavori durano meno di un mese",
-   "Designare il coordinatore per la progettazione",
-   "Sospendere i lavori",
-   "Nominare un secondo direttore dei lavori"
+   "Lasciare la scelta del coordinatore all'impresa principale",
+   "Designare il coordinatore per la progettazione, insieme all'incarico",
+   "Nominare un coordinatore solo se i lavori durano più di un mese",
+   "Aspettare l'inizio dei lavori e nominare un secondo direttore dei lavori"
   ],
   "corretta": 1,
-  "spiegazione": "Il committente o il responsabile dei lavori designa il coordinatore per la progettazione e, prima dell'affidamento, quello per l'esecuzione.",
+  "spiegazione": "Il coordinatore per la progettazione si designa insieme all'incarico di progettazione. Quello per l'esecuzione si designa prima di affidare i lavori e deve avere i requisiti dell'art. 98.",
   "norma": "D.Lgs. 81/2008",
-  "articolo": "art. 90, c. 3",
+  "articolo": "art. 90, cc. 3 e 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 07/04/2026)"
  },
  {
   "id": "o5",
   "ufficio": "opere",
   "titolo": "Piano di sicurezza",
-  "testo": "Chi redige il piano di sicurezza e coordinamento?",
+  "testo": "Stai seguendo la progettazione di un'opera con più imprese. Chi redige il piano di sicurezza e di coordinamento?",
   "opzioni": [
-   "Il coordinatore per la progettazione",
-   "Il sindaco",
-   "L'impresa appaltatrice, da sola",
-   "L'ispettore del lavoro"
+   "Il RUP",
+   "Il direttore dei lavori",
+   "L'impresa appaltatrice, da sola, con il suo tecnico di fiducia",
+   "Il coordinatore per la progettazione"
   ],
-  "corretta": 0,
-  "spiegazione": "Il coordinatore per la progettazione redige il piano di sicurezza e coordinamento durante la progettazione.",
+  "corretta": 3,
+  "spiegazione": "Lo redige il coordinatore per la progettazione, durante la progettazione e comunque prima della richiesta di offerte. Il piano è poi parte integrante del contratto di appalto.",
   "norma": "D.Lgs. 81/2008",
-  "articolo": "art. 91, c. 1",
+  "articolo": "art. 91, c. 1, lett. a); art. 100, c. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 07/04/2026)"
  },
  {
   "id": "o6",
   "ufficio": "opere",
   "titolo": "Patente a crediti",
-  "testo": "Con quanti crediti parte la patente per imprese e autonomi nei cantieri e qual è il minimo per operare?",
+  "testo": "Un'impresa ti chiede come funziona la patente per i cantieri. Con quanti crediti parte e quanti ne servono almeno per operare?",
   "opzioni": [
    "20 di partenza, minimo 10",
    "30 di partenza, minimo 15",
@@ -101,10 +106,467 @@
    "100 di partenza, minimo 50"
   ],
   "corretta": 1,
-  "spiegazione": "La dotazione iniziale è di 30 crediti e servono almeno 15 crediti per operare.",
+  "spiegazione": "Si parte da 30 crediti e ne servono almeno 15 per operare. Sotto i 15 puoi solo completare le attività in corso, se i lavori eseguiti superano il 30% del valore del contratto.",
   "norma": "D.Lgs. 81/2008",
-  "articolo": "art. 27",
+  "articolo": "art. 27, cc. 5 e 10",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 07/04/2026)"
+ },
+ {
+  "id": "o7",
+  "ufficio": "opere",
+  "titolo": "RUP non nominato",
+  "testo": "Parte il rifacimento della palestra scolastica, ma nell'atto di avvio nessuno ha nominato il RUP. Chi ne assume l'incarico?",
+  "opzioni": [
+   "Il responsabile dell'unità organizzativa competente",
+   "Il segretario comunale",
+   "Il sindaco, fino alla prima seduta di Giunta",
+   "Il dipendente con più anzianità nell'ufficio tecnico"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il RUP si nomina nel primo atto di avvio dell'intervento. Se la nomina manca, l'incarico spetta al responsabile dell'unità organizzativa competente. L'ufficio di RUP è obbligatorio e non si può rifiutare.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 15, cc. 1 e 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o8",
+  "ufficio": "opere",
+  "titolo": "Programma triennale",
+  "testo": "Stai aggiornando il programma triennale. Un lavoro da 150.000 euro esatti deve entrarci?",
+  "opzioni": [
+   "No, entrano solo i lavori oltre 200.000 euro",
+   "No, entrano solo i lavori sopra la soglia europea",
+   "Sì, entrano i lavori da 150.000 euro in su",
+   "Sì, ma solo se finanziato con un mutuo"
+  ],
+  "corretta": 2,
+  "spiegazione": "Nel programma triennale entrano i lavori da 150.000 euro in su. Per gli acquisti di beni e servizi il limite è 140.000 euro. Sopra la soglia europea servono anche il documento di fattibilità delle alternative progettuali e il documento di indirizzo della progettazione.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 37, cc. 2 e 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o9",
+  "ufficio": "opere",
+  "titolo": "Chi verifica il progetto",
+  "testo": "Un tecnico ha verificato il progetto di una scuola e ora gli vorrebbero affidare anche la direzione dei lavori della stessa opera. Si può fare?",
+  "opzioni": [
+   "Sì, se lo autorizza il RUP",
+   "No, per lo stesso progetto le due attività sono incompatibili",
+   "Sì, se il tecnico è un dipendente del Comune",
+   "No, ma il divieto vale solo per i lavori di importo sopra la soglia europea"
+  ],
+  "corretta": 1,
+  "spiegazione": "Per lo stesso progetto, chi verifica non può fare anche progettazione, coordinamento della sicurezza, direzione dei lavori o collaudo. La validazione è l'atto che riporta gli esiti della verifica ed è firmata dal RUP.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 42, cc. 2 e 4",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o10",
+  "ufficio": "opere",
+  "titolo": "Lavori da 600.000 euro",
+  "testo": "Il tuo Comune, che in questo esempio è qualificato, deve affidare lavori per 600.000 euro. Quale procedura indica il codice?",
+  "opzioni": [
+   "Affidamento diretto, motivando la scelta",
+   "Procedura aperta con bando europeo, sempre obbligatoria",
+   "Procedura negoziata senza bando, con almeno 10 operatori scelti per sorteggio",
+   "Procedura negoziata senza bando, con almeno 5 operatori, ove esistenti"
+  ],
+  "corretta": 3,
+  "spiegazione": "Da 150.000 euro a meno di 1 milione bastano almeno 5 operatori consultati, ove esistenti. Da 1 milione fino alla soglia europea ne servono almeno 10. L'avvio della consultazione va pubblicato sul sito.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 50, c. 1, lett. c) e d), c. 2-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o11",
+  "ufficio": "opere",
+  "titolo": "Rotazione e piccoli importi",
+  "testo": "Vorresti riaffidare allo stesso fornitore un piccolo servizio da 3.000 euro, dello stesso settore del contratto appena concluso. Cosa puoi fare?",
+  "opzioni": [
+   "Non puoi mai: la rotazione vale per ogni affidamento, senza alcuna eccezione",
+   "Puoi solo dopo due anni dal contratto precedente",
+   "Puoi derogare alla rotazione: l'affidamento diretto è sotto 5.000 euro",
+   "Puoi solo con una delibera del Consiglio comunale"
+  ],
+  "corretta": 2,
+  "spiegazione": "La rotazione vieta di affidare al contraente uscente quando due affidamenti consecutivi riguardano lo stesso settore. Per gli affidamenti diretti sotto 5.000 euro la deroga è sempre consentita. Sopra quel valore servono le condizioni motivate del comma 4.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 49, cc. 2, 4 e 6",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o12",
+  "ufficio": "opere",
+  "titolo": "Comune non qualificato",
+  "testo": "Immagina che il Comune non sia qualificato e debba realizzare una strada nuova da 700.000 euro. Come procede?",
+  "opzioni": [
+   "Passa da una stazione appaltante o una centrale di committenza qualificata",
+   "Fa da solo, perché per i lavori il limite è 1 milione di euro",
+   "Fa da solo, se consulta almeno 5 operatori",
+   "Divide l'opera in due lotti da 350.000 euro e affida ciascuno in piena autonomia"
+  ],
+  "corretta": 0,
+  "spiegazione": "In autonomia può affidare lavori fino a 500.000 euro. Sopra serve la qualificazione, altrimenti ANAC non rilascia il CIG: il Comune si rivolge a un soggetto qualificato. Il limite di 1 milione riguarda la sola manutenzione ordinaria con strumenti telematici.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 62, cc. 1, 2 e 6, lett. a) e c)",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o13",
+  "ufficio": "opere",
+  "titolo": "Soglia europea dei lavori",
+  "testo": "Sul tuo manuale leggi una soglia europea per i lavori che ti sembra vecchia. Qual è il valore per il 2026 e il 2027?",
+  "opzioni": [
+   "5.404.000 euro",
+   "5.538.000 euro",
+   "5.382.000 euro",
+   "1.000.000 di euro"
+  ],
+  "corretta": 0,
+  "spiegazione": "Dal 1° gennaio 2026 la soglia per i lavori è 5.404.000 euro. Le soglie vengono riviste periodicamente dalla Commissione europea, quindi nei testi puoi trovare ancora 5.538.000 o 5.382.000. Per forniture e servizi di un Comune il valore è 216.000 euro.",
+  "norma": "Reg. delegato (UE) 2025/2152; D.Lgs. 36/2023",
+  "articolo": "art. 14, cc. 1 e 3",
+  "fonte": "https://eur-lex.europa.eu/eli/reg_del/2025/2152/oj/ita",
+  "verificato": "2026-11-03",
+  "verificatoSu": "BOE, copia della Gazzetta ufficiale UE (testo in spagnolo); EUR-Lex per titolo e data"
+ },
+ {
+  "id": "o14",
+  "ufficio": "opere",
+  "titolo": "Atto per l'affidamento diretto",
+  "testo": "Stai preparando un affidamento diretto. Cosa deve indicare l'atto con cui decidi di contrarre?",
+  "opzioni": [
+   "Solo l'importo massimo: il contraente si sceglie dopo",
+   "Basta la fattura, perché la procedura è semplificata",
+   "Oggetto, importo, contraente, ragioni della scelta e requisiti",
+   "Il bando pubblicato, la graduatoria delle offerte e il parere del revisore"
+  ],
+  "corretta": 2,
+  "spiegazione": "Nell'affidamento diretto la decisione di contrarre individua oggetto, importo e contraente, con le ragioni della scelta e i requisiti generali, più quelli economico-finanziari e tecnico-professionali se necessari.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 17, cc. 1 e 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o15",
+  "ufficio": "opere",
+  "titolo": "Quando stipulare",
+  "testo": "Hai aggiudicato una gara sopra la soglia europea con tre offerte e nessun ricorso. Da quando puoi stipulare il contratto?",
+  "opzioni": [
+   "Subito dopo l'aggiudicazione",
+   "Non prima di 32 giorni dall'invio dell'ultima comunicazione di aggiudicazione",
+   "Non prima di 35 giorni dall'invio dell'ultima comunicazione di aggiudicazione",
+   "Non prima di 60 giorni dall'efficacia dell'aggiudicazione"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il termine è di 32 giorni: il correttivo lo ha ridotto da 35. Non si applica ai contratti sotto soglia. I 60 giorni sono un'altra cosa: il tempo entro cui, di regola, va stipulato il contratto.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 18, cc. 2 e 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o16",
+  "ufficio": "opere",
+  "titolo": "Il direttore dei lavori",
+  "testo": "Stai impostando l'appalto per il rifacimento di una piazza. Quando si nomina il direttore dei lavori?",
+  "opzioni": [
+   "Dopo la stipula, su proposta dell'impresa",
+   "Alla consegna dei lavori, con decreto del sindaco",
+   "Dopo l'aggiudicazione, scegliendolo tra i tecnici indicati dall'impresa vincitrice",
+   "Prima dell'avvio della procedura di affidamento, su proposta del RUP"
+  ],
+  "corretta": 3,
+  "spiegazione": "Si nomina prima di avviare l'affidamento, su proposta del RUP. Il direttore dei lavori cura il controllo tecnico, contabile e amministrativo. L'incarico va di norma a personale pubblico: i professionisti esterni solo nei casi del comma 6.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 114, cc. 2, 3 e 6",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o17",
+  "ufficio": "opere",
+  "titolo": "Cantiere fermo",
+  "testo": "Una frana blocca l'accesso al cantiere: alla firma del contratto non era prevedibile. Chi dispone la sospensione e cosa succede al verbale?",
+  "opzioni": [
+   "Il sindaco con ordinanza, e il verbale va ad ANAC entro 30 giorni",
+   "L'impresa da sola, e il verbale resta in cantiere",
+   "Il direttore dei lavori, e il verbale va al RUP entro 5 giorni",
+   "Il RUP, e il verbale va al Consiglio comunale entro 10 giorni"
+  ],
+  "corretta": 2,
+  "spiegazione": "Per impedimenti temporanei non prevedibili dispone il direttore dei lavori e il verbale va al RUP entro 5 giorni. Il RUP può sospendere per necessità o pubblico interesse e, cessate le cause, dispone la ripresa indicando il nuovo termine.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 121, cc. 1, 2 e 4",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o18",
+  "ufficio": "opere",
+  "titolo": "Tempi del collaudo",
+  "testo": "I lavori, non particolarmente complessi, sono finiti. Entro quando va completato il collaudo e quando il certificato diventa definitivo?",
+  "opzioni": [
+   "Entro 6 mesi dall'ultimazione; definitivo dopo 2 anni dall'emissione",
+   "Entro 3 mesi dall'ultimazione; definitivo subito",
+   "Entro 1 anno dall'ultimazione; definitivo dopo 5 anni dall'emissione",
+   "Entro 6 mesi dall'ultimazione; definitivo dopo 10 anni dall'emissione"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il collaudo si completa entro 6 mesi, fino a 1 anno nei casi di particolare complessità. Il certificato è provvisorio e diventa definitivo dopo 2 anni. Fino ad allora l'appaltatore risponde dei vizi che la stazione appaltante denuncia, anche se riconoscibili.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 116, cc. 2 e 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o19",
+  "ufficio": "opere",
+  "titolo": "Regolare esecuzione",
+  "testo": "Hai chiuso un appalto di lavori da 300.000 euro, sotto la soglia europea. Puoi sostituire il collaudo?",
+  "opzioni": [
+   "No, il collaudo è sempre obbligatorio",
+   "Sì, con una semplice dichiarazione dell'impresa",
+   "Sì, con il certificato di regolare esecuzione, entro 6 mesi dall'ultimazione",
+   "Sì, con il certificato di regolare esecuzione, entro 3 mesi dall'ultimazione"
+  ],
+  "corretta": 3,
+  "spiegazione": "Sotto soglia il certificato di regolare esecuzione può sostituire il collaudo e va emesso non oltre 3 mesi dall'ultimazione delle prestazioni.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 50, c. 7",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o20",
+  "ufficio": "opere",
+  "titolo": "Penali per il ritardo",
+  "testo": "Un'impresa finisce in ritardo. Stai controllando le penali del contratto: quali limiti pone il codice?",
+  "opzioni": [
+   "Tra 0,3 e 1 per mille al giorno, fino al 10% del netto contrattuale",
+   "Tra 0,5 e 1,5 per mille al giorno, fino al 10% del netto contrattuale",
+   "Tra 0,5 e 1,5 per mille al giorno, senza un tetto complessivo",
+   "L'1% al giorno, fino al 20% del netto contrattuale"
+  ],
+  "corretta": 1,
+  "spiegazione": "La penale giornaliera sta tra lo 0,5 e l'1,5 per mille dell'ammontare netto contrattuale e nel complesso non può superare il 10%. La misura si fissa in base alle conseguenze del ritardo.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 126, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o21",
+  "ufficio": "opere",
+  "titolo": "La banca dati dei contratti",
+  "testo": "Un collega ti chiede chi è titolare della Banca dati nazionale dei contratti pubblici, dove vanno i dati delle vostre gare. Cosa gli rispondi?",
+  "opzioni": [
+   "Il Ministero delle infrastrutture",
+   "ANAC",
+   "Consip",
+   "AgID"
+  ],
+  "corretta": 1,
+  "spiegazione": "ANAC è titolare in via esclusiva della banca dati. Il Comune trasmette i dati su programmazione, affidamento ed esecuzione tramite le piattaforme digitali. Lì sta anche il fascicolo virtuale dell'operatore economico, usato per verificare i requisiti.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 23, c. 1; art. 24, c. 1; art. 28, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o22",
+  "ufficio": "opere",
+  "titolo": "Piattaforma fuori uso",
+  "testo": "L'ultimo giorno per le offerte la piattaforma digitale smette di funzionare per alcune ore. Cosa fai?",
+  "opzioni": [
+   "Accetti le offerte via email, per non perdere tempo",
+   "Annulli la gara e la ripubblichi da capo, con un nuovo bando e nuovi termini",
+   "Non fai nulla: il rischio resta a carico dei concorrenti",
+   "Garantisci la partecipazione, se serve prorogando il termine"
+  ],
+  "corretta": 3,
+  "spiegazione": "In caso di malfunzionamento, anche temporaneo, va garantita la partecipazione, eventualmente sospendendo il termine e prorogandolo in proporzione alla gravità. I costi di gestione delle piattaforme non possono gravare su concorrenti o aggiudicatario.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 25, cc. 2 e 4",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
+ },
+ {
+  "id": "o23",
+  "ufficio": "opere",
+  "titolo": "Quando il MePA è obbligatorio",
+  "testo": "Devi comprare arredi per l'ufficio per 8.000 euro, sotto la soglia europea. Dove li acquisti?",
+  "opzioni": [
+   "Sul MePA, su un altro mercato elettronico o sulla centrale regionale",
+   "Dove vuoi: l'obbligo scatta da 40.000 euro",
+   "Dove vuoi: l'obbligo scatta da 140.000 euro",
+   "Solo sul MePA, senza alternative, perché è l'unico mercato elettronico ammesso"
+  ],
+  "corretta": 0,
+  "spiegazione": "Per beni e servizi da 5.000 euro fino alla soglia europea, le amministrazioni come il Comune devono usare il MePA, altri mercati elettronici o il sistema della centrale regionale di riferimento. Sotto i 5.000 euro questo obbligo non c'è.",
+  "norma": "L. 296/2006",
+  "articolo": "art. 1, c. 450",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2006-12-27;296",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale senza data; applicazione confermata da atto del Ministero della Giustizia del 9/7/2026"
+ },
+ {
+  "id": "o24",
+  "ufficio": "opere",
+  "titolo": "Il fornitore sul MePA",
+  "testo": "Una ditta del posto ti chiede come può rispondere alle richieste di offerta aperte che vede sul MePA. Cosa le dici?",
+  "opzioni": [
+   "Basta iscriversi all'albo fornitori del Comune",
+   "Deve chiedere ad ANAC un invito per ogni gara",
+   "Deve essere abilitata al Mercato elettronico",
+   "Basta inviare l'offerta alla PEC del Comune"
+  ],
+  "corretta": 2,
+  "spiegazione": "Le RdO aperte sono rivolte a tutti gli operatori, ma per rispondere il fornitore deve essere abilitato al Mercato elettronico sul portale Acquisti in rete di Consip.",
+  "norma": "Portale Acquisti in rete (Consip)",
+  "articolo": "Mercato elettronico, RdO aperte",
+  "fonte": "https://www.acquistinretepa.it/opencms/opencms/scheda_prodotto.html",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Portale Acquisti in rete (Consip)"
+ },
+ {
+  "id": "o25",
+  "ufficio": "opere",
+  "titolo": "Forniture senza qualificazione",
+  "testo": "Immagina che il Comune non sia qualificato e debba acquistare una fornitura da 180.000 euro, sotto la soglia europea di 216.000. Può procedere da solo?",
+  "opzioni": [
+   "No: sopra 140.000 euro deve affidare tutto a una centrale",
+   "Sì, con una gara cartacea gestita dall'ufficio",
+   "Sì, usando gli strumenti telematici di negoziazione delle centrali qualificate",
+   "Sì, con un affidamento diretto a un operatore scelto, motivando il superamento del limite"
+  ],
+  "corretta": 2,
+  "spiegazione": "Le stazioni non qualificate possono affidare servizi e forniture sotto la soglia europea usando in autonomia gli strumenti telematici di negoziazione delle centrali qualificate. L'affidamento diretto invece si ferma sotto 140.000 euro.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 62, c. 6, lett. c); art. 50, c. 1, lett. b)",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026); BOE per la soglia di 216.000 euro"
+ },
+ {
+  "id": "o26",
+  "ufficio": "opere",
+  "titolo": "Pericolo in cantiere",
+  "testo": "Sei coordinatore per l'esecuzione e vedi tu stesso un pericolo grave e imminente su una lavorazione. Cosa fai?",
+  "opzioni": [
+   "Chiedi prima l'autorizzazione al committente",
+   "Sospendi le singole lavorazioni fino a verificare gli adeguamenti",
+   "Segnali subito all'ASL e alla Direzione del lavoro e aspetti la loro risposta",
+   "Risolvi il contratto con l'impresa"
+  ],
+  "corretta": 1,
+  "spiegazione": "Con un pericolo grave e imminente, riscontrato direttamente, il coordinatore sospende lui stesso le singole lavorazioni. Per le altre inosservanze segnala al committente, dopo contestazione scritta, e propone i provvedimenti.",
+  "norma": "D.Lgs. 81/2008",
+  "articolo": "art. 92, c. 1, lett. e) e f)",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 07/04/2026)"
+ },
+ {
+  "id": "o27",
+  "ufficio": "opere",
+  "titolo": "Notifica preliminare",
+  "testo": "Un lavoro pubblico sarà eseguito da un'unica impresa, con 250 uomini-giorno previsti. Serve la notifica preliminare?",
+  "opzioni": [
+   "Sì: il committente o il responsabile dei lavori, prima dell'inizio",
+   "Sì: la invia l'impresa, entro 30 giorni dall'inizio dei lavori, ad ASL e prefetto",
+   "No: con un'unica impresa non serve mai",
+   "No: serve solo per i lavori privati"
+  ],
+  "corretta": 0,
+  "spiegazione": "Con un'unica impresa la notifica serve da 200 uomini-giorno. Va inviata prima dell'inizio dei lavori all'ASL e alla Direzione provinciale del lavoro e, per i lavori pubblici, anche al prefetto. Una copia va esposta in cantiere.",
+  "norma": "D.Lgs. 81/2008",
+  "articolo": "art. 99, cc. 1 e 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 07/04/2026)"
+ },
+ {
+  "id": "o28",
+  "ufficio": "opere",
+  "titolo": "Il percorso del POS",
+  "testo": "Un'impresa subappaltatrice sta per entrare in cantiere. Che strada fa il suo piano operativo di sicurezza?",
+  "opzioni": [
+   "Va direttamente all'ASL, che ha 30 giorni per rispondere con un parere",
+   "Resta all'impresa e si mostra solo in caso di ispezione",
+   "Va al RUP, che lo approva con determina",
+   "All'impresa affidataria, poi al coordinatore per l'esecuzione"
+  ],
+  "corretta": 3,
+  "spiegazione": "L'impresa esecutrice consegna il POS all'affidataria, che ne verifica la coerenza con il proprio e lo trasmette al coordinatore per l'esecuzione. I lavori iniziano solo dopo l'esito positivo delle verifiche, da fare non oltre 15 giorni dalla ricezione.",
+  "norma": "D.Lgs. 81/2008",
+  "articolo": "art. 96, c. 1, lett. g); art. 97, c. 3, lett. b); art. 101, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 07/04/2026)"
+ },
+ {
+  "id": "o29",
+  "ufficio": "opere",
+  "titolo": "Rischi da interferenze",
+  "testo": "Il Comune appalta per un anno le pulizie degli uffici, dove la ditta lavorerà accanto ai dipendenti. Come si gestiscono i rischi da interferenze?",
+  "opzioni": [
+   "Il committente redige il DUVRI, o nei settori a basso rischio designa un incaricato",
+   "La ditta redige da sola il DUVRI e lo tiene in azienda",
+   "Non serve nulla: il documento sulle interferenze riguarda solo i lavori edili nei cantieri",
+   "Se ne occupa il rappresentante dei lavoratori per la sicurezza"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il committente promuove cooperazione e coordinamento con un unico documento, allegato al contratto. Non serve, salvo rischi particolari, per servizi intellettuali, mere forniture e lavori o servizi fino a 5 uomini-giorno.",
+  "norma": "D.Lgs. 81/2008",
+  "articolo": "art. 26, cc. 3 e 3-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 07/04/2026)"
+ },
+ {
+  "id": "o30",
+  "ufficio": "opere",
+  "titolo": "Impresa senza patente",
+  "testo": "In un cantiere trovi un'impresa edile senza patente a crediti e senza attestazione SOA di classifica III o superiore. Cosa rischia?",
+  "opzioni": [
+   "Solo una decurtazione di crediti al primo rilascio",
+   "Sanzione del 10% del valore dei lavori, minimo 12.000 euro, ed esclusione dai lavori pubblici per 6 mesi",
+   "Sanzione del 6% del valore dei lavori, minimo 6.000 euro, senza alcuna esclusione dai lavori pubblici e dalle gare",
+   "Un richiamo scritto e 30 giorni per mettersi in regola"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il D.L. 159/2025 ha modificato il comma 11: oggi la sanzione è del 10%, con minimo di 12.000 euro, più l'esclusione per 6 mesi. Il committente deve verificare la patente o la SOA. Le imprese con SOA di classifica III o superiore non devono averla.",
+  "norma": "D.Lgs. 81/2008",
+  "articolo": "art. 27, cc. 11 e 15; art. 90, c. 9, lett. b-bis)",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale (agg. 07/04/2026)"
  }
 ]

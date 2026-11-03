@@ -1,7 +1,7 @@
 import { ICONS } from './icons.js';
 import { createStore } from './storage.js';
 import { isStale, loadContent, UFFICI } from './content.js';
-import { grade, localToday, mastery, todayQueue } from './review.js';
+import { daysUntil, grade, localToday, mastery, todayQueue } from './review.js';
 import { buildExam, remainingSeconds, score, shuffle } from './exam.js';
 import { createSync } from './sync.js';
 
@@ -108,6 +108,19 @@ function queue() {
   return todayQueue(content.cases, store.state.progress, localToday(), { newLimit, reviewLimit });
 }
 
+function nextExam() {
+  const today = localToday();
+  const exams = [['Scritto', content.config.dataScritto], ['Orale', content.config.dataOrale]];
+  for (const [name, date] of exams) {
+    if (!date) continue;
+    const days = daysUntil(date, today);
+    if (days > 1) return `${name} tra ${days} giorni`;
+    if (days === 1) return `${name} domani`;
+    if (days === 0) return `${name} oggi`;
+  }
+  return null;
+}
+
 function renderDesk() {
   const q = queue();
   const reviews = q.filter((c) => store.state.progress[c.id]?.due).length;
@@ -122,7 +135,7 @@ function renderDesk() {
       h('p', { class: 'question' }, 'Scrivania in ordine'),
       h('p', { class: 'muted small' }, 'Per oggi hai finito. Se vuoi allenarti ancora, prova una simulazione.'));
   mount(h('main', { class: 'screen' },
-    largeTitle('Scrivania'),
+    h('div', {}, largeTitle('Scrivania'), nextExam() ? h('p', { class: 'muted' }, nextExam()) : null),
     storageWarning(),
     hero,
     q.length

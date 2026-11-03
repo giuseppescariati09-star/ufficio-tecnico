@@ -10,7 +10,7 @@ const defaults = () => ({
   history: [],
   exam: null,
   errors: [],
-  settings: { questions: 30, minutes: 30, newLimit: 4, reviewLimit: 8 },
+  settings: { questions: 30, minutes: 30, newLimit: 6, reviewLimit: 8 },
 });
 
 const isPlainObject = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v);

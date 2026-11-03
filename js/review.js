@@ -56,3 +56,7 @@ export function mastery(cases, progress) {
   }, 0);
   return Math.round((points / (cases.length * INTERVALS.length)) * 100);
 }
+
+export function daysUntil(date, today) {
+  return Math.round((Date.parse(date) - Date.parse(today)) / 86400000);
+}

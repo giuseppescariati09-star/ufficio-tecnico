@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { INTERVALS, addDays, grade, mastery, todayQueue } from '../js/review.js';
+import { INTERVALS, addDays, daysUntil, grade, mastery, todayQueue } from '../js/review.js';
 
 const today = '2026-11-03';
 const cases = ['a', 'b', 'c', 'd'].map((id) => ({ id }));
@@ -66,4 +66,10 @@ test('i casi nuovi alternano gli uffici', () => {
   const mix = [{ id: 'a', ufficio: 'x' }, { id: 'b', ufficio: 'x' }, { id: 'c', ufficio: 'y' }];
   const q = todayQueue(mix, {}, today, { newLimit: 2, reviewLimit: 8 });
   assert.deepEqual(q.map((c) => c.id), ['a', 'c']);
+});
+
+test('conta i giorni che mancano alla prova', () => {
+  assert.equal(daysUntil('2026-11-24', today), 21);
+  assert.equal(daysUntil('2026-11-24', '2026-11-24'), 0);
+  assert.equal(daysUntil('2026-11-24', '2026-11-25'), -1);
 });

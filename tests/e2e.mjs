@@ -99,7 +99,7 @@ await syncPage.goto(`${url}#profilo`);
 await syncPage.getByRole('heading', { name: 'Profilo' }).waitFor();
 await syncPage.getByRole('button', { name: 'Invia il codice' }).click();
 await syncPage.getByRole('alert').waitFor();
-await syncPage.getByLabel('Email').fill('a@b.it');
+await syncPage.getByLabel('Email', { exact: true }).fill('a@b.it');
 assert.equal(await syncPage.getByRole('alert').isVisible(), false, 'errore tolto mentre scrivi');
 await syncPage.getByRole('button', { name: 'Invia il codice' }).click();
 await syncPage.getByLabel('Codice ricevuto via email').fill('123456');

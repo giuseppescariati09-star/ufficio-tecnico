@@ -30,9 +30,9 @@
    "Concessione"
   ],
   "corretta": 3,
-  "spiegazione": "L'amministrazione può concedere l'occupazione e l'uso dei beni demaniali per un periodo determinato, anche in esclusiva, se è compatibile con le esigenze del pubblico uso. Nel Lazio, per le nuove concessioni turistico-ricreative, i Comuni svolgono procedure competitive (R.R. 19/2016, art. 14).",
-  "norma": "Codice della navigazione",
-  "articolo": "art. 36, c. 1",
+  "spiegazione": "L'amministrazione può concedere l'occupazione e l'uso dei beni demaniali per un periodo determinato, anche in esclusiva, se è compatibile con le esigenze del pubblico uso. Nel Lazio, per le nuove concessioni turistico-ricreative, i Comuni svolgono procedure competitive (R.R. 19/2016, art. 14, c. 2, lett. a).",
+  "norma": "Codice della navigazione; R.R. Lazio 19/2016",
+  "articolo": "art. 36, c. 1; art. 14, c. 2, lett. a",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
   "verificato": "2026-11-03",
   "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav.; Regione Lazio, testo coordinato R.R. 19/2016"
@@ -250,7 +250,7 @@
   "id": "b14",
   "ufficio": "beni",
   "titolo": "A venti metri dal demanio",
-  "testo": "Un proprietario vuole realizzare una nuova opera a venti metri dal demanio marittimo. Cosa prevede il Codice della navigazione?",
+  "testo": "Un proprietario vuole realizzare una nuova opera a venti metri dal demanio marittimo, non prevista da piani già approvati dall'autorità marittima. Cosa prevede il Codice della navigazione?",
   "opzioni": [
    "Nessun limite: la regola vale solo entro dieci metri",
    "Serve l'autorizzazione del capo del compartimento",
@@ -258,9 +258,9 @@
    "L'opera è vietata sempre, senza eccezioni"
   ],
   "corretta": 1,
-  "spiegazione": "Le nuove opere entro trenta metri dal demanio marittimo, o dal ciglio dei terreni elevati sul mare, richiedono l'autorizzazione del capo del compartimento. Se la domanda non è accolta entro novanta giorni, l'autorizzazione si intende negata.",
+  "spiegazione": "Le nuove opere entro trenta metri dal demanio marittimo, o dal ciglio dei terreni elevati sul mare, richiedono l'autorizzazione del capo del compartimento. Se la domanda non è accolta entro novanta giorni, l'autorizzazione si intende negata. L'autorizzazione non serve per le costruzioni previste in piani regolatori già approvati dall'autorità marittima.",
   "norma": "Codice della navigazione",
-  "articolo": "art. 55, cc. 1 e 3",
+  "articolo": "art. 55, cc. 1, 3 e 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
   "verificato": "2026-11-03",
   "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav."

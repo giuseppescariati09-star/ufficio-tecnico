@@ -18,10 +18,10 @@
   "id": "orp2",
   "domanda": "Che differenza c'è tra revoca e annullamento d'ufficio?",
   "puntiChiave": [
-   "Revoca: atto a efficacia durevole, interesse pubblico sopravvenuto",
+   "Revoca: atto a efficacia durevole; motivi sopravvenuti, mutamento imprevedibile dei fatti o nuova valutazione dell'interesse originario (quest'ultima esclusa per autorizzazioni e vantaggi economici)",
    "Revoca: indennizzo dei pregiudizi",
    "Annullamento: atto illegittimo e interesse pubblico",
-   "Annullamento di autorizzazioni: massimo 6 mesi",
+   "Annullamento di autorizzazioni e vantaggi economici, anche da silenzio assenso: termine ragionevole, massimo 6 mesi",
    "Deroga per false dichiarazioni accertate con giudicato"
   ],
   "norma": "L. 241/1990, artt. 21-quinquies, 21-octies, 21-nonies",
@@ -64,7 +64,7 @@
   "domanda": "Come il Titolo V della Costituzione distribuisce leggi e funzioni tra Stato, Regioni e Comuni?",
   "puntiChiave": [
    "Autonomia degli enti che compongono la Repubblica",
-   "Competenza esclusiva statale e concorrente",
+   "Competenza esclusiva statale, concorrente e residuale regionale (art. 117, cc. 2-4)",
    "Governo del territorio: materia concorrente",
    "Funzioni amministrative ai Comuni, sussidiarietà",
    "Indebitamento solo per investimenti"
@@ -80,6 +80,7 @@
   "puntiChiave": [
    "Responsabile: di norma segretario o dirigente apicale",
    "Piano approvato dalla giunta, non affidabile a esterni",
+   "Oltre 50 dipendenti: adempimenti assorbiti nel PIAO",
    "Rotazione negli uffici a rischio",
    "Sezione Amministrazione trasparente, durata 5 anni",
    "Accesso civico: 30 giorni, riesame in 20"
@@ -171,6 +172,7 @@
    "Regime demaniale: strade, cimiteri, mercati (artt. 822, 824)",
    "Demanio inalienabile, tutela amministrativa (art. 823)",
    "Patrimonio indisponibile: sedi di uffici, beni per pubblico servizio (art. 826)",
+   "Altri beni del patrimonio: regole del codice civile, salvo leggi speciali (art. 828, c. 1); ad esempio un immobile comunale non destinato a uffici o servizi",
    "Vincolo di destinazione (art. 828, c. 2)",
    "Passaggio dal demanio al patrimonio e pubblicazione (art. 829)"
   ],
@@ -187,7 +189,7 @@
    "Pubblica utilità: decreto entro cinque anni, salvo termine diverso (art. 13)",
    "Proroghe: al massimo quattro anni complessivi (art. 13, c. 5)",
    "Indennità provvisoria: acconto dell'80% se condivisa (art. 20)",
-   "Decreto, notifica ed esecuzione entro due anni (artt. 23-24)"
+   "Decreto entro l'efficacia della pubblica utilità, poi notifica; esecuzione entro due anni, termine perentorio (artt. 23-24)"
   ],
   "norma": "D.P.R. 327/2001, artt. 8, 9, 13, 20, 23, 24",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",

@@ -11,7 +11,7 @@
    "90 giorni"
   ],
   "corretta": 1,
-  "spiegazione": "Il termine residuale è di 30 giorni. L'art. 2 lo scrive per Stato ed enti nazionali; l'art. 29 rende la durata massima dei procedimenti un livello essenziale che vale anche per gli enti locali.",
+  "spiegazione": "Il termine residuale è di 30 giorni. L'art. 2, c. 2, è scritto per Stato ed enti nazionali. Per i Comuni vale come regola generale se né leggi né regolamenti fissano un altro termine: l'art. 29, c. 2-bis, rende livello essenziale la conclusione entro il termine, ma non indica un numero di giorni.",
   "norma": "L. 241/1990",
   "articolo": "art. 2, c. 2; art. 29, c. 2-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
@@ -89,7 +89,7 @@
   "corretta": 2,
   "spiegazione": "L'accesso civico generalizzato spetta a chiunque e la richiesta non va motivata. Restano i limiti dell'art. 5-bis. Il rilascio è gratuito, salvo il rimborso del costo di riproduzione.",
   "norma": "D.Lgs. 33/2013",
-  "articolo": "art. 5, cc. 2-3",
+  "articolo": "art. 5, cc. 2-4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33",
   "verificato": "2026-11-03",
   "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
@@ -125,9 +125,9 @@
    "Lo sospendi una sola volta, per non più di 90 giorni"
   ],
   "corretta": 2,
-  "spiegazione": "Il termine si può sospendere una sola volta e per non più di 30 giorni, per acquisire informazioni o certificazioni che l'amministrazione non ha e non può acquisire da altre amministrazioni.",
+  "spiegazione": "Il termine si può sospendere una sola volta e per non più di 30 giorni, per acquisire informazioni o certificazioni che l'amministrazione non ha e non può acquisire da altre amministrazioni. La regola è scritta sui termini dell'art. 2; per il Comune vale come garanzia sulla durata massima (art. 29, c. 2-bis), salvo regolamento dell'ente.",
   "norma": "L. 241/1990",
-  "articolo": "art. 2, c. 7",
+  "articolo": "art. 2, c. 7; art. 29, c. 2-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
   "verificato": "2026-11-03",
   "verificatoSu": "Brocardi, copia non ufficiale"
@@ -174,7 +174,7 @@
   "id": "p10",
   "ufficio": "procedimento",
   "titolo": "Pratica di famiglia",
-  "testo": "Ti assegnano l'istruttoria di una SCIA presentata da una società in cui tuo fratello è socio. Come ti comporti?",
+  "testo": "Sei responsabile del procedimento per una SCIA presentata da una società in cui tuo fratello è socio. Come ti comporti?",
   "opzioni": [
    "Ti astieni e segnali la situazione",
    "Prosegui, se sei certo di essere imparziale",
@@ -317,7 +317,7 @@
   "corretta": 3,
   "spiegazione": "Il vizio formale non porta all'annullamento se l'attività è vincolata e il contenuto non poteva essere diverso. I vizi di annullabilità restano violazione di legge, eccesso di potere e incompetenza.",
   "norma": "L. 241/1990",
-  "articolo": "art. 21-octies, c. 2",
+  "articolo": "art. 21-octies, cc. 1-2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
   "verificato": "2026-11-03",
   "verificatoSu": "Brocardi, copia non ufficiale"
@@ -402,7 +402,7 @@
   "id": "p22",
   "ufficio": "procedimento",
   "titolo": "Comune senza dirigenti",
-  "testo": "Il tuo Comune non ha personale con qualifica dirigenziale. A chi possono andare le funzioni dell'art. 107, cc. 2 e 3?",
+  "testo": "Il tuo Comune non ha personale con qualifica dirigenziale. Secondo l'art. 109, c. 2, a chi possono andare le funzioni dell'art. 107, cc. 2 e 3?",
   "opzioni": [
    "Agli assessori di settore, con una delibera della giunta comunale",
    "Ai responsabili di uffici o servizi, con provvedimento motivato del sindaco",
@@ -657,7 +657,7 @@
    "No, non può essere affidata a soggetti estranei"
   ],
   "corretta": 3,
-  "spiegazione": "L'elaborazione del piano non può essere affidata a soggetti estranei all'amministrazione. Negli enti locali il piano è approvato dalla giunta.",
+  "spiegazione": "L'elaborazione del piano non può essere affidata a soggetti estranei all'amministrazione. Negli enti locali il piano è approvato dalla giunta. Per le amministrazioni con più di 50 dipendenti, questi adempimenti sono assorbiti nel PIAO (D.P.R. 81/2022).",
   "norma": "L. 190/2012",
   "articolo": "art. 1, c. 8",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2012-11-06;190",

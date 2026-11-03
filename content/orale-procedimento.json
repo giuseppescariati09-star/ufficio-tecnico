@@ -1,0 +1,92 @@
+[
+ {
+  "id": "orp1",
+  "domanda": "Accompagna una pratica dall'avvio alla decisione: quali garanzie deve assicurare il responsabile del procedimento?",
+  "puntiChiave": [
+   "Assegnazione del responsabile e astensione per conflitto",
+   "Comunicazione di avvio e relative eccezioni",
+   "Termine di conclusione e sospensione",
+   "Preavviso di rigetto, 10 giorni",
+   "Inerzia e potere sostitutivo"
+  ],
+  "norma": "L. 241/1990, artt. 2, 5, 6-bis, 7, 8, 10-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "orp2",
+  "domanda": "Che differenza c'è tra revoca e annullamento d'ufficio?",
+  "puntiChiave": [
+   "Revoca: atto a efficacia durevole, interesse pubblico sopravvenuto",
+   "Revoca: indennizzo dei pregiudizi",
+   "Annullamento: atto illegittimo e interesse pubblico",
+   "Annullamento di autorizzazioni: massimo 6 mesi",
+   "Deroga per false dichiarazioni accertate con giudicato"
+  ],
+  "norma": "L. 241/1990, artt. 21-quinquies, 21-octies, 21-nonies",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "orp3",
+  "domanda": "Chi fa cosa in un Comune: consiglio, giunta, sindaco e responsabili dei servizi?",
+  "puntiChiave": [
+   "Consiglio: atti fondamentali, bilanci e piani urbanistici",
+   "Giunta: competenza residuale",
+   "Sindaco: nomine e ordinanze contingibili e urgenti",
+   "Dirigenti: gestione e atti verso l'esterno",
+   "Senza dirigenti: art. 109, c. 2"
+  ],
+  "norma": "D.Lgs. 267/2000, artt. 42, 48, 50, 54, 107, 109",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "orp4",
+  "domanda": "Descrivi il percorso di una spesa di lavori pubblici, compresa la somma urgenza. Quale parte tocca all'ufficio tecnico?",
+  "puntiChiave": [
+   "Impegno, liquidazione, ordinazione, pagamento",
+   "Visto di regolarità contabile sulla determinazione",
+   "Liquidazione: verifica di chi ha eseguito",
+   "Somma urgenza: 20 giorni per la giunta",
+   "Debito fuori bilancio: limiti di utilità e arricchimento"
+  ],
+  "norma": "D.Lgs. 267/2000, artt. 182-184, 191, 194",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "orp5",
+  "domanda": "Come il Titolo V della Costituzione distribuisce leggi e funzioni tra Stato, Regioni e Comuni?",
+  "puntiChiave": [
+   "Autonomia degli enti che compongono la Repubblica",
+   "Competenza esclusiva statale e concorrente",
+   "Governo del territorio: materia concorrente",
+   "Funzioni amministrative ai Comuni, sussidiarietà",
+   "Indebitamento solo per investimenti"
+  ],
+  "norma": "Costituzione, artt. 114, 117, 118, 119",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:costituzione:1947-12-27",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "orp6",
+  "domanda": "In un piccolo Comune, come lavorano insieme anticorruzione e trasparenza?",
+  "puntiChiave": [
+   "Responsabile: di norma segretario o dirigente apicale",
+   "Piano approvato dalla giunta, non affidabile a esterni",
+   "Rotazione negli uffici a rischio",
+   "Sezione Amministrazione trasparente, durata 5 anni",
+   "Accesso civico: 30 giorni, riesame in 20"
+  ],
+  "norma": "L. 190/2012, art. 1; D.Lgs. 33/2013, artt. 5, 8, 9, 43",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2012-11-06;190",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva (L. 190/2012); Bosetti & Gatti, copia non ufficiale (D.Lgs. 33/2013)"
+ }
+]

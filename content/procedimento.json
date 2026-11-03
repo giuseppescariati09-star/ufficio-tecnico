@@ -3,7 +3,7 @@
   "id": "p1",
   "ufficio": "procedimento",
   "titolo": "Termine mancante",
-  "testo": "Un regolamento non fissa il termine per concludere un procedimento del tuo ufficio. Entro quanto devi concluderlo?",
+  "testo": "Un procedimento del tuo Comune non ha un termine fissato da leggi o regolamenti. Di norma, entro quanto deve concludersi?",
   "opzioni": [
    "10 giorni",
    "30 giorni",
@@ -11,11 +11,12 @@
    "90 giorni"
   ],
   "corretta": 1,
-  "spiegazione": "Se la legge o i regolamenti non indicano un termine diverso, il procedimento si conclude entro 30 giorni.",
+  "spiegazione": "Il termine residuale è di 30 giorni. L'art. 2 lo scrive per Stato ed enti nazionali; l'art. 29 rende la durata massima dei procedimenti un livello essenziale che vale anche per gli enti locali.",
   "norma": "L. 241/1990",
-  "articolo": "art. 2, c. 2",
+  "articolo": "art. 2, c. 2; art. 29, c. 2-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
  },
  {
   "id": "p2",
@@ -23,35 +24,37 @@
   "titolo": "Domanda da respingere",
   "testo": "Stai per respingere una domanda presentata da un cittadino. Cosa devi fare prima del provvedimento?",
   "opzioni": [
-   "Niente, respingi subito",
-   "Comunichi i motivi e dai 10 giorni per le osservazioni",
-   "Convochi il Consiglio comunale",
-   "Chiedi il parere del prefetto"
+   "Comunichi i motivi ostativi e dai 10 giorni per le osservazioni",
+   "Comunichi i motivi ostativi e dai 30 giorni per le osservazioni",
+   "Adotti subito il diniego motivato, senza altri passaggi",
+   "Chiedi al segretario un parere sul diniego"
   ],
-  "corretta": 1,
-  "spiegazione": "Il preavviso di rigetto comunica i motivi ostativi. Il cittadino ha 10 giorni per presentare osservazioni.",
+  "corretta": 0,
+  "spiegazione": "È il preavviso di rigetto. Il cittadino ha 10 giorni dal ricevimento per le osservazioni scritte, e la comunicazione sospende i termini del procedimento.",
   "norma": "L. 241/1990",
   "articolo": "art. 10-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
  },
  {
   "id": "p3",
   "ufficio": "procedimento",
   "titolo": "Accesso senza risposta",
-  "testo": "Un cittadino chiede di vedere un atto e dopo 30 giorni non ha ricevuto risposta. Che valore ha il silenzio?",
+  "testo": "Un cittadino chiede di vedere un atto con l'accesso documentale e dopo 30 giorni non ha ricevuto risposta. Che valore ha il silenzio?",
   "opzioni": [
-   "La richiesta è accolta",
-   "La richiesta si intende respinta",
-   "Il termine si raddoppia",
-   "La richiesta decade senza effetti"
+   "La richiesta si intende accolta",
+   "Il termine si proroga di altri 30 giorni",
+   "Il cittadino deve prima inviare una diffida",
+   "La richiesta si intende respinta"
   ],
-  "corretta": 1,
-  "spiegazione": "Nell'accesso documentale, trascorsi 30 giorni senza risposta, la richiesta si intende respinta.",
+  "corretta": 3,
+  "spiegazione": "Dopo 30 giorni la richiesta si intende respinta. Il cittadino può ricorrere al TAR oppure, per gli atti comunali, chiedere il riesame al difensore civico.",
   "norma": "L. 241/1990",
   "articolo": "art. 25, c. 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
  },
  {
   "id": "p4",
@@ -65,46 +68,695 @@
    "Il segretario comunale"
   ],
   "corretta": 2,
-  "spiegazione": "Il consiglio ha competenza su bilanci e piani territoriali e urbanistici.",
+  "spiegazione": "Il consiglio ha competenza su bilanci, piani territoriali e urbanistici e programmi triennali delle opere pubbliche.",
   "norma": "D.Lgs. 267/2000",
-  "articolo": "art. 42, c. 2",
+  "articolo": "art. 42, c. 2, lett. b)",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
  },
  {
   "id": "p5",
   "ufficio": "procedimento",
   "titolo": "Accesso civico",
-  "testo": "Un residente di un altro Comune chiede dati del tuo ufficio tramite accesso civico generalizzato, senza dire perché. Puoi rifiutare per questo motivo?",
+  "testo": "Un residente di un altro Comune chiede dati del tuo ufficio con l'accesso civico generalizzato, senza dire perché. Puoi rifiutare per questo motivo?",
   "opzioni": [
-   "Sì, deve motivare",
-   "Sì, deve essere residente",
+   "Sì, deve motivare la richiesta",
+   "Sì, deve risiedere nel Comune",
    "No, non servono legittimazione né motivazione",
-   "No, ma deve pagare una tassa fissa"
+   "No, ma prima deve pagare un diritto fisso"
   ],
   "corretta": 2,
-  "spiegazione": "L'accesso civico generalizzato spetta a chiunque e la richiesta non deve essere motivata. Restano i limiti previsti dalla legge.",
+  "spiegazione": "L'accesso civico generalizzato spetta a chiunque e la richiesta non va motivata. Restano i limiti dell'art. 5-bis. Il rilascio è gratuito, salvo il rimborso del costo di riproduzione.",
   "norma": "D.Lgs. 33/2013",
-  "articolo": "art. 5",
+  "articolo": "art. 5, cc. 2-3",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
  },
  {
   "id": "p6",
   "ufficio": "procedimento",
   "titolo": "Responsabile anticorruzione",
-  "testo": "Negli enti locali, chi è di norma il responsabile della prevenzione della corruzione e della trasparenza?",
+  "testo": "Il tuo Comune deve individuare il responsabile della prevenzione della corruzione e della trasparenza. Chi è, di norma?",
   "opzioni": [
    "Il sindaco",
-   "Il segretario comunale, salvo diversa motivata scelta",
+   "Il segretario o il dirigente apicale, salvo diversa e motivata scelta",
    "Il revisore dei conti",
-   "Il presidente del consiglio"
+   "Il responsabile dell'ufficio tecnico, a rotazione"
   ],
   "corretta": 1,
   "spiegazione": "Negli enti locali il responsabile è individuato di norma nel segretario o nel dirigente apicale, salvo diversa e motivata determinazione.",
   "norma": "L. 190/2012",
   "articolo": "art. 1, c. 7",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2012-11-06;190",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "p7",
+  "ufficio": "procedimento",
+  "titolo": "Certificato che manca",
+  "testo": "Per decidere su un'istanza ti serve una certificazione su un fatto che il Comune non ha e non può ottenere da altre amministrazioni. Cosa puoi fare con il termine?",
+  "opzioni": [
+   "Lo interrompi, e riparte da capo",
+   "Lo sospendi più volte, finché arriva il documento",
+   "Lo sospendi una sola volta, per non più di 30 giorni",
+   "Lo sospendi una sola volta, per non più di 90 giorni"
+  ],
+  "corretta": 2,
+  "spiegazione": "Il termine si può sospendere una sola volta e per non più di 30 giorni, per acquisire informazioni o certificazioni che l'amministrazione non ha e non può acquisire da altre amministrazioni.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 2, c. 7",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p8",
+  "ufficio": "procedimento",
+  "titolo": "Pratica ferma",
+  "testo": "Un procedimento con termine di 60 giorni è scaduto senza provvedimento. Il cittadino si rivolge al titolare del potere sostitutivo. Quanto tempo ha questi per concludere?",
+  "opzioni": [
+   "15 giorni",
+   "30 giorni",
+   "60 giorni",
+   "90 giorni"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il titolare del potere sostitutivo ha un termine pari alla metà di quello originario. Può concludere tramite le strutture competenti o nominando un commissario.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 2, c. 9-ter",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p9",
+  "ufficio": "procedimento",
+  "titolo": "Nessuno assegnato",
+  "testo": "È arrivata una pratica, ma il dirigente dell'unità non ha ancora assegnato il procedimento a nessuno. Chi è responsabile nel frattempo?",
+  "opzioni": [
+   "Il dipendente che ha protocollato la pratica",
+   "Il segretario comunale",
+   "Il sindaco",
+   "Il funzionario preposto all'unità organizzativa competente"
+  ],
+  "corretta": 3,
+  "spiegazione": "Finché non c'è un'assegnazione, è considerato responsabile del singolo procedimento il funzionario preposto all'unità organizzativa competente.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 5, c. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p10",
+  "ufficio": "procedimento",
+  "titolo": "Pratica di famiglia",
+  "testo": "Ti assegnano l'istruttoria di una SCIA presentata da una società in cui tuo fratello è socio. Come ti comporti?",
+  "opzioni": [
+   "Ti astieni e segnali la situazione",
+   "Prosegui, se sei certo di essere imparziale",
+   "Prosegui, tanto l'atto finale lo firma un altro",
+   "Ti astieni solo se il conflitto viene accertato"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il responsabile del procedimento deve astenersi in caso di conflitto di interessi e segnalare ogni situazione di conflitto, anche solo potenziale.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 6-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p11",
+  "ufficio": "procedimento",
+  "titolo": "Il vicino interessato",
+  "testo": "Avvii d'ufficio un procedimento verso un proprietario. Il provvedimento potrebbe danneggiare un vicino che puoi identificare facilmente. Non ci sono urgenze. A chi invii la comunicazione di avvio?",
+  "opzioni": [
+   "Solo al proprietario",
+   "A nessuno, perché il procedimento è d'ufficio",
+   "A nessuno: basta l'albo pretorio",
+   "Al proprietario e al vicino"
+  ],
+  "corretta": 3,
+  "spiegazione": "La comunicazione va ai destinatari diretti del provvedimento e ai terzi individuati o facilmente individuabili che possono subirne un pregiudizio. L'eccezione riguarda le particolari esigenze di celerità.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 7, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p12",
+  "ufficio": "procedimento",
+  "titolo": "Scrivere la motivazione",
+  "testo": "Stai scrivendo un provvedimento di diniego su una singola domanda. Cosa deve indicare la motivazione?",
+  "opzioni": [
+   "Solo la norma applicata, senza entrare nei fatti della pratica",
+   "Solo i fatti accertati, senza richiamare alcuna norma",
+   "I presupposti di fatto e le ragioni giuridiche, in relazione all'istruttoria",
+   "Il numero di protocollo della domanda e la data di arrivo"
+  ],
+  "corretta": 2,
+  "spiegazione": "La motivazione indica presupposti di fatto e ragioni giuridiche, in relazione alle risultanze dell'istruttoria. Non è richiesta per gli atti normativi e per quelli a contenuto generale.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 3, cc. 1-2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p13",
+  "ufficio": "procedimento",
+  "titolo": "Controllo su una SCIA edilizia",
+  "testo": "Ricevi una SCIA edilizia e trovi che mancano i requisiti. Entro quanti giorni dal ricevimento puoi adottare il divieto di prosecuzione con i poteri ordinari?",
+  "opzioni": [
+   "15 giorni",
+   "30 giorni",
+   "45 giorni",
+   "60 giorni"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il termine generale di 60 giorni si riduce a 30 per la SCIA edilizia. Dopo la scadenza puoi intervenire solo alle condizioni dell'annullamento d'ufficio.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 19, cc. 3, 4, 6-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p14",
+  "ufficio": "procedimento",
+  "titolo": "Silenzio e paesaggio",
+  "testo": "Una domanda riguarda un procedimento in materia di patrimonio culturale e paesaggistico. Il termine scade senza risposta. Vale il silenzio assenso dell'art. 20?",
+  "opzioni": [
+   "No, l'art. 20 esclude questa materia",
+   "Sì, come per tutte le domande",
+   "Sì, ma solo dopo una diffida",
+   "Sì, se il responsabile lo attesta"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il silenzio assenso non si applica, tra l'altro, a patrimonio culturale e paesaggistico, ambiente, salute e pubblica incolumità.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 20, c. 4",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p15",
+  "ufficio": "procedimento",
+  "titolo": "Autorizzazione sbagliata",
+  "testo": "Scopri che un'autorizzazione rilasciata dal tuo ufficio è illegittima e ci sono ragioni di interesse pubblico per annullarla. Qual è il termine massimo dall'adozione?",
+  "opzioni": [
+   "6 mesi",
+   "12 mesi",
+   "18 mesi",
+   "24 mesi"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il testo vigente indica 6 mesi. Materiali più vecchi riportano termini più lunghi. Il limite non opera per false rappresentazioni o dichiarazioni false accertate con sentenza passata in giudicato.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 21-nonies, cc. 1, 2-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p16",
+  "ufficio": "procedimento",
+  "titolo": "Revoca con danno",
+  "testo": "Revochi un provvedimento a efficacia durevole per un sopravvenuto motivo di pubblico interesse. L'interessato subisce un pregiudizio. Cosa prevede la legge?",
+  "opzioni": [
+   "Nessun ristoro, perché la revoca è legittima",
+   "Serve il consenso dell'interessato alla revoca",
+   "Il pagamento di una sanzione da parte del Comune",
+   "L'amministrazione deve provvedere all'indennizzo"
+  ],
+  "corretta": 3,
+  "spiegazione": "Se la revoca causa pregiudizi ai soggetti direttamente interessati, l'amministrazione deve indennizzarli. Può revocare l'organo che ha emanato l'atto o un altro previsto dalla legge.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 21-quinquies, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p17",
+  "ufficio": "procedimento",
+  "titolo": "Vizio di forma",
+  "testo": "Un provvedimento vincolato ha un vizio di forma, ma è evidente che il suo contenuto non poteva essere diverso. È annullabile?",
+  "opzioni": [
+   "Sì, ogni vizio di forma lo rende annullabile",
+   "No, perché è direttamente nullo",
+   "Sì, se lo chiede un controinteressato",
+   "No, in questo caso non è annullabile"
+  ],
+  "corretta": 3,
+  "spiegazione": "Il vizio formale non porta all'annullamento se l'attività è vincolata e il contenuto non poteva essere diverso. I vizi di annullabilità restano violazione di legge, eccesso di potere e incompetenza.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 21-octies, c. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p18",
+  "ufficio": "procedimento",
+  "titolo": "Richiesta troppo ampia",
+  "testo": "Con un'istanza di accesso documentale, un'associazione chiede tutti gli atti dell'ufficio per controllare come lavorate. Come la valuti?",
+  "opzioni": [
+   "Ammissibile, chiunque può chiedere qualunque atto",
+   "Ammissibile, se il sindaco è d'accordo",
+   "Inammissibile, è un controllo generalizzato dell'operato",
+   "Inammissibile, le associazioni non hanno mai accesso"
+  ],
+  "corretta": 2,
+  "spiegazione": "L'accesso documentale richiede un interesse diretto, concreto e attuale, e non ammette istanze preordinate a un controllo generalizzato. Possono esserne titolari anche i portatori di interessi diffusi.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 22, c. 1, lett. b); art. 24, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p19",
+  "ufficio": "procedimento",
+  "titolo": "Parere tecnico",
+  "testo": "La giunta deve votare una proposta su un lavoro del tuo settore, che non è un mero atto di indirizzo. Il Comune ha i responsabili dei servizi. Chi dà il parere di regolarità tecnica?",
+  "opzioni": [
+   "Il responsabile del servizio finanziario",
+   "Il segretario comunale",
+   "Il sindaco",
+   "Il responsabile del servizio interessato"
+  ],
+  "corretta": 3,
+  "spiegazione": "La regolarità tecnica spetta al responsabile del servizio interessato. Quella contabile al responsabile di ragioneria, se la proposta ha riflessi finanziari o patrimoniali.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 49",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p20",
+  "ufficio": "procedimento",
+  "titolo": "Muro pericolante",
+  "testo": "Un muro minaccia di crollare su una strada: c'è un grave pericolo per l'incolumità pubblica. Chi adotta il provvedimento contingibile e urgente?",
+  "opzioni": [
+   "Il sindaco come ufficiale del Governo, informando prima il prefetto",
+   "Il sindaco come capo della giunta, senza informare altri",
+   "Il prefetto, su segnalazione dell'ufficio tecnico",
+   "La giunta, con una deliberazione urgente"
+  ],
+  "corretta": 0,
+  "spiegazione": "È il sindaco, come ufficiale del Governo, con atto motivato e comunicazione preventiva al prefetto.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 54, c. 4",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p21",
+  "ufficio": "procedimento",
+  "titolo": "Ordine di demolizione",
+  "testo": "Hai accertato un abuso edilizio e nel Comune c'è un dirigente del settore. A chi spetta l'ordine di demolizione?",
+  "opzioni": [
+   "Al sindaco",
+   "Alla giunta",
+   "Al dirigente",
+   "Al consiglio"
+  ],
+  "corretta": 2,
+  "spiegazione": "Sospensione dei lavori, ordini di demolizione e sanzioni per abusivismo edilizio sono atti di gestione: spettano alla dirigenza, non agli organi politici.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 107, c. 3, lett. g)",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p22",
+  "ufficio": "procedimento",
+  "titolo": "Comune senza dirigenti",
+  "testo": "Il tuo Comune non ha personale con qualifica dirigenziale. A chi possono andare le funzioni dell'art. 107, cc. 2 e 3?",
+  "opzioni": [
+   "Agli assessori di settore, con una delibera della giunta comunale",
+   "Ai responsabili di uffici o servizi, con provvedimento motivato del sindaco",
+   "Al segretario comunale, in via automatica e senza alcun atto",
+   "Al consiglio comunale, con un voto a maggioranza assoluta"
+  ],
+  "corretta": 1,
+  "spiegazione": "Le funzioni possono essere attribuite ai responsabili degli uffici o dei servizi, con provvedimento motivato del sindaco, indipendentemente dalla qualifica funzionale.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 109, c. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p23",
+  "ufficio": "procedimento",
+  "titolo": "Quando parte la delibera",
+  "testo": "Una delibera non dichiarata immediatamente eseguibile e non soggetta a controllo è pubblicata all'albo. Quando diventa esecutiva?",
+  "opzioni": [
+   "Il giorno dell'adozione",
+   "Dopo il quinto giorno dalla pubblicazione",
+   "Dopo il decimo giorno dalla pubblicazione",
+   "Dopo il trentesimo giorno dalla pubblicazione"
+  ],
+  "corretta": 2,
+  "spiegazione": "Diventa esecutiva dopo il decimo giorno dalla pubblicazione. In caso di urgenza può essere dichiarata immediatamente eseguibile, con il voto della maggioranza dei componenti.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 134, cc. 3-4",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p24",
+  "ufficio": "procedimento",
+  "titolo": "Le fasi della spesa",
+  "testo": "Stai seguendo una spesa del tuo ufficio dall'inizio alla fine. Qual è l'ordine corretto delle fasi?",
+  "opzioni": [
+   "Impegno, liquidazione, ordinazione, pagamento",
+   "Liquidazione, impegno, ordinazione, pagamento",
+   "Impegno, ordinazione, liquidazione, pagamento",
+   "Ordinazione, impegno, pagamento, liquidazione"
+  ],
+  "corretta": 0,
+  "spiegazione": "Le fasi della spesa sono, nell'ordine, impegno, liquidazione, ordinazione e pagamento.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 182",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p25",
+  "ufficio": "procedimento",
+  "titolo": "Determina firmata",
+  "testo": "Il responsabile del servizio ha firmato una determinazione con un impegno di spesa. Quando diventa esecutiva?",
+  "opzioni": [
+   "Con la firma del responsabile del servizio proponente",
+   "Con la pubblicazione all'albo per quindici giorni",
+   "Con il visto di regolarità contabile che attesta la copertura",
+   "Con l'atto di liquidazione firmato dopo la fattura"
+  ],
+  "corretta": 2,
+  "spiegazione": "L'atto va trasmesso al responsabile del servizio finanziario e diventa esecutivo con il visto di regolarità contabile, che attesta la copertura finanziaria.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 183, c. 7",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p26",
+  "ufficio": "procedimento",
+  "titolo": "Lavori finiti, fattura arrivata",
+  "testo": "I lavori seguiti dal tuo ufficio sono finiti e arriva la fattura. Chi fa la liquidazione, e cosa controlla prima?",
+  "opzioni": [
+   "Il servizio finanziario, controllando solo la cassa",
+   "Il tesoriere, controllando il mandato",
+   "La giunta, controllando la delibera iniziale",
+   "L'ufficio che ha dato esecuzione, controllando regolarità e conformità"
+  ],
+  "corretta": 3,
+  "spiegazione": "Liquida l'ufficio che ha dato esecuzione, dopo aver verificato regolarità e conformità a quantità, qualità, termini e condizioni pattuiti. L'atto va poi al servizio finanziario.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 184, cc. 2-3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p27",
+  "ufficio": "procedimento",
+  "titolo": "Somma urgenza",
+  "testo": "Dopo una frana sono stati ordinati a una ditta lavori pubblici di somma urgenza. Entro quanti giorni dall'ordinazione la giunta porta in consiglio il riconoscimento della spesa?",
+  "opzioni": [
+   "10 giorni",
+   "20 giorni",
+   "30 giorni",
+   "60 giorni"
+  ],
+  "corretta": 1,
+  "spiegazione": "La giunta ha 20 giorni, su proposta del responsabile del procedimento. Il consiglio provvede entro 30 giorni dalla delibera di giunta e comunque entro il 31 dicembre, se il termine non è già scaduto.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 191, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p28",
+  "ufficio": "procedimento",
+  "titolo": "Fornitura senza impegno",
+  "testo": "Una fornitura è stata ordinata senza impegno né copertura, fuori dalle regole. Per la parte che il consiglio non può riconoscere, con chi si instaura il rapporto del fornitore?",
+  "opzioni": [
+   "Con chi ha consentito la fornitura",
+   "Con il Comune, per l'intero importo",
+   "Con il tesoriere del Comune",
+   "Con il revisore dei conti"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il consiglio può riconoscere il debito solo nei limiti di utilità e arricchimento dimostrati. Per il resto il rapporto è tra il fornitore e l'amministratore, il funzionario o il dipendente che ha consentito la fornitura.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 191, c. 4; art. 194, c. 1, lett. e)",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p29",
+  "ufficio": "procedimento",
+  "titolo": "Fondi in conto capitale",
+  "testo": "La Regione ha trasferito al Comune fondi in conto capitale. Un collega propone di usarli per pagare le utenze degli uffici. Cosa rispondi?",
+  "opzioni": [
+   "Si può, in caso di urgenza",
+   "Si può, con il parere del revisore",
+   "Si può, con una delibera di giunta",
+   "Non si può, servono solo per investimenti"
+  ],
+  "corretta": 3,
+  "spiegazione": "I trasferimenti in conto capitale sono destinati esclusivamente alle spese di investimento e non possono essere impiegati per la spesa corrente.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 199, cc. 1, 1-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p30",
+  "ufficio": "procedimento",
+  "titolo": "Il DUP",
+  "testo": "Devi coordinare gli interventi del tuo ufficio con il Documento unico di programmazione. Entro quando la giunta lo presenta al consiglio?",
+  "opzioni": [
+   "30 aprile",
+   "31 maggio",
+   "31 luglio",
+   "31 dicembre"
+  ],
+  "corretta": 2,
+  "spiegazione": "La giunta presenta il DUP entro il 31 luglio di ogni anno. Il DUP è atto presupposto indispensabile per approvare il bilancio di previsione.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 170, cc. 1, 5",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p31",
+  "ufficio": "procedimento",
+  "titolo": "Governo del territorio",
+  "testo": "Un collega ti chiede chi fa le leggi in materia di governo del territorio. Cosa gli rispondi?",
+  "opzioni": [
+   "Solo lo Stato",
+   "Le Regioni, entro i principi fondamentali fissati dallo Stato",
+   "Solo le Regioni, senza alcun vincolo statale",
+   "I Comuni, con i propri regolamenti"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il governo del territorio è materia di legislazione concorrente: la legge statale fissa i principi fondamentali, le Regioni fanno il resto.",
+  "norma": "Costituzione",
+  "articolo": "art. 117, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:costituzione:1947-12-27",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p32",
+  "ufficio": "procedimento",
+  "titolo": "Funzioni amministrative",
+  "testo": "Stai spiegando a un tirocinante il Titolo V. A chi sono attribuite, in via generale, le funzioni amministrative?",
+  "opzioni": [
+   "Ai Comuni, salvo esigenze di esercizio unitario",
+   "Alle Regioni, salvo delega ai Comuni",
+   "Allo Stato, salvo delega alle Regioni",
+   "Alle Province, salvo delega ai Comuni"
+  ],
+  "corretta": 0,
+  "spiegazione": "Spettano ai Comuni, salvo che vadano conferite ai livelli superiori per assicurarne l'esercizio unitario, secondo sussidiarietà, differenziazione e adeguatezza.",
+  "norma": "Costituzione",
+  "articolo": "art. 118, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:costituzione:1947-12-27",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p33",
+  "ufficio": "procedimento",
+  "titolo": "Mutuo per gli stipendi",
+  "testo": "Si ipotizza di accendere un mutuo per coprire una spesa corrente del Comune. La Costituzione lo consente?",
+  "opzioni": [
+   "Sì, se il bilancio è in equilibrio",
+   "No, l'indebitamento può finanziare solo investimenti",
+   "Sì, con l'autorizzazione del prefetto",
+   "No, i Comuni non possono mai indebitarsi"
+  ],
+  "corretta": 1,
+  "spiegazione": "Gli enti territoriali possono indebitarsi solo per spese di investimento, con piani di ammortamento contestuali e rispettando l'equilibrio di bilancio per il complesso degli enti di ciascuna Regione.",
+  "norma": "Costituzione",
+  "articolo": "art. 119, ultimo comma",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:costituzione:1947-12-27",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p34",
+  "ufficio": "procedimento",
+  "titolo": "Come si entra in Comune",
+  "testo": "Stai preparando questo concorso. Secondo la Costituzione, come si accede di regola agli impieghi pubblici?",
+  "opzioni": [
+   "Per concorso, salvo i casi stabiliti dalla legge",
+   "Per concorso, sempre e senza eccezioni",
+   "Per nomina del sindaco, nei Comuni piccoli",
+   "Per graduatoria basata sulla sola anzianità"
+  ],
+  "corretta": 0,
+  "spiegazione": "Agli impieghi pubblici si accede mediante concorso, salvo i casi stabiliti dalla legge. Lo stesso articolo tutela buon andamento e imparzialità.",
+  "norma": "Costituzione",
+  "articolo": "art. 97",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:costituzione:1947-12-27",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "p35",
+  "ufficio": "procedimento",
+  "titolo": "Piano fatto da fuori",
+  "testo": "Si propone di affidare a un consulente esterno l'elaborazione del piano triennale anticorruzione del Comune. Si può?",
+  "opzioni": [
+   "Sì, se il consulente ha competenze specifiche",
+   "Sì, se poi il segretario lo firma",
+   "Sì, con una procedura di affidamento regolare",
+   "No, non può essere affidata a soggetti estranei"
+  ],
+  "corretta": 3,
+  "spiegazione": "L'elaborazione del piano non può essere affidata a soggetti estranei all'amministrazione. Negli enti locali il piano è approvato dalla giunta.",
+  "norma": "L. 190/2012",
+  "articolo": "art. 1, c. 8",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2012-11-06;190",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "p36",
+  "ufficio": "procedimento",
+  "titolo": "Rotazione degli incarichi",
+  "testo": "Il tuo ufficio è tra quelli a più alto rischio di corruzione. Chi verifica, d'intesa con il dirigente competente, l'effettiva rotazione degli incarichi?",
+  "opzioni": [
+   "Il revisore dei conti, nei controlli periodici",
+   "Il responsabile della prevenzione della corruzione",
+   "Il sindaco, con un proprio decreto di nomina",
+   "L'ANAC, con un controllo sul singolo Comune"
+  ],
+  "corretta": 1,
+  "spiegazione": "Lo verifica il responsabile della prevenzione, d'intesa con il dirigente competente, negli uffici a più elevato rischio di corruzione.",
+  "norma": "L. 190/2012",
+  "articolo": "art. 1, c. 10",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2012-11-06;190",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "p37",
+  "ufficio": "procedimento",
+  "titolo": "Reato in Comune",
+  "testo": "Una sentenza definitiva accerta un reato di corruzione dentro il Comune. Come evita la responsabilità il responsabile della prevenzione?",
+  "opzioni": [
+   "Dimostrando di non conoscere il dipendente condannato per il reato",
+   "Dimostrando di non lavorare nell'ufficio in cui è avvenuto il fatto",
+   "Provando di aver predisposto il piano e vigilato sulla sua applicazione",
+   "Presentando le dimissioni dall'incarico subito dopo la sentenza"
+  ],
+  "corretta": 2,
+  "spiegazione": "Il responsabile risponde, salvo che provi di aver predisposto il piano prima del fatto, di aver rispettato i commi 9 e 10 e di aver vigilato sul funzionamento e sull'osservanza del piano.",
+  "norma": "L. 190/2012",
+  "articolo": "art. 1, c. 12",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2012-11-06;190",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "p38",
+  "ufficio": "procedimento",
+  "titolo": "Accesso negato",
+  "testo": "Hai negato un accesso civico generalizzato con provvedimento motivato. Il richiedente chiede il riesame. A chi si rivolge, e con quale termine di decisione?",
+  "opzioni": [
+   "Al sindaco del Comune, entro 30 giorni",
+   "Al responsabile della prevenzione e trasparenza, entro 20 giorni",
+   "Al prefetto della provincia, entro 60 giorni",
+   "Al segretario della Regione, entro 90 giorni"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il riesame spetta al responsabile della prevenzione della corruzione e della trasparenza, che decide entro 20 giorni. Il richiedente può poi ricorrere al TAR. Il procedimento di accesso si chiude in 30 giorni.",
+  "norma": "D.Lgs. 33/2013",
+  "articolo": "art. 5, cc. 6-7",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
+ },
+ {
+  "id": "p39",
+  "ufficio": "procedimento",
+  "titolo": "Variante non pubblicata",
+  "testo": "Il Comune ha approvato una variante urbanistica, ma l'atto non è stato pubblicato sul sito come richiesto. Che effetto ha?",
+  "opzioni": [
+   "Non acquista efficacia finché non è pubblicata",
+   "È efficace, ma scatta una sanzione",
+   "È nulla e va riapprovata da capo",
+   "Diventa efficace dopo il decimo giorno"
+  ],
+  "corretta": 0,
+  "spiegazione": "La pubblicità degli atti di governo del territorio, compresi gli strumenti urbanistici e le loro varianti, è condizione per l'acquisizione della loro efficacia.",
+  "norma": "D.Lgs. 33/2013",
+  "articolo": "art. 39, cc. 1, 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
+ },
+ {
+  "id": "p40",
+  "ufficio": "procedimento",
+  "titolo": "Quanto resta online",
+  "testo": "Stai aggiornando Amministrazione trasparente. Di regola, per quanto tempo restano pubblicati i dati obbligatori?",
+  "opzioni": [
+   "3 anni dalla data di pubblicazione",
+   "10 anni dalla data di pubblicazione",
+   "Fino alla fine del mandato del sindaco",
+   "5 anni dal 1° gennaio dell'anno successivo"
+  ],
+  "corretta": 3,
+  "spiegazione": "Di regola 5 anni dal 1° gennaio dell'anno successivo a quello da cui decorre l'obbligo, salvo effetti degli atti e termini diversi. Dopo la scadenza i dati restano accessibili con l'accesso civico.",
+  "norma": "D.Lgs. 33/2013",
+  "articolo": "art. 8, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
  }
 ]

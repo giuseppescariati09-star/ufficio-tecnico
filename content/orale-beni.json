@@ -1,0 +1,47 @@
+[
+ {
+  "id": "orb1",
+  "domanda": "Spiega come si dividono i beni del Comune, con un esempio per ciascun gruppo.",
+  "puntiChiave": [
+   "Regime demaniale: strade, cimiteri, mercati (artt. 822, 824)",
+   "Demanio inalienabile, tutela amministrativa (art. 823)",
+   "Patrimonio indisponibile: sedi di uffici, beni per pubblico servizio (art. 826)",
+   "Vincolo di destinazione (art. 828, c. 2)",
+   "Passaggio dal demanio al patrimonio e pubblicazione (art. 829)"
+  ],
+  "norma": "Codice civile, artt. 822-829",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "orb2",
+  "domanda": "Racconta le fasi dell'esproprio, dal vincolo all'immissione in possesso.",
+  "puntiChiave": [
+   "Vincolo preordinato: cinque anni (art. 9)",
+   "Pubblica utilità: decreto entro cinque anni, salvo termine diverso (art. 13)",
+   "Proroghe: al massimo quattro anni complessivi (art. 13, c. 5)",
+   "Indennità provvisoria: acconto dell'80% se condivisa (art. 20)",
+   "Decreto, notifica ed esecuzione entro due anni (artt. 23-24)"
+  ],
+  "norma": "D.P.R. 327/2001, artt. 8, 9, 13, 20, 23, 24",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale; art. 13, c. 5, riscontrato sul decreto n. 131/2026 pubblicato nel BUR Emilia-Romagna"
+ },
+ {
+  "id": "orb3",
+  "domanda": "Che cos'è il demanio marittimo e che cosa significa per un Comune come Itri?",
+  "puntiChiave": [
+   "Lido, spiaggia, porti e rade (cod. nav., art. 28)",
+   "Uso con concessione, compatibile col pubblico uso (cod. nav., art. 36)",
+   "Lazio: PUA comunali, almeno 50% a pubblica fruizione (R.R. 19/2016)",
+   "Piano regionale: Deliberazione del Consiglio regionale 9/2021",
+   "Itri: zero concessioni al 31/12/2025; il demanio civico è altra cosa"
+  ],
+  "norma": "Codice della navigazione; R.R. Lazio 19/2016; DCR Lazio 9/2021; Det. G07292/2026",
+  "fonte": "https://regione.lazio.it/cittadini/sviluppo-economico/economia-mare/demanio-marittimo-finalit%C3%A0-turistico-ricreative",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Regione Lazio (pagina demanio marittimo, R.R. 19/2016, scheda DCR 9/2021, Det. G07292/2026); Regione Emilia-Romagna, copia del Titolo II cod. nav.; Comune di Itri, scheda C.C. 54/2018"
+ }
+]

@@ -3,7 +3,7 @@
   "id": "b1",
   "ufficio": "beni",
   "titolo": "La spiaggia",
-  "testo": "Un privato sostiene che una spiaggia di Itri sia sua. Secondo il Codice della navigazione, la spiaggia a quale categoria appartiene?",
+  "testo": "Allo sportello un signore ti dice che un tratto di spiaggia sulla costa di Itri è suo, perché confina con il suo terreno. Secondo il Codice della navigazione, a quale categoria appartiene la spiaggia?",
   "opzioni": [
    "Patrimonio disponibile del Comune",
    "Demanio marittimo",
@@ -11,53 +11,56 @@
    "Patrimonio della Regione"
   ],
   "corretta": 1,
-  "spiegazione": "Il lido del mare e la spiaggia fanno parte del demanio marittimo.",
-  "norma": "Codice della navigazione",
-  "articolo": "art. 28",
+  "spiegazione": "Il lido, la spiaggia, i porti e le rade fanno parte del demanio marittimo. Anche il Codice civile dice che la spiaggia appartiene allo Stato e fa parte del demanio pubblico.",
+  "norma": "Codice della navigazione; Codice civile",
+  "articolo": "art. 28, lett. a), cod. nav.; art. 822, c. 1, c.c.",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav.; Brocardi, copia non ufficiale"
  },
  {
   "id": "b2",
   "ufficio": "beni",
   "titolo": "Uso esclusivo",
-  "testo": "Con quale atto si può occupare e usare in modo esclusivo un'area del demanio marittimo?",
+  "testo": "Un'associazione vorrebbe occupare e usare in modo esclusivo, per un periodo determinato, un'area del demanio marittimo. Quale titolo le serve?",
   "opzioni": [
-   "Concessione",
    "Compravendita",
    "Usucapione",
-   "Comunicazione di inizio lavori"
+   "Comunicazione di inizio lavori",
+   "Concessione"
   ],
-  "corretta": 0,
-  "spiegazione": "L'occupazione e l'uso del demanio marittimo sono possibili tramite concessione.",
+  "corretta": 3,
+  "spiegazione": "L'amministrazione può concedere l'occupazione e l'uso dei beni demaniali per un periodo determinato, anche in esclusiva, se è compatibile con le esigenze del pubblico uso. Nel Lazio, per le nuove concessioni turistico-ricreative, i Comuni svolgono procedure competitive (R.R. 19/2016, art. 14).",
   "norma": "Codice della navigazione",
-  "articolo": "art. 36",
+  "articolo": "art. 36, c. 1",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav.; Regione Lazio, testo coordinato R.R. 19/2016"
  },
  {
   "id": "b3",
   "ufficio": "beni",
   "titolo": "Prima del decreto",
-  "testo": "Quale di questi elementi è necessario prima di emanare un decreto di esproprio?",
+  "testo": "Stai preparando un decreto di esproprio. Quale di questi elementi deve già esserci?",
   "opzioni": [
+   "Il consenso scritto del proprietario",
+   "La trascrizione del decreto nei registri immobiliari",
    "La dichiarazione di pubblica utilità",
-   "Il consenso del proprietario",
-   "L'iscrizione all'albo pretorio regionale",
-   "Il pagamento di una sanzione"
+   "Il pagamento di una sanzione da parte del proprietario"
   ],
-  "corretta": 0,
-  "spiegazione": "Servono il vincolo preordinato all'esproprio, la dichiarazione di pubblica utilità e la determinazione, anche provvisoria, dell'indennità.",
+  "corretta": 2,
+  "spiegazione": "Servono l'opera prevista dallo strumento urbanistico con il vincolo preordinato all'esproprio, la dichiarazione di pubblica utilità e l'indennità determinata, anche solo in via provvisoria. La trascrizione arriva dopo il decreto.",
   "norma": "D.P.R. 327/2001",
-  "articolo": "art. 8",
+  "articolo": "art. 8, c. 1",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
  },
  {
   "id": "b4",
   "ufficio": "beni",
   "titolo": "Durata del vincolo",
-  "testo": "Quanto dura il vincolo preordinato all'esproprio?",
+  "testo": "Una proprietaria ha un terreno su cui il piano ha previsto un'opera pubblica e ti chiede quanto dura il vincolo preordinato all'esproprio. Cosa le rispondi?",
   "opzioni": [
    "1 anno",
    "3 anni",
@@ -65,28 +68,220 @@
    "10 anni"
   ],
   "corretta": 2,
-  "spiegazione": "Il vincolo preordinato all'esproprio dura 5 anni.",
+  "spiegazione": "Il vincolo dura cinque anni. Entro questo tempo può essere adottato il provvedimento che dichiara la pubblica utilità dell'opera.",
   "norma": "D.P.R. 327/2001",
   "articolo": "art. 9, c. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
  },
  {
   "id": "b5",
   "ufficio": "beni",
   "titolo": "Le strade comunali",
-  "testo": "Le strade del Comune, se rientrano nelle categorie previste dal Codice civile, a quale regime sono soggette?",
+  "testo": "Stai aggiornando l'inventario e trovi una strada di proprietà del Comune. A quale regime è soggetta?",
   "opzioni": [
-   "Demanio comunale",
-   "Patrimonio disponibile",
-   "Beni privati a uso pubblico, sempre",
+   "Regime del demanio pubblico",
+   "Patrimonio disponibile del Comune",
+   "Patrimonio indisponibile dello Stato",
    "Demanio marittimo"
   ],
   "corretta": 0,
-  "spiegazione": "I beni della specie indicata dall'art. 822, c. 2, come le strade, se appartengono al Comune sono soggetti al regime del demanio pubblico.",
+  "spiegazione": "Le strade sono tra i beni indicati dall'art. 822, c. 2. Se beni di questo tipo appartengono a un Comune, sono soggetti al regime del demanio pubblico.",
   "norma": "Codice civile",
-  "articolo": "artt. 822 e 824",
+  "articolo": "art. 822, c. 2, e art. 824, c. 1",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "b6",
+  "ufficio": "beni",
+  "titolo": "Il cimitero in inventario",
+  "testo": "Nello stesso inventario compare il cimitero comunale. A quale regime lo assegni?",
+  "opzioni": [
+   "Patrimonio indisponibile del Comune",
+   "Regime del demanio pubblico",
+   "Patrimonio disponibile del Comune",
+   "Patrimonio indisponibile dello Stato"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il Codice civile lo dice in modo espresso: i cimiteri e i mercati comunali sono soggetti al regime del demanio pubblico.",
+  "norma": "Codice civile",
+  "articolo": "art. 824, c. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "b7",
+  "ufficio": "beni",
+  "titolo": "Il palazzo degli uffici",
+  "testo": "L'edificio comunale che ospita gli uffici pubblici, con i suoi arredi, in quale categoria rientra?",
+  "opzioni": [
+   "Demanio comunale",
+   "Patrimonio disponibile del Comune",
+   "Patrimonio indisponibile del Comune",
+   "Demanio marittimo"
+  ],
+  "corretta": 2,
+  "spiegazione": "Gli edifici destinati a sede di uffici pubblici, con i loro arredi, e gli altri beni destinati a un pubblico servizio fanno parte del patrimonio indisponibile dell'ente a cui appartengono.",
+  "norma": "Codice civile",
+  "articolo": "art. 826, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "b8",
+  "ufficio": "beni",
+  "titolo": "Dal demanio al patrimonio",
+  "testo": "Un tratto di strada comunale non serve più e il Comune adotta il provvedimento che dichiara il passaggio dal demanio al patrimonio. Come va pubblicato?",
+  "opzioni": [
+   "Nei modi stabiliti per i regolamenti comunali",
+   "Con un annuncio sulla Gazzetta Ufficiale della Repubblica",
+   "Con la sola notifica ai proprietari confinanti",
+   "Con la sola annotazione al catasto"
+  ],
+  "corretta": 0,
+  "spiegazione": "Per i beni di Comuni e Province il provvedimento si pubblica nei modi stabiliti per i regolamenti comunali e provinciali. L'annuncio sulla Gazzetta Ufficiale riguarda i beni dello Stato.",
+  "norma": "Codice civile",
+  "articolo": "art. 829",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "b9",
+  "ufficio": "beni",
+  "titolo": "La recinzione abusiva",
+  "testo": "Un privato ha recintato un pezzo di una strada comunale. Come può tutelare il bene il Comune?",
+  "opzioni": [
+   "Solo con una causa civile davanti al giudice",
+   "Solo chiedendo l'intervento dello Stato, che ne è proprietario",
+   "Vendendo l'area al privato per sanare la situazione",
+   "In via amministrativa oppure con i mezzi ordinari a difesa di proprietà e possesso"
+  ],
+  "corretta": 3,
+  "spiegazione": "La tutela dei beni demaniali spetta all'autorità amministrativa, che può procedere in via amministrativa o usare i mezzi ordinari previsti dal Codice civile. Questi beni sono inoltre inalienabili, quindi non si risolve con una vendita. La regola vale per i beni comunali soggetti al regime del demanio pubblico.",
+  "norma": "Codice civile",
+  "articolo": "art. 823 e art. 824",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "b10",
+  "ufficio": "beni",
+  "titolo": "Vincolo scaduto",
+  "testo": "Sono passati i cinque anni di durata del vincolo preordinato all'esproprio e nessuno ha dichiarato la pubblica utilità dell'opera. Che cosa succede?",
+  "opzioni": [
+   "Il vincolo si rinnova da solo per altri cinque anni",
+   "Il vincolo diventa definitivo",
+   "La proprietà passa automaticamente al Comune",
+   "Il vincolo decade e si applica l'art. 9 del D.P.R. 380/2001"
+  ],
+  "corretta": 3,
+  "spiegazione": "Senza dichiarazione di pubblica utilità nei tempi, il vincolo decade e si applica la disciplina dell'art. 9 del Testo unico edilizia. Dopo la decadenza il vincolo può essere reiterato, ma con un provvedimento motivato e ripetendo i procedimenti previsti.",
+  "norma": "D.P.R. 327/2001",
+  "articolo": "art. 9, cc. 3 e 4",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "b11",
+  "ufficio": "beni",
+  "titolo": "Il tempo per il decreto",
+  "testo": "L'atto che dichiara la pubblica utilità non indica entro quando emanare il decreto di esproprio. Quanto tempo hai?",
+  "opzioni": [
+   "Cinque anni da quando la dichiarazione diventa efficace",
+   "Due anni dall'approvazione del piano",
+   "Dieci anni dall'apposizione del vincolo",
+   "Non c'è alcun termine"
+  ],
+  "corretta": 0,
+  "spiegazione": "Se l'atto non fissa un termine, il decreto può essere emanato entro cinque anni dall'efficacia della dichiarazione. Il termine si può prorogare per forza maggiore o altre giustificate ragioni, anche d'ufficio e prima della scadenza, per non più di quattro anni complessivi. Attenzione ai testi vecchi che parlano di due anni. Se il termine scade, la dichiarazione perde efficacia.",
+  "norma": "D.P.R. 327/2001",
+  "articolo": "art. 13, cc. 4-6",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale; c. 5 riscontrato sul decreto n. 131/2026 pubblicato nel BUR Emilia-Romagna"
+ },
+ {
+  "id": "b12",
+  "ufficio": "beni",
+  "titolo": "L'acconto",
+  "testo": "Un proprietario ha condiviso l'indennità provvisoria, consente l'immissione in possesso e autocertifica la piena e libera proprietà del bene. Quanto gli spetta come acconto?",
+  "opzioni": [
+   "Il 50% dell'indennità",
+   "L'80% dell'indennità",
+   "Il 90% dell'indennità",
+   "Il 100% dell'indennità"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il proprietario che ha condiviso l'indennità ha diritto a un acconto dell'80%, dopo l'autocertificazione. Dalla data dell'immissione in possesso maturano gli interessi al tasso legale.",
+  "norma": "D.P.R. 327/2001",
+  "articolo": "art. 20, c. 6",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Brocardi, copia non ufficiale"
+ },
+ {
+  "id": "b13",
+  "ufficio": "beni",
+  "titolo": "La quota per tutti",
+  "testo": "Stai leggendo il piano degli arenili di un Comune costiero del Lazio. Quale quota minima dei metri lineari di arenile di competenza comunale va riservata alla pubblica fruizione?",
+  "opzioni": [
+   "Almeno il 25%",
+   "Almeno il 30%",
+   "Almeno il 50%",
+   "Almeno il 75%"
+  ],
+  "corretta": 2,
+  "spiegazione": "Il regolamento regionale chiede di riservare alla pubblica fruizione almeno il 50% dei metri lineari di arenile di competenza del Comune. Per pubblica fruizione si intendono le spiagge libere e le spiagge libere con servizi.",
+  "norma": "R.R. Lazio 19/2016",
+  "articolo": "art. 1, c. 2, e art. 2, c. 1",
+  "fonte": "https://www.regione.lazio.it/regolamenti-regionali-testo-coordinato/regolamento-regionale-12-agosto-2016-n-19/14052021",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Regione Lazio, testo coordinato R.R. 19/2016"
+ },
+ {
+  "id": "b14",
+  "ufficio": "beni",
+  "titolo": "A venti metri dal demanio",
+  "testo": "Un proprietario vuole realizzare una nuova opera a venti metri dal demanio marittimo. Cosa prevede il Codice della navigazione?",
+  "opzioni": [
+   "Nessun limite: la regola vale solo entro dieci metri",
+   "Serve l'autorizzazione del capo del compartimento",
+   "Basta una comunicazione al Comune a lavori finiti",
+   "L'opera è vietata sempre, senza eccezioni"
+  ],
+  "corretta": 1,
+  "spiegazione": "Le nuove opere entro trenta metri dal demanio marittimo, o dal ciglio dei terreni elevati sul mare, richiedono l'autorizzazione del capo del compartimento. Se la domanda non è accolta entro novanta giorni, l'autorizzazione si intende negata.",
+  "norma": "Codice della navigazione",
+  "articolo": "art. 55, cc. 1 e 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav."
+ },
+ {
+  "id": "b15",
+  "ufficio": "beni",
+  "titolo": "Le concessioni di Itri",
+  "testo": "Il responsabile ti chiede cosa risulta per Itri nell'Albo regionale delle concessioni demaniali marittime turistico-ricreative aggiornato al 31 dicembre 2025. Cosa gli rispondi?",
+  "opzioni": [
+   "Nessuna concessione, per le caratteristiche geomorfologiche del litorale",
+   "Una sola concessione, per uno stabilimento balneare",
+   "Itri non compare tra i Comuni costieri del Lazio",
+   "Le concessioni di Itri sono gestite dal Comune di Sperlonga"
+  ],
+  "corretta": 0,
+  "spiegazione": "La determinazione regionale G07292 del 27 maggio 2026 spiega che Itri, per le caratteristiche geomorfologiche del litorale, non ha concessioni: la sua riga riporta zero in tutte le colonne. Non confonderlo con il demanio civico, che riguarda gli usi civici e ha un suo regolamento comunale.",
+  "norma": "Det. Regione Lazio G07292/2026",
+  "articolo": "Albo regionale al 31/12/2025",
+  "fonte": "https://www.regione.lazio.it/sites/default/files/documentazione/2026/SVI-DD-G07292-27-05-2026.pdf",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Regione Lazio, Det. G07292/2026"
  }
 ]

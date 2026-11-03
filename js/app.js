@@ -3,10 +3,13 @@ import { createStore } from './storage.js';
 import { isStale, loadContent, UFFICI } from './content.js';
 import { grade, localToday, mastery, todayQueue } from './review.js';
 import { buildExam, remainingSeconds, score, shuffle } from './exam.js';
+import { createSync } from './sync.js';
 
 const store = createStore();
 const root = document.getElementById('app');
 let content = null;
+let sync = null;
+let syncTimer = null;
 let cleanup = () => {};
 
 const SVG = 'http://www.w3.org/2000/svg';
@@ -82,8 +85,21 @@ function sourceLink(c) {
 
 function verifiedNote(c) {
   return c.verificato
-    ? h('p', { class: 'foot' }, `Controllato sul testo ufficiale il ${c.verificato}.`)
+    ? h('p', { class: 'foot' }, `Controllato il ${c.verificato} su ${c.verificatoSu}.`)
     : h('p', { class: 'foot' }, 'Bozza: non ancora controllata sul testo ufficiale.');
+}
+
+const stamped = (state) => ({ ...state, updatedAt: new Date().toISOString() });
+
+function scheduleSync() {
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(runSync, 1500);
+}
+
+async function runSync() {
+  const result = await sync?.syncNow();
+  const route = location.hash.replace('#', '') || 'scrivania';
+  if (result?.changed && route === 'scrivania') render();
 }
 
 /* Scrivania */
@@ -136,8 +152,9 @@ function renderCase() {
     if (done) return;
     done = true;
     const correct = index === c.corretta;
-    store.state.progress[c.id] = grade(store.state.progress[c.id], correct, localToday());
+    store.state.progress[c.id] = stamped(grade(store.state.progress[c.id], correct, localToday()));
     store.save();
+    scheduleSync();
     order.forEach((o, i) => {
       options[i].setAttribute('aria-disabled', 'true');
       if (o.index === c.corretta) { options[i].classList.add('right'); options[i].append(icon('check')); }
@@ -252,11 +269,13 @@ function finishExam() {
   const result = score(exam, content.cases, content.config.sogliaScritto);
   const today = localToday();
   for (const id of result.wrongIds) {
-    if (content.cases.some((c) => c.id === id)) store.state.progress[id] = grade(store.state.progress[id], false, today);
+    if (content.cases.some((c) => c.id === id)) store.state.progress[id] = stamped(grade(store.state.progress[id], false, today));
   }
-  store.state.history = [...store.state.history, { date: today, onThirty: result.onThirty, passed: result.passed }].slice(-100);
+  const at = new Date().toISOString();
+  store.state.history = [...store.state.history, { at, updatedAt: at, date: today, onThirty: result.onThirty, passed: result.passed }].slice(-100);
   store.state.exam = null;
   store.save();
+  scheduleSync();
   const wrong = result.wrongIds.map((id) => content.cases.find((c) => c.id === id)).filter(Boolean);
   mount(h('main', { class: 'screen' },
     h('h1', { class: 'large-title', tabIndex: -1 }, 'Risultato'),
@@ -326,8 +345,9 @@ function renderOralReview(q) {
     verifiedNote(q),
     h('button', { class: 'primary', onclick: () => {
       const hit = boxes.filter((b) => b.input.checked).length;
-      store.state.oral[q.id] = { score: hit / boxes.length, date: localToday() };
+      store.state.oral[q.id] = stamped({ score: hit / boxes.length, date: localToday() });
       store.save();
+      scheduleSync();
       go('#orale');
     } }, 'Salva')));
 }
@@ -362,6 +382,8 @@ function renderProfile() {
     if (!f) return;
     try {
       store.importBackup(await f.text());
+      sync.forceFull();
+      scheduleSync();
       renderProfile();
     } catch (err) {
       message.className = 'error';
@@ -391,6 +413,7 @@ function renderProfile() {
       h('div', { class: 'group' },
         h('div', { class: 'row row-line' }, h('span', {}, 'Da controllare'), h('span', { class: 'muted' }, String(pending))),
         h('div', { class: 'row row-line' }, h('span', {}, 'Verifica oltre 90 giorni'), h('span', { class: 'muted' }, String(stale))))),
+    syncSection(),
     h('section', {},
       h('h2', { class: 'section-title' }, 'Backup'),
       h('div', { class: 'stack' },
@@ -401,11 +424,85 @@ function renderProfile() {
     h('button', { class: 'destructive', onclick: async () => {
       if (await confirmDialog({
         title: 'Cancellare il progresso?',
-        body: 'Perderai ripassi, simulazioni e impostazioni. Non si può annullare.',
+        body: sync.signedIn
+          ? 'Perderai ripassi, simulazioni e impostazioni, anche sugli altri dispositivi. Non si può annullare.'
+          : 'Perderai ripassi, simulazioni e impostazioni. Non si può annullare.',
         confirm: 'Cancella tutto',
         destructive: true,
-      })) { store.reset(); renderProfile(); }
+      })) {
+        try {
+          await sync.resetRemote();
+          store.reset();
+          renderProfile();
+        } catch (err) {
+          message.className = 'error';
+          message.textContent = err.message;
+        }
+      }
     } }, 'Cancella il progresso')), { tabs: true });
+}
+
+function syncSection() {
+  const title = h('h2', { class: 'section-title' }, 'iPhone e iPad');
+  if (!sync.configured) return h('section', {}, title, h('p', { class: 'foot section-foot' }, 'Sincronizzazione non ancora attiva.'));
+  if (sync.signedIn) {
+    const status = h('p', { class: 'foot section-foot', role: 'status' }, sync.lastSyncAt
+      ? `Ultima sincronizzazione: ${new Date(sync.lastSyncAt).toLocaleString('it-IT')}.`
+      : 'Non ancora sincronizzato.');
+    const button = h('button', { onclick: async () => {
+      button.textContent = 'Sincronizzo…';
+      const result = await sync.syncNow();
+      if (result.ok) { renderProfile(); return; }
+      button.textContent = 'Sincronizza ora';
+      if (!sync.signedIn) { renderProfile(); return; }
+      status.textContent = 'Non riesco a sincronizzare. Il progresso è al sicuro su questo dispositivo: riprova con la connessione.';
+    } }, 'Sincronizza ora');
+    return h('section', {}, title,
+      h('div', { class: 'group' }, h('div', { class: 'row row-line' }, h('span', {}, 'Account'), h('span', { class: 'muted ellipsis' }, sync.email))),
+      status,
+      h('div', { class: 'stack' }, button, h('button', { onclick: () => { sync.signOut(); renderProfile(); } }, 'Esci da questo dispositivo')));
+  }
+
+  const validEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim());
+  const error = h('p', { class: 'error section-foot', role: 'alert', hidden: true });
+  const showError = (text) => { error.textContent = text; error.hidden = false; };
+  const clearError = () => { error.hidden = true; };
+  const email = h('input', {
+    id: 'sync-email', type: 'email', autocomplete: 'email', inputMode: 'email', placeholder: 'nome@esempio.it',
+    onfocus: clearError, oninput: clearError,
+    onblur: () => { if (email.value && !validEmail(email.value)) showError('Inserisci un\'email come nome@esempio.it.'); },
+  });
+  const code = h('input', { id: 'sync-code', autocomplete: 'one-time-code', inputMode: 'numeric', placeholder: '123456', onfocus: clearError, oninput: clearError });
+  const codeField = h('label', { class: 'stacked', for: 'sync-code', hidden: true }, h('span', {}, 'Codice ricevuto via email'), code);
+  const label = () => (codeField.hidden ? 'Invia il codice' : 'Accedi');
+  const submit = h('button', { class: 'primary', onclick: async () => {
+    const address = email.value.trim();
+    if (!validEmail(address)) { email.focus(); showError('Inserisci un\'email come nome@esempio.it.'); return; }
+    const sending = codeField.hidden;
+    if (!sending && !code.value.trim()) { code.focus(); showError('Inserisci il codice ricevuto via email.'); return; }
+    submit.textContent = sending ? 'Invio…' : 'Accesso…';
+    try {
+      if (sending) {
+        await sync.requestCode(address);
+        codeField.hidden = false;
+        submit.textContent = label();
+        code.focus();
+      } else {
+        await sync.verifyCode(address, code.value.trim());
+        sync.forceFull();
+        await sync.syncNow();
+        renderProfile();
+      }
+    } catch (err) {
+      submit.textContent = label();
+      showError(err.message.startsWith('Failed') ? 'Serve la connessione. Riprova quando sei online.' : err.message);
+    }
+  } }, 'Invia il codice');
+  return h('section', {}, title,
+    h('p', { class: 'foot section-foot' }, 'Accedi su entrambi i dispositivi per ritrovare lo stesso progresso.'),
+    h('div', { class: 'group' }, h('label', { class: 'stacked', for: 'sync-email' }, h('span', {}, 'Email'), email), codeField),
+    error,
+    h('div', { class: 'stack sync-submit' }, submit));
 }
 
 function exportBackup() {
@@ -437,15 +534,19 @@ function renderLoadError() {
 async function start() {
   try {
     content = await loadContent();
+    sync = createSync({ config: content.config.sync, store });
   } catch (err) {
     store.logError(err.message);
     renderLoadError();
     return;
   }
   render();
+  runSync();
 }
 
 window.addEventListener('hashchange', render);
+window.addEventListener('online', () => runSync());
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') runSync(); });
 window.addEventListener('error', (e) => store.logError(e.message));
 window.addEventListener('unhandledrejection', (e) => store.logError(e.reason?.message ?? 'Errore'));
 try {

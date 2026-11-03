@@ -1,7 +1,7 @@
-const CACHE = 'ufficio-tecnico-v1';
+const CACHE = 'ufficio-tecnico-v2';
 const FILES = [
   './', 'index.html', 'styles.css', 'manifest.webmanifest',
-  'js/app.js', 'js/review.js', 'js/exam.js', 'js/storage.js', 'js/content.js', 'js/icons.js',
+  'js/app.js', 'js/review.js', 'js/exam.js', 'js/storage.js', 'js/content.js', 'js/icons.js', 'js/sync.js',
   'content/config.json', 'content/procedimento.json', 'content/territorio.json', 'content/beni.json', 'content/opere.json', 'content/orale.json',
   'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png',
 ];

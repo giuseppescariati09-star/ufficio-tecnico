@@ -18,6 +18,7 @@ export function validateCase(c, { strict = false } = {}) {
   if (!Number.isInteger(c.corretta) || c.corretta < 0 || c.corretta >= (c.opzioni?.length ?? 0)) e.push(`${c.id}: risposta corretta non valida`);
   if (!filled(c.fonte) || !c.fonte.startsWith('https://')) e.push(`${c.id}: fonte non valida`);
   if (strict && !/^\d{4}-\d{2}-\d{2}$/.test(c.verificato ?? '')) e.push(`${c.id}: non verificato`);
+  if (c.verificato && !filled(c.verificatoSu)) e.push(`${c.id}: manca verificatoSu`);
   return e;
 }
 
@@ -36,6 +37,7 @@ export function validateOral(q, { strict = false } = {}) {
   for (const key of ['id', 'domanda', 'norma', 'fonte']) if (!filled(q[key])) e.push(`${q.id ?? '?'}: manca ${key}`);
   if (!Array.isArray(q.puntiChiave) || q.puntiChiave.length < 2) e.push(`${q.id}: punti chiave insufficienti`);
   if (strict && !q.verificato) e.push(`${q.id}: non verificato`);
+  if (q.verificato && !filled(q.verificatoSu)) e.push(`${q.id}: manca verificatoSu`);
   return e;
 }
 

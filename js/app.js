@@ -211,7 +211,7 @@ function renderWrittenStart() {
       h('h2', { class: 'section-title' }, 'Ultima simulazione'),
       h('div', { class: 'group' }, h('div', { class: 'row row-line' },
         h('span', {}, last.date), h('span', { class: last.passed ? 'verdict ok' : 'verdict no' }, `${last.onThirty} su 30`)))) : null,
-    h('p', { class: 'foot' }, 'Durata e numero di domande sono ipotesi: il bando non li indica. Puoi cambiarli nel profilo.')), { tabs: true });
+    h('p', { class: 'foot' }, 'Durata e numero di domande sono ipotesi: il bando non li indica. Altri concorsi simili usano 30 domande in 40-60 minuti. Puoi cambiarli nel profilo.')), { tabs: true });
 }
 
 function startExam() {

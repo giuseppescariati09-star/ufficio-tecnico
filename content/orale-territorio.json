@@ -1,0 +1,77 @@
+[
+ {
+  "id": "ort1",
+  "domanda": "Un cittadino ti chiede quale titolo gli serve. Come ragioni tra edilizia libera, CILA, SCIA e permesso di costruire?",
+  "puntiChiave": [
+   "Edilizia libera: casi dell'art. 6",
+   "CILA: interventi residuali, tecnico assevera",
+   "SCIA: parti strutturali e prospetti (art. 22)",
+   "Permesso: nuova costruzione e ristrutturazioni dell'art. 10",
+   "SCIA alternativa: 30 giorni prima (art. 23)"
+  ],
+  "norma": "D.P.R. 380/2001, artt. 6, 6-bis, 10, 22 e 23",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "ort2",
+  "domanda": "Spiega le differenze tra l'accertamento di conformità dell'art. 36 e quello dell'art. 36-bis.",
+  "puntiChiave": [
+   "Art. 36: senza permesso o totale difformità",
+   "Art. 36: doppia conformità, silenzio-rifiuto a 60 giorni",
+   "Art. 36-bis: parziali difformità e variazioni essenziali",
+   "Art. 36-bis: urbanistica alla domanda, edilizia ai lavori",
+   "Art. 36-bis: silenzio-assenso a 45 giorni"
+  ],
+  "norma": "D.P.R. 380/2001, artt. 36 e 36-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "ort3",
+  "domanda": "Che cos'è lo stato legittimo di un immobile e che ruolo hanno le tolleranze costruttive?",
+  "puntiChiave": [
+   "Titolo che ha previsto o legittimato l'opera",
+   "Ultimo intervento sull'intero immobile, titoli pregressi verificati",
+   "Epoca senza obbligo di titolo: catasto di primo impianto e documenti",
+   "Tolleranza generale del 2%",
+   "Fasce per opere ultimate entro il 24/05/2024"
+  ],
+  "norma": "D.P.R. 380/2001, artt. 9-bis e 34-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "ort4",
+  "domanda": "Come funziona l'autorizzazione paesaggistica e quando si può regolarizzare un intervento già fatto?",
+  "puntiChiave": [
+   "Atto autonomo e presupposto del titolo, vale 5 anni",
+   "Verifiche in 40 giorni, Soprintendente in 45",
+   "Allegato A escluso, Allegato B semplificato",
+   "Di regola niente sanatoria",
+   "Compatibilità: tre casi dell'art. 167, c. 4"
+  ],
+  "norma": "D.Lgs. 42/2004, artt. 146 e 167; D.P.R. 31/2017, artt. 2, 3 e 11",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "ort5",
+  "domanda": "Durante un sopralluogo trovi un'opera in corso senza titolo. Cosa fai, passo dopo passo?",
+  "puntiChiave": [
+   "Vigilanza: responsabile dell'ufficio comunale",
+   "Sospensione immediata, atti definitivi in 45 giorni",
+   "Ingiunzione a proprietario e responsabile",
+   "90 giorni, poi acquisizione gratuita",
+   "Sanzione da 2.000 a 20.000 euro"
+  ],
+  "norma": "D.P.R. 380/2001, artt. 27 e 31",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ }
+]

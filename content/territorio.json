@@ -3,19 +3,20 @@
   "id": "t1",
   "ufficio": "territorio",
   "titolo": "Ampliamento senza risposta",
-  "testo": "Un cittadino chiede il permesso di costruire per ampliare casa e il Comune non risponde nei termini. Cosa gli dici allo sportello?",
+  "testo": "Un cittadino ha chiesto il permesso di costruire per ampliare casa. Il termine è scaduto, l'ufficio non ha risposto e non ha motivato un diniego. Sull'immobile non ci sono vincoli. Cosa gli dici allo sportello?",
   "opzioni": [
-   "Si forma sempre il silenzio-assenso",
-   "Non si forma mai il silenzio-assenso",
-   "Si forma il silenzio-assenso, salvo i vincoli previsti dalla norma",
-   "Deve ripresentare la domanda"
+   "La domanda si considera respinta",
+   "Deve ripresentare la domanda",
+   "Si è formato il silenzio-assenso",
+   "Serve comunque un atto scritto del dirigente"
   ],
   "corretta": 2,
-  "spiegazione": "Il silenzio-assenso non vale se ci sono vincoli idrogeologici, ambientali, paesaggistici o culturali, salvo i casi indicati dalla norma.",
+  "spiegazione": "Scaduto il termine senza diniego motivato, si forma il silenzio-assenso. Se ci sono vincoli idrogeologici, ambientali, paesaggistici o culturali si applicano gli artt. 14 e seguenti della L. 241/1990, salvo assensi già ottenuti. Su richiesta, lo sportello attesta il decorso dei termini entro 15 giorni.",
   "norma": "D.P.R. 380/2001",
   "articolo": "art. 20, c. 8",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
  },
  {
   "id": "t2",
@@ -29,11 +30,12 @@
    "3 anni e 10 anni"
   ],
   "corretta": 1,
-  "spiegazione": "I lavori devono iniziare entro 1 anno dal rilascio e finire entro 3 anni dall'inizio, salvo proroghe.",
+  "spiegazione": "I lavori iniziano entro 1 anno dal rilascio e finiscono entro 3 anni dall'inizio. Scaduti i termini, il permesso decade per la parte non eseguita, salvo proroga chiesta prima della scadenza.",
   "norma": "D.P.R. 380/2001",
   "articolo": "art. 15, c. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
  },
  {
   "id": "t3",
@@ -42,16 +44,17 @@
   "testo": "Consulti il piano e trovi un'area in zona territoriale omogenea E. A cosa è destinata?",
   "opzioni": [
    "Centro storico",
-   "Espansione residenziale",
-   "Attività agricole",
+   "Nuovi insediamenti residenziali",
+   "Usi agricoli",
    "Impianti industriali"
   ],
   "corretta": 2,
-  "spiegazione": "La zona E comprende le parti del territorio destinate a usi agricoli.",
+  "spiegazione": "La zona E comprende le parti del territorio destinate a usi agricoli. A è il centro storico, C i nuovi insediamenti, D gli impianti industriali.",
   "norma": "D.M. 1444/1968",
   "articolo": "art. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.lavori.pubblici:decreto:1968-04-02;1444",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
  },
  {
   "id": "t4",
@@ -61,21 +64,22 @@
   "opzioni": [
    "Il titolo edilizio assorbe l'autorizzazione",
    "L'autorizzazione è atto autonomo e presupposto del titolo",
-   "L'autorizzazione si può ottenere a lavori finiti, sempre",
-   "Sono alternativi"
+   "L'autorizzazione si può sempre ottenere a lavori finiti",
+   "Sono alternativi, ne basta uno"
   ],
   "corretta": 1,
-  "spiegazione": "L'autorizzazione paesaggistica è un atto autonomo e presupposto del titolo edilizio.",
+  "spiegazione": "L'autorizzazione paesaggistica è un atto autonomo e presupposto del titolo edilizio. Salvo i casi dell'art. 167, non si rilascia in sanatoria. Vale 5 anni.",
   "norma": "D.Lgs. 42/2004",
   "articolo": "art. 146, c. 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
  },
  {
   "id": "t5",
   "ufficio": "territorio",
   "titolo": "Controllo sulla SCIA",
-  "testo": "Ricevi una SCIA edilizia. Entro quanti giorni puoi vietare la prosecuzione dell'attività per mancanza dei requisiti?",
+  "testo": "Ricevi una SCIA edilizia e mancano i requisiti. Entro quanti giorni puoi vietare la prosecuzione dell'attività?",
   "opzioni": [
    "15 giorni",
    "30 giorni",
@@ -83,11 +87,12 @@
    "90 giorni"
   ],
   "corretta": 1,
-  "spiegazione": "Per la SCIA in materia edilizia il termine ordinario di 60 giorni è ridotto a 30.",
+  "spiegazione": "Il termine ordinario è di 60 giorni, ma per la SCIA in materia edilizia è ridotto a 30. Dopo la scadenza puoi intervenire solo alle condizioni dell'art. 21-nonies.",
   "norma": "L. 241/1990",
-  "articolo": "art. 19, c. 6-bis",
+  "articolo": "art. 19, cc. 3, 4 e 6-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
  },
  {
   "id": "t6",
@@ -101,10 +106,562 @@
    "Parte sesta"
   ],
   "corretta": 1,
-  "spiegazione": "La parte seconda disciplina le procedure di VAS, VIA e AIA.",
+  "spiegazione": "Sono tutte nella parte seconda: la VAS nel titolo II, la VIA nel titolo III, l'AIA nel titolo III-bis.",
   "norma": "D.Lgs. 152/2006",
-  "articolo": "parte II",
+  "articolo": "art. 5, c. 1, lett. a e b; art. 29-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152",
-  "verificato": null
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t7",
+  "ufficio": "territorio",
+  "titolo": "Vetrate sul balcone",
+  "testo": "Un condomino vuole montare vetrate panoramiche amovibili e totalmente trasparenti sul balcone. Non crea uno spazio stabilmente chiuso, né nuova volumetria. Che titolo edilizio gli serve?",
+  "opzioni": [
+   "Permesso di costruire",
+   "SCIA",
+   "CILA",
+   "Nessuno: è edilizia libera"
+  ],
+  "corretta": 3,
+  "spiegazione": "Le VEPA rientrano nell'edilizia libera se hanno funzione temporanea di protezione, non creano spazi stabilmente chiusi, consentono la microaerazione e hanno impatto visivo minimo. Restano ferme le altre norme di settore.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 6, c. 1, lett. b-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t8",
+  "ufficio": "territorio",
+  "titolo": "CILA dimenticata",
+  "testo": "Un proprietario si accorge di non aver presentato la CILA e la presenta spontaneamente a lavori in corso. Quanto paga di sanzione?",
+  "opzioni": [
+   "Niente",
+   "516 euro",
+   "1.000 euro",
+   "Circa 333 euro"
+  ],
+  "corretta": 3,
+  "spiegazione": "La mancata CILA costa 1.000 euro. Se viene presentata spontaneamente a lavori in corso, la sanzione è ridotta di due terzi.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 6-bis, c. 5",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t9",
+  "ufficio": "territorio",
+  "titolo": "Stato legittimo",
+  "testo": "Per un appartamento esiste un titolo del 1975 e uno più recente che ha riguardato l'intera unità, rilasciato dopo aver verificato i titoli precedenti. Cosa basta per dimostrare lo stato legittimo?",
+  "opzioni": [
+   "Solo il titolo originario del 1975",
+   "L'ultima planimetria catastale",
+   "Il titolo più recente, più gli eventuali titoli parziali successivi",
+   "Una dichiarazione del proprietario"
+  ],
+  "corretta": 2,
+  "spiegazione": "Basta il titolo che ha disciplinato l'ultimo intervento sull'intero immobile o unità, se l'amministrazione ha verificato i titoli pregressi. I titoli successivi per interventi parziali si aggiungono.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 9-bis, c. 1-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t10",
+  "ufficio": "territorio",
+  "titolo": "Misure di cantiere",
+  "testo": "In un edificio ultimato nel 2026 l'altezza si scosta di poco dal progetto. Entro quale limite lo scostamento non è una violazione edilizia?",
+  "opzioni": [
+   "1%",
+   "1,5%",
+   "2%",
+   "5%"
+  ],
+  "corretta": 2,
+  "spiegazione": "Il limite generale è il 2% delle misure previste nel titolo. Vale per altezza, distacchi, cubatura, superficie coperta e altri parametri delle singole unità.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 34-bis, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t11",
+  "ufficio": "territorio",
+  "titolo": "Tolleranze dopo il Salva Casa",
+  "testo": "Un'unità di 350 mq di superficie utile è stata ultimata prima del 24 maggio 2024. Quale tolleranza si applica?",
+  "opzioni": [
+   "2%",
+   "3%",
+   "4%",
+   "5%"
+  ],
+  "corretta": 1,
+  "spiegazione": "Per gli interventi ultimati entro il 24 maggio 2024 la tolleranza cresce al ridursi della superficie: 2% oltre 500 mq, 3% tra 300 e 500 mq, 4% tra 100 e 300 mq, 5% sotto i 100 mq, 6% sotto i 60 mq.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 34-bis, c. 1-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t12",
+  "ufficio": "territorio",
+  "titolo": "Casetta senza permesso",
+  "testo": "Un'opera è stata costruita senza permesso di costruire, ma è conforme alle regole sia di allora sia di oggi. Quale sanatoria puoi valutare?",
+  "opzioni": [
+   "L'accertamento di conformità dell'art. 36, con doppia conformità",
+   "L'art. 36-bis, che vale per ogni abuso",
+   "Una CILA tardiva con sanzione ridotta",
+   "Nessuna: resta solo la demolizione"
+  ],
+  "corretta": 0,
+  "spiegazione": "L'art. 36 riguarda le opere senza permesso o in totale difformità. Serve la conformità urbanistica ed edilizia sia alla realizzazione sia alla domanda. Si paga il contributo di costruzione in misura doppia.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 36, cc. 1 e 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t13",
+  "ufficio": "territorio",
+  "titolo": "Sanatoria senza risposta",
+  "testo": "Hai ricevuto una domanda di permesso in sanatoria ai sensi dell'art. 36 e passano 60 giorni senza una decisione. Che effetto ha il silenzio?",
+  "opzioni": [
+   "La domanda è accolta",
+   "Il termine si raddoppia",
+   "La domanda si intende rifiutata",
+   "Il procedimento resta sospeso"
+  ],
+  "corretta": 2,
+  "spiegazione": "Il responsabile dell'ufficio decide con motivazione entro 60 giorni. Se non lo fa, la richiesta si intende rifiutata. Sull'art. 36-bis la regola è opposta.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 36, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t14",
+  "ufficio": "territorio",
+  "titolo": "Difformità parziale",
+  "testo": "Devi valutare una sanatoria per una parziale difformità con l'art. 36-bis. A quale momento guardi per la conformità?",
+  "opzioni": [
+   "Urbanistica alla domanda, edilizia all'epoca dei lavori",
+   "Urbanistica ed edilizia solo all'epoca dei lavori",
+   "Urbanistica ed edilizia solo alla domanda",
+   "Nessuna conformità: basta pagare"
+  ],
+  "corretta": 0,
+  "spiegazione": "La conformità urbanistica si valuta con le regole vigenti alla domanda, quella edilizia con le regole vigenti alla realizzazione. L'art. 36-bis copre parziali difformità, variazioni essenziali e opere senza SCIA o difformi dalla SCIA.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 36-bis, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t15",
+  "ufficio": "territorio",
+  "titolo": "Il termine dell'art. 36-bis",
+  "testo": "È arrivata una domanda di permesso in sanatoria ai sensi dell'art. 36-bis, senza profili paesaggistici. Entro quando decidi e cosa succede se non rispondi?",
+  "opzioni": [
+   "30 giorni, poi si intende rifiutata",
+   "60 giorni, poi si intende rifiutata",
+   "90 giorni, poi si intende accolta",
+   "45 giorni, poi si intende accolta"
+  ],
+  "corretta": 3,
+  "spiegazione": "L'ufficio decide entro 45 giorni e il silenzio vale accoglimento. Con un vincolo paesaggistico, il termine resta sospeso fino alla fine del procedimento di compatibilità.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 36-bis, c. 6",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t16",
+  "ufficio": "territorio",
+  "titolo": "Ingiunzione ignorata",
+  "testo": "Hai notificato un'ingiunzione di demolizione per un'opera senza permesso. Entro quanto va demolita e cosa succede se il responsabile non lo fa?",
+  "opzioni": [
+   "90 giorni, poi opera e area passano gratis al Comune",
+   "30 giorni, poi scatta solo una multa",
+   "180 giorni, poi il Comune compra l'opera a prezzo di mercato",
+   "1 anno, poi l'abuso si considera sanato"
+  ],
+  "corretta": 0,
+  "spiegazione": "Dopo 90 giorni opera, area di sedime e area per opere analoghe passano gratuitamente al Comune. L'area acquisita non può superare 10 volte la superficie abusiva. Il termine si può prorogare fino a 240 giorni per gravi motivi.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 31, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t17",
+  "ufficio": "territorio",
+  "titolo": "Demolire farebbe danni",
+  "testo": "Una parte di una casa è in parziale difformità dal permesso, ma demolirla danneggerebbe la parte regolare. Cosa applichi?",
+  "opzioni": [
+   "Una sanzione pari al triplo del costo di produzione",
+   "Una sanzione pari al doppio del valore catastale",
+   "La sanatoria d'ufficio, senza sanzione",
+   "La demolizione di tutto l'edificio"
+  ],
+  "corretta": 0,
+  "spiegazione": "Per le opere residenziali la sanzione è il triplo del costo di produzione della parte difforme. Per gli altri usi è il triplo del valore venale determinato dall'Agenzia del Territorio.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 34, c. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t18",
+  "ufficio": "territorio",
+  "titolo": "SCIA alternativa",
+  "testo": "Un committente sceglie la SCIA alternativa al permesso di costruire. Quando deve presentarla?",
+  "opzioni": [
+   "Entro 30 giorni dall'inizio dei lavori",
+   "10 giorni prima di iniziare",
+   "Il giorno stesso dell'inizio",
+   "Almeno 30 giorni prima di iniziare"
+  ],
+  "corretta": 3,
+  "spiegazione": "Va presentata almeno 30 giorni prima dell'effettivo inizio dei lavori. In quei 30 giorni, se mancano le condizioni, il responsabile notifica un ordine motivato di non effettuare l'intervento. L'efficacia massima è di 3 anni.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 23, cc. 1, 2 e 6",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t19",
+  "ufficio": "territorio",
+  "titolo": "Cambio d'uso",
+  "testo": "Un proprietario vuole cambiare l'uso di una singola unità restando nella stessa categoria funzionale. Cosa gli rispondi?",
+  "opzioni": [
+   "È vietato senza una variante al piano",
+   "Serve sempre il permesso di costruire",
+   "È sempre ammesso, salvo normative di settore e condizioni del piano",
+   "È possibile solo in zona A"
+  ],
+  "corretta": 2,
+  "spiegazione": "Dopo il Salva Casa, il mutamento d'uso nella stessa categoria per la singola unità è sempre ammesso. Restano le normative di settore e le eventuali condizioni fissate dagli strumenti urbanistici comunali.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 23-ter, c. 1-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t20",
+  "ufficio": "territorio",
+  "titolo": "Agibilità",
+  "testo": "Sono finiti i lavori di finitura di una nuova costruzione. Entro quando va presentata la segnalazione certificata per l'agibilità?",
+  "opzioni": [
+   "Entro 15 giorni",
+   "Entro 30 giorni",
+   "Entro 90 giorni",
+   "Entro 1 anno"
+  ],
+  "corretta": 0,
+  "spiegazione": "La segnalazione va allo sportello unico entro 15 giorni dalla fine dei lavori di finitura. Se manca, la sanzione va da 77 a 464 euro.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 24, cc. 2 e 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t21",
+  "ufficio": "territorio",
+  "titolo": "Vendita del terreno",
+  "testo": "Per vendere un terreno serve il certificato di destinazione urbanistica. In quanto tempo lo rilasci e per quanto vale?",
+  "opzioni": [
+   "15 giorni, vale 6 mesi",
+   "30 giorni, vale 1 anno",
+   "60 giorni, vale 2 anni",
+   "90 giorni, non scade"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il certificato si rilascia entro 30 giorni dalla domanda e vale 1 anno, se gli strumenti urbanistici non cambiano. Senza certificato, gli atti di trasferimento dei terreni sono nulli.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 30, cc. 2 e 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t22",
+  "ufficio": "territorio",
+  "titolo": "Standard urbanistici",
+  "testo": "Stai controllando le aree pubbliche di un piano residenziale. Qual è la dotazione minima per abitante, strade escluse?",
+  "opzioni": [
+   "9 mq",
+   "18 mq",
+   "25 mq",
+   "36 mq"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il minimo è 18 mq per abitante: 4,5 per l'istruzione, 2 per le attrezzature comuni, 9 per il verde e lo sport, 2,5 per i parcheggi.",
+  "norma": "D.M. 1444/1968",
+  "articolo": "art. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.lavori.pubblici:decreto:1968-04-02;1444",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
+ },
+ {
+  "id": "t23",
+  "ufficio": "territorio",
+  "titolo": "Pareti finestrate",
+  "testo": "Un progetto prevede un nuovo edificio in zona B, con una parete finestrata di fronte a un altro fabbricato. Qual è la distanza minima?",
+  "opzioni": [
+   "3 metri",
+   "5 metri",
+   "8 metri",
+   "10 metri"
+  ],
+  "corretta": 3,
+  "spiegazione": "Per i nuovi edifici fuori dalla zona A il minimo è 10 metri tra pareti finestrate e pareti antistanti. In zona A si guardano le distanze preesistenti.",
+  "norma": "D.M. 1444/1968",
+  "articolo": "art. 9",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.lavori.pubblici:decreto:1968-04-02;1444",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
+ },
+ {
+  "id": "t24",
+  "ufficio": "territorio",
+  "titolo": "Lottizzazione convenzionata",
+  "testo": "Stai leggendo la convenzione di una lottizzazione. Cosa deve prevedere per le opere di urbanizzazione primaria?",
+  "opzioni": [
+   "Cessione gratuita delle aree, oneri al proprietario, termine massimo di 10 anni",
+   "Esproprio delle aree, oneri al Comune, nessun termine",
+   "Affitto delle aree al Comune, oneri divisi a metà, termine di 20 anni",
+   "Nessuna cessione, solo un versamento alla Regione"
+  ],
+  "corretta": 0,
+  "spiegazione": "La convenzione prevede la cessione gratuita delle aree per l'urbanizzazione primaria, gli oneri a carico del proprietario e termini non superiori a 10 anni per le opere. Il proprietario si fa carico anche di una quota della secondaria.",
+  "norma": "L. 1150/1942",
+  "articolo": "art. 28",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1942-08-17;1150",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t25",
+  "ufficio": "territorio",
+  "titolo": "Piani comunali nel Lazio",
+  "testo": "Secondo la legge urbanistica regionale, con quali strumenti si attua la pianificazione comunale nel Lazio?",
+  "opzioni": [
+   "PTRG e PTPG",
+   "PTPR e PUAR",
+   "Solo il regolamento edilizio",
+   "PUCG e PUOC"
+  ],
+  "corretta": 3,
+  "spiegazione": "Il piano urbanistico comunale generale ha funzione di piano regolatore e si articola in disposizioni strutturali e programmatiche. Accanto ci sono i piani urbanistici operativi comunali.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 28, c. 2",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "t26",
+  "ufficio": "territorio",
+  "titolo": "Lotti in zona agricola",
+  "testo": "Un proprietario vuole dividere il suo terreno in zona agricola in lotti da costruire. Cosa gli rispondi?",
+  "opzioni": [
+   "Non si può: la lottizzazione a scopo edilizio è vietata",
+   "Si può, con una semplice CILA",
+   "Si può, se i lotti superano 1.000 mq",
+   "Si può, se paga il contributo di costruzione"
+  ],
+  "corretta": 0,
+  "spiegazione": "In zona agricola la legge regionale vieta ogni lottizzazione a scopo edilizio. Sono fatte salve le L.R. 29/1997, 24/1998 e 14/2006.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 54, c. 1, lett. b",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "t27",
+  "ufficio": "territorio",
+  "titolo": "Fascia costiera",
+  "testo": "Una pratica riguarda un terreno vicino al mare. Fino a che distanza dalla linea di battigia opera la tutela paesaggistica per legge?",
+  "opzioni": [
+   "300 metri",
+   "500 metri",
+   "1.000 metri",
+   "1.500 metri"
+  ],
+  "corretta": 0,
+  "spiegazione": "I territori costieri sono tutelati entro 300 metri dalla linea di battigia. Per fiumi e torrenti iscritti negli elenchi la fascia è di 150 metri per sponda.",
+  "norma": "D.Lgs. 42/2004",
+  "articolo": "art. 142, c. 1, lett. a e c",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t28",
+  "ufficio": "territorio",
+  "titolo": "Materiali diversi",
+  "testo": "In area vincolata un proprietario ha usato materiali diversi da quelli autorizzati, senza nuove superfici o volumi. Può chiedere l'accertamento di compatibilità paesaggistica?",
+  "opzioni": [
+   "No, resta solo la demolizione",
+   "No, perché i lavori sono già finiti",
+   "Sì, è uno dei casi previsti dalla norma",
+   "Non serve, non è una violazione"
+  ],
+  "corretta": 2,
+  "spiegazione": "L'uso di materiali difformi è uno dei tre casi ammessi. L'autorità decide in 180 giorni, con parere vincolante della soprintendenza in 90. Se la compatibilità c'è, si paga il maggiore tra danno e profitto.",
+  "norma": "D.Lgs. 42/2004",
+  "articolo": "art. 167, cc. 4 e 5",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t29",
+  "ufficio": "territorio",
+  "titolo": "Intervento di lieve entità",
+  "testo": "Controlli una pratica in area vincolata e l'intervento è elencato nell'Allegato B del D.P.R. 31/2017. Che procedura segui?",
+  "opzioni": [
+   "Nessuna autorizzazione paesaggistica",
+   "Autorizzazione ordinaria dell'art. 146",
+   "Valutazione ambientale strategica",
+   "Autorizzazione con procedura semplificata"
+  ],
+  "corretta": 3,
+  "spiegazione": "Gli interventi di lieve entità dell'Allegato B seguono la procedura semplificata. Quelli dell'Allegato A sono esclusi dall'autorizzazione.",
+  "norma": "D.P.R. 31/2017",
+  "articolo": "artt. 2, c. 1, e 3, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2017-02-13;31",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t30",
+  "ufficio": "territorio",
+  "titolo": "Il Soprintendente sulla semplificata",
+  "testo": "In un'autorizzazione paesaggistica semplificata hai trasmesso la proposta alla Soprintendenza. Entro quanto deve dare il parere vincolante?",
+  "opzioni": [
+   "20 giorni",
+   "45 giorni",
+   "60 giorni",
+   "90 giorni"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il termine è tassativo: 20 giorni dal ricevimento della proposta. Se il parere non arriva, si forma il silenzio assenso e l'amministrazione procedente rilascia l'autorizzazione.",
+  "norma": "D.P.R. 31/2017",
+  "articolo": "art. 11, cc. 5 e 9",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2017-02-13;31",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t31",
+  "ufficio": "territorio",
+  "titolo": "Rifiuti abbandonati",
+  "testo": "Viene segnalato un abbandono di rifiuti su un terreno e gli accertamenti individuano i responsabili. Chi ordina la rimozione e il ripristino?",
+  "opzioni": [
+   "La Regione, con una delibera",
+   "L'ARPA, con un verbale",
+   "La Provincia, con un'autorizzazione",
+   "Il Sindaco, con un'ordinanza"
+  ],
+  "corretta": 3,
+  "spiegazione": "Il Sindaco fissa con ordinanza le operazioni e il termine. Oltre all'autore, rispondono in solido il proprietario e chi ha diritti sull'area, se la violazione è loro imputabile per dolo o colpa.",
+  "norma": "D.Lgs. 152/2006",
+  "articolo": "art. 192, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t32",
+  "ufficio": "territorio",
+  "titolo": "Piano di piccola area",
+  "testo": "Il Comune prepara un piano che riguarda solo una piccola area locale. Serve la VAS?",
+  "opzioni": [
+   "Sempre, senza eccezioni",
+   "Mai, per i piani comunali",
+   "Solo se l'autorità competente valuta impatti significativi",
+   "Solo se lo chiede un cittadino"
+  ],
+  "corretta": 2,
+  "spiegazione": "Per piccole aree locali e modifiche minori, la VAS serve solo se l'autorità competente valuta possibili impatti significativi. La verifica segue l'art. 12 e considera la sensibilità dell'area.",
+  "norma": "D.Lgs. 152/2006",
+  "articolo": "art. 6, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Normattiva"
+ },
+ {
+  "id": "t33",
+  "ufficio": "territorio",
+  "titolo": "Il PTPR",
+  "testo": "Un tecnico ti chiede con quale atto è stato approvato il Piano Territoriale Paesistico Regionale del Lazio. Cosa gli rispondi?",
+  "opzioni": [
+   "Deliberazione del Consiglio regionale n. 5 del 21 aprile 2021",
+   "Legge regionale n. 38 del 22 dicembre 1999",
+   "Decreto ministeriale n. 1444 del 2 aprile 1968",
+   "Decreto del Presidente della Repubblica n. 31 del 2017"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il PTPR è stato approvato con la D.C.R. n. 5 del 21 aprile 2021 e pubblicato sul BURL n. 56 del 10 giugno 2021, Supplemento n. 2.",
+  "norma": "PTPR Lazio",
+  "articolo": "D.C.R. Lazio n. 5/2021",
+  "fonte": "https://www.regione.lazio.it/cittadini/urbanistica/pianificazione-paesaggistica/ptpr",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Regione Lazio"
+ },
+ {
+  "id": "t34",
+  "ufficio": "territorio",
+  "titolo": "La costa di Itri",
+  "testo": "Un collega è convinto che a Itri non ci siano temi di demanio marittimo, perché \"non ha il mare\". Cosa gli rispondi?",
+  "opzioni": [
+   "Ha ragione: Itri non ha costa",
+   "Itri ha oltre 10 km di spiagge attrezzate",
+   "Itri ha circa 1 km di costa, con decine di concessioni",
+   "Itri ha circa 1,1 km di costa, senza concessioni turistico-ricreative"
+  ],
+  "corretta": 3,
+  "spiegazione": "Il piano regionale degli arenili indica 1,117 km di costa tra Sperlonga e Gaeta. L'Albo regionale, aggiornato al 31 dicembre 2025, dice che Itri non ha concessioni per le caratteristiche del suo litorale.",
+  "norma": "PUAR Lazio; Det. G07292/2026",
+  "articolo": "scheda Comune di Itri; Albo al 31/12/2025",
+  "fonte": "https://regione.lazio.it/sites/default/files/documentazione/SVI_DGR_PUAR_176_09_04_2019_Allegato1_PUAR-signed-signed.pdf",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Regione Lazio"
+ },
+ {
+  "id": "t35",
+  "ufficio": "territorio",
+  "titolo": "Opera nel Parco",
+  "testo": "Una pratica riguarda un'opera in un'area naturale protetta regionale, come il Parco dei Monti Aurunci. Cosa serve prima del titolo edilizio?",
+  "opzioni": [
+   "Il certificato di agibilità",
+   "Il nulla osta preventivo dell'ente di gestione",
+   "Il parere dell'Agenzia delle Entrate",
+   "Basta una comunicazione a fine lavori"
+  ],
+  "corretta": 1,
+  "spiegazione": "Concessioni e autorizzazioni nell'area protetta richiedono il nulla osta preventivo dell'ente di gestione. Verifica la conformità a norme di salvaguardia, piano e regolamento dell'area.",
+  "norma": "L.R. Lazio 29/1997",
+  "articolo": "art. 28, cc. 1 e 2",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=9334&sv=vigente",
+  "verificato": "2026-11-03",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
  }
 ]

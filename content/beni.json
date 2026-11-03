@@ -1,0 +1,92 @@
+[
+ {
+  "id": "b1",
+  "ufficio": "beni",
+  "titolo": "La spiaggia",
+  "testo": "Un privato sostiene che una spiaggia di Itri sia sua. Secondo il Codice della navigazione, la spiaggia a quale categoria appartiene?",
+  "opzioni": [
+   "Patrimonio disponibile del Comune",
+   "Demanio marittimo",
+   "Proprietà privata del frontista",
+   "Patrimonio della Regione"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il lido del mare e la spiaggia fanno parte del demanio marittimo.",
+  "norma": "Codice della navigazione",
+  "articolo": "art. 28",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
+  "verificato": null
+ },
+ {
+  "id": "b2",
+  "ufficio": "beni",
+  "titolo": "Uso esclusivo",
+  "testo": "Con quale atto si può occupare e usare in modo esclusivo un'area del demanio marittimo?",
+  "opzioni": [
+   "Concessione",
+   "Compravendita",
+   "Usucapione",
+   "Comunicazione di inizio lavori"
+  ],
+  "corretta": 0,
+  "spiegazione": "L'occupazione e l'uso del demanio marittimo sono possibili tramite concessione.",
+  "norma": "Codice della navigazione",
+  "articolo": "art. 36",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
+  "verificato": null
+ },
+ {
+  "id": "b3",
+  "ufficio": "beni",
+  "titolo": "Prima del decreto",
+  "testo": "Quale di questi elementi è necessario prima di emanare un decreto di esproprio?",
+  "opzioni": [
+   "La dichiarazione di pubblica utilità",
+   "Il consenso del proprietario",
+   "L'iscrizione all'albo pretorio regionale",
+   "Il pagamento di una sanzione"
+  ],
+  "corretta": 0,
+  "spiegazione": "Servono il vincolo preordinato all'esproprio, la dichiarazione di pubblica utilità e la determinazione, anche provvisoria, dell'indennità.",
+  "norma": "D.P.R. 327/2001",
+  "articolo": "art. 8",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
+  "verificato": null
+ },
+ {
+  "id": "b4",
+  "ufficio": "beni",
+  "titolo": "Durata del vincolo",
+  "testo": "Quanto dura il vincolo preordinato all'esproprio?",
+  "opzioni": [
+   "1 anno",
+   "3 anni",
+   "5 anni",
+   "10 anni"
+  ],
+  "corretta": 2,
+  "spiegazione": "Il vincolo preordinato all'esproprio dura 5 anni.",
+  "norma": "D.P.R. 327/2001",
+  "articolo": "art. 9, c. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
+  "verificato": null
+ },
+ {
+  "id": "b5",
+  "ufficio": "beni",
+  "titolo": "Le strade comunali",
+  "testo": "Le strade del Comune, se rientrano nelle categorie previste dal Codice civile, a quale regime sono soggette?",
+  "opzioni": [
+   "Demanio comunale",
+   "Patrimonio disponibile",
+   "Beni privati a uso pubblico, sempre",
+   "Demanio marittimo"
+  ],
+  "corretta": 0,
+  "spiegazione": "I beni della specie indicata dall'art. 822, c. 2, come le strade, se appartengono al Comune sono soggetti al regime del demanio pubblico.",
+  "norma": "Codice civile",
+  "articolo": "artt. 822 e 824",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
+  "verificato": null
+ }
+]

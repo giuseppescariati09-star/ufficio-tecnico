@@ -1,0 +1,110 @@
+[
+ {
+  "id": "o1",
+  "ufficio": "opere",
+  "titolo": "Il RUP",
+  "testo": "Nel codice dei contratti del 2023, cosa significa RUP?",
+  "opzioni": [
+   "Responsabile unico del procedimento",
+   "Responsabile unico del progetto",
+   "Referente ufficio pubblico",
+   "Revisore unico delle procedure"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il D.Lgs. 36/2023 parla di responsabile unico del progetto.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 15",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": null
+ },
+ {
+  "id": "o2",
+  "ufficio": "opere",
+  "titolo": "Livelli di progetto",
+  "testo": "Quanti livelli di progettazione prevede il codice del 2023 per le opere pubbliche?",
+  "opzioni": [
+   "Uno",
+   "Due",
+   "Tre",
+   "Quattro"
+  ],
+  "corretta": 1,
+  "spiegazione": "I livelli sono due: progetto di fattibilità tecnico-economica e progetto esecutivo.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 41, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": null
+ },
+ {
+  "id": "o3",
+  "ufficio": "opere",
+  "titolo": "Affidamento diretto",
+  "testo": "Devi affidare lavori per 100.000 euro. Rientri nella soglia dell'affidamento diretto?",
+  "opzioni": [
+   "No, il limite è 40.000 euro",
+   "Sì, il limite per i lavori è sotto 150.000 euro",
+   "No, serve sempre una gara europea",
+   "Sì, ma solo per lavori sotto 120.000 euro"
+  ],
+  "corretta": 1,
+  "spiegazione": "Per i lavori l'affidamento diretto è previsto sotto 150.000 euro. Per servizi e forniture la soglia è sotto 140.000 euro.",
+  "norma": "D.Lgs. 36/2023",
+  "articolo": "art. 50, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
+  "verificato": null
+ },
+ {
+  "id": "o4",
+  "ufficio": "opere",
+  "titolo": "Più imprese in cantiere",
+  "testo": "In un cantiere è prevista la presenza di più imprese, anche non contemporanea. Cosa deve fare il committente?",
+  "opzioni": [
+   "Niente, se i lavori durano meno di un mese",
+   "Designare il coordinatore per la progettazione",
+   "Sospendere i lavori",
+   "Nominare un secondo direttore dei lavori"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il committente o il responsabile dei lavori designa il coordinatore per la progettazione e, prima dell'affidamento, quello per l'esecuzione.",
+  "norma": "D.Lgs. 81/2008",
+  "articolo": "art. 90, c. 3",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "verificato": null
+ },
+ {
+  "id": "o5",
+  "ufficio": "opere",
+  "titolo": "Piano di sicurezza",
+  "testo": "Chi redige il piano di sicurezza e coordinamento?",
+  "opzioni": [
+   "Il coordinatore per la progettazione",
+   "Il sindaco",
+   "L'impresa appaltatrice, da sola",
+   "L'ispettore del lavoro"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il coordinatore per la progettazione redige il piano di sicurezza e coordinamento durante la progettazione.",
+  "norma": "D.Lgs. 81/2008",
+  "articolo": "art. 91, c. 1",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "verificato": null
+ },
+ {
+  "id": "o6",
+  "ufficio": "opere",
+  "titolo": "Patente a crediti",
+  "testo": "Con quanti crediti parte la patente per imprese e autonomi nei cantieri e qual è il minimo per operare?",
+  "opzioni": [
+   "20 di partenza, minimo 10",
+   "30 di partenza, minimo 15",
+   "40 di partenza, minimo 20",
+   "100 di partenza, minimo 50"
+  ],
+  "corretta": 1,
+  "spiegazione": "La dotazione iniziale è di 30 crediti e servono almeno 15 crediti per operare.",
+  "norma": "D.Lgs. 81/2008",
+  "articolo": "art. 27",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "verificato": null
+ }
+]

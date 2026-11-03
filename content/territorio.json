@@ -1,0 +1,110 @@
+[
+ {
+  "id": "t1",
+  "ufficio": "territorio",
+  "titolo": "Ampliamento senza risposta",
+  "testo": "Un cittadino chiede il permesso di costruire per ampliare casa e il Comune non risponde nei termini. Cosa gli dici allo sportello?",
+  "opzioni": [
+   "Si forma sempre il silenzio-assenso",
+   "Non si forma mai il silenzio-assenso",
+   "Si forma il silenzio-assenso, salvo i vincoli previsti dalla norma",
+   "Deve ripresentare la domanda"
+  ],
+  "corretta": 2,
+  "spiegazione": "Il silenzio-assenso non vale se ci sono vincoli idrogeologici, ambientali, paesaggistici o culturali, salvo i casi indicati dalla norma.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 20, c. 8",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": null
+ },
+ {
+  "id": "t2",
+  "ufficio": "territorio",
+  "titolo": "Tempi del cantiere",
+  "testo": "Hai rilasciato un permesso di costruire. Entro quanto devono iniziare i lavori e in quanto tempo vanno finiti?",
+  "opzioni": [
+   "6 mesi e 2 anni",
+   "1 anno e 3 anni",
+   "2 anni e 5 anni",
+   "3 anni e 10 anni"
+  ],
+  "corretta": 1,
+  "spiegazione": "I lavori devono iniziare entro 1 anno dal rilascio e finire entro 3 anni dall'inizio, salvo proroghe.",
+  "norma": "D.P.R. 380/2001",
+  "articolo": "art. 15, c. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": null
+ },
+ {
+  "id": "t3",
+  "ufficio": "territorio",
+  "titolo": "Zona omogenea",
+  "testo": "Consulti il piano e trovi un'area in zona territoriale omogenea E. A cosa è destinata?",
+  "opzioni": [
+   "Centro storico",
+   "Espansione residenziale",
+   "Attività agricole",
+   "Impianti industriali"
+  ],
+  "corretta": 2,
+  "spiegazione": "La zona E comprende le parti del territorio destinate a usi agricoli.",
+  "norma": "D.M. 1444/1968",
+  "articolo": "art. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.lavori.pubblici:decreto:1968-04-02;1444",
+  "verificato": null
+ },
+ {
+  "id": "t4",
+  "ufficio": "territorio",
+  "titolo": "Area vincolata",
+  "testo": "Per un intervento in area tutelata servono autorizzazione paesaggistica e titolo edilizio. Che rapporto c'è tra i due?",
+  "opzioni": [
+   "Il titolo edilizio assorbe l'autorizzazione",
+   "L'autorizzazione è atto autonomo e presupposto del titolo",
+   "L'autorizzazione si può ottenere a lavori finiti, sempre",
+   "Sono alternativi"
+  ],
+  "corretta": 1,
+  "spiegazione": "L'autorizzazione paesaggistica è un atto autonomo e presupposto del titolo edilizio.",
+  "norma": "D.Lgs. 42/2004",
+  "articolo": "art. 146, c. 4",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42",
+  "verificato": null
+ },
+ {
+  "id": "t5",
+  "ufficio": "territorio",
+  "titolo": "Controllo sulla SCIA",
+  "testo": "Ricevi una SCIA edilizia. Entro quanti giorni puoi vietare la prosecuzione dell'attività per mancanza dei requisiti?",
+  "opzioni": [
+   "15 giorni",
+   "30 giorni",
+   "60 giorni",
+   "90 giorni"
+  ],
+  "corretta": 1,
+  "spiegazione": "Per la SCIA in materia edilizia il termine ordinario di 60 giorni è ridotto a 30.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 19, c. 6-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": null
+ },
+ {
+  "id": "t6",
+  "ufficio": "territorio",
+  "titolo": "Codice dell'ambiente",
+  "testo": "Quale parte del D.Lgs. 152/2006 tratta VAS, VIA e autorizzazione integrata ambientale?",
+  "opzioni": [
+   "Parte prima",
+   "Parte seconda",
+   "Parte quarta",
+   "Parte sesta"
+  ],
+  "corretta": 1,
+  "spiegazione": "La parte seconda disciplina le procedure di VAS, VIA e AIA.",
+  "norma": "D.Lgs. 152/2006",
+  "articolo": "parte II",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152",
+  "verificato": null
+ }
+]

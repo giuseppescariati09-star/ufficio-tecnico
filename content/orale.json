@@ -1,0 +1,80 @@
+[
+ {
+  "id": "or1",
+  "domanda": "Spiega la differenza tra accesso documentale e accesso civico generalizzato.",
+  "puntiChiave": [
+   "Chi può chiederlo",
+   "Se serve una motivazione",
+   "Quali atti o dati riguarda",
+   "Cosa succede con il silenzio o il diniego"
+  ],
+  "norma": "L. 241/1990 e D.Lgs. 33/2013",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": null
+ },
+ {
+  "id": "or2",
+  "domanda": "Quali sono i titoli edilizi e quando si usa ciascuno?",
+  "puntiChiave": [
+   "Attività libera e CILA",
+   "SCIA e SCIA alternativa",
+   "Permesso di costruire",
+   "Effetto dei vincoli"
+  ],
+  "norma": "D.P.R. 380/2001",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
+  "verificato": null
+ },
+ {
+  "id": "or3",
+  "domanda": "Descrivi le fasi di un procedimento di esproprio.",
+  "puntiChiave": [
+   "Vincolo preordinato",
+   "Dichiarazione di pubblica utilità",
+   "Determinazione dell'indennità",
+   "Decreto di esproprio"
+  ],
+  "norma": "D.P.R. 327/2001",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
+  "verificato": null
+ },
+ {
+  "id": "or4",
+  "domanda": "Quali sono gli organi del Comune e cosa fanno?",
+  "puntiChiave": [
+   "Consiglio",
+   "Giunta",
+   "Sindaco",
+   "Differenza tra indirizzo e gestione"
+  ],
+  "norma": "D.Lgs. 267/2000",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": null
+ },
+ {
+  "id": "or5",
+  "domanda": "Come si gestisce una concessione sul demanio marittimo?",
+  "puntiChiave": [
+   "Quali beni sono demanio marittimo",
+   "Cos'è la concessione",
+   "Chi è competente nel Lazio",
+   "Controlli e obblighi"
+  ],
+  "norma": "Codice della navigazione",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
+  "verificato": null
+ },
+ {
+  "id": "or6",
+  "domanda": "Chi sono le figure della sicurezza in un cantiere temporaneo?",
+  "puntiChiave": [
+   "Committente o responsabile dei lavori",
+   "Coordinatori per progettazione ed esecuzione",
+   "Piano di sicurezza e coordinamento",
+   "Patente a crediti"
+  ],
+  "norma": "D.Lgs. 81/2008",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "verificato": null
+ }
+]

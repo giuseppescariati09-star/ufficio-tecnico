@@ -1,0 +1,110 @@
+[
+ {
+  "id": "p1",
+  "ufficio": "procedimento",
+  "titolo": "Termine mancante",
+  "testo": "Un regolamento non fissa il termine per concludere un procedimento del tuo ufficio. Entro quanto devi concluderlo?",
+  "opzioni": [
+   "10 giorni",
+   "30 giorni",
+   "60 giorni",
+   "90 giorni"
+  ],
+  "corretta": 1,
+  "spiegazione": "Se la legge o i regolamenti non indicano un termine diverso, il procedimento si conclude entro 30 giorni.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 2, c. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": null
+ },
+ {
+  "id": "p2",
+  "ufficio": "procedimento",
+  "titolo": "Domanda da respingere",
+  "testo": "Stai per respingere una domanda presentata da un cittadino. Cosa devi fare prima del provvedimento?",
+  "opzioni": [
+   "Niente, respingi subito",
+   "Comunichi i motivi e dai 10 giorni per le osservazioni",
+   "Convochi il Consiglio comunale",
+   "Chiedi il parere del prefetto"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il preavviso di rigetto comunica i motivi ostativi. Il cittadino ha 10 giorni per presentare osservazioni.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 10-bis",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": null
+ },
+ {
+  "id": "p3",
+  "ufficio": "procedimento",
+  "titolo": "Accesso senza risposta",
+  "testo": "Un cittadino chiede di vedere un atto e dopo 30 giorni non ha ricevuto risposta. Che valore ha il silenzio?",
+  "opzioni": [
+   "La richiesta è accolta",
+   "La richiesta si intende respinta",
+   "Il termine si raddoppia",
+   "La richiesta decade senza effetti"
+  ],
+  "corretta": 1,
+  "spiegazione": "Nell'accesso documentale, trascorsi 30 giorni senza risposta, la richiesta si intende respinta.",
+  "norma": "L. 241/1990",
+  "articolo": "art. 25, c. 4",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
+  "verificato": null
+ },
+ {
+  "id": "p4",
+  "ufficio": "procedimento",
+  "titolo": "Chi approva il bilancio",
+  "testo": "Arriva in ufficio il bilancio di previsione. Quale organo del Comune lo approva?",
+  "opzioni": [
+   "Il sindaco",
+   "La giunta",
+   "Il consiglio",
+   "Il segretario comunale"
+  ],
+  "corretta": 2,
+  "spiegazione": "Il consiglio ha competenza su bilanci e piani territoriali e urbanistici.",
+  "norma": "D.Lgs. 267/2000",
+  "articolo": "art. 42, c. 2",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267",
+  "verificato": null
+ },
+ {
+  "id": "p5",
+  "ufficio": "procedimento",
+  "titolo": "Accesso civico",
+  "testo": "Un residente di un altro Comune chiede dati del tuo ufficio tramite accesso civico generalizzato, senza dire perché. Puoi rifiutare per questo motivo?",
+  "opzioni": [
+   "Sì, deve motivare",
+   "Sì, deve essere residente",
+   "No, non servono legittimazione né motivazione",
+   "No, ma deve pagare una tassa fissa"
+  ],
+  "corretta": 2,
+  "spiegazione": "L'accesso civico generalizzato spetta a chiunque e la richiesta non deve essere motivata. Restano i limiti previsti dalla legge.",
+  "norma": "D.Lgs. 33/2013",
+  "articolo": "art. 5",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33",
+  "verificato": null
+ },
+ {
+  "id": "p6",
+  "ufficio": "procedimento",
+  "titolo": "Responsabile anticorruzione",
+  "testo": "Negli enti locali, chi è di norma il responsabile della prevenzione della corruzione e della trasparenza?",
+  "opzioni": [
+   "Il sindaco",
+   "Il segretario comunale, salvo diversa motivata scelta",
+   "Il revisore dei conti",
+   "Il presidente del consiglio"
+  ],
+  "corretta": 1,
+  "spiegazione": "Negli enti locali il responsabile è individuato di norma nel segretario o nel dirigente apicale, salvo diversa e motivata determinazione.",
+  "norma": "L. 190/2012",
+  "articolo": "art. 1, c. 7",
+  "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2012-11-06;190",
+  "verificato": null
+ }
+]

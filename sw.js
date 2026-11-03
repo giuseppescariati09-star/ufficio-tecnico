@@ -1,4 +1,4 @@
-const CACHE = 'ufficio-tecnico-v6';
+const CACHE = 'ufficio-tecnico-v7';
 const FILES = [
   './', 'index.html', 'styles.css', 'manifest.webmanifest',
   'js/app.js', 'js/review.js', 'js/exam.js', 'js/storage.js', 'js/content.js', 'js/icons.js', 'js/sync.js',

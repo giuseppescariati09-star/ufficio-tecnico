@@ -30,9 +30,9 @@
    "Uno solo: il progetto esecutivo"
   ],
   "corretta": 0,
-  "spiegazione": "I livelli sono due: il progetto di fattibilità tecnico-economica (PFTE) e il progetto esecutivo. Il vecchio schema a tre livelli non c'è più.",
+  "spiegazione": "I livelli sono due: il progetto di fattibilità tecnico-economica (PFTE) e il progetto esecutivo. Il vecchio schema a tre livelli non c'è più. Per la manutenzione ordinaria o straordinaria il primo livello può essere omesso (c. 5).",
   "norma": "D.Lgs. 36/2023",
-  "articolo": "art. 41, c. 1",
+  "articolo": "art. 41, cc. 1 e 5",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
   "verificato": "2026-11-03",
   "verificatoSu": "Brocardi, copia non ufficiale (agg. 26/08/2026)"
@@ -163,7 +163,7 @@
    "No, ma il divieto vale solo per i lavori di importo sopra la soglia europea"
   ],
   "corretta": 1,
-  "spiegazione": "Per lo stesso progetto, chi verifica non può fare anche progettazione, coordinamento della sicurezza, direzione dei lavori o collaudo. La validazione è l'atto che riporta gli esiti della verifica ed è firmata dal RUP.",
+  "spiegazione": "Per lo stesso progetto, chi verifica non può fare anche progettazione, coordinamento della sicurezza, direzione dei lavori o collaudo. La validazione è l'atto che riporta gli esiti della verifica ed è firmata dal responsabile del relativo procedimento.",
   "norma": "D.Lgs. 36/2023",
   "articolo": "art. 42, cc. 2 e 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",
@@ -239,7 +239,7 @@
    "1.000.000 di euro"
   ],
   "corretta": 0,
-  "spiegazione": "Dal 1° gennaio 2026 la soglia per i lavori è 5.404.000 euro. Le soglie vengono riviste periodicamente dalla Commissione europea, quindi nei testi puoi trovare ancora 5.538.000 o 5.382.000. Per forniture e servizi di un Comune il valore è 216.000 euro.",
+  "spiegazione": "Dal 1° gennaio 2026 la soglia per i lavori è 5.404.000 euro. Le soglie vengono riviste periodicamente dalla Commissione europea, quindi nei testi puoi trovare ancora 5.538.000 o 5.382.000. Per forniture e servizi di un Comune il valore è 216.000 euro. Il testo dell'art. 14 può riportare ancora 5.382.000: vale l'importo rideterminato dal regolamento UE (art. 14, c. 3).",
   "norma": "Reg. delegato (UE) 2025/2152; D.Lgs. 36/2023",
   "articolo": "art. 14, cc. 1 e 3",
   "fonte": "https://eur-lex.europa.eu/eli/reg_del/2025/2152/oj/ita",

@@ -30,7 +30,7 @@
    "3 anni e 10 anni"
   ],
   "corretta": 1,
-  "spiegazione": "I lavori iniziano entro 1 anno dal rilascio e finiscono entro 3 anni dall'inizio. Scaduti i termini, il permesso decade per la parte non eseguita, salvo proroga chiesta prima della scadenza.",
+  "spiegazione": "I lavori iniziano entro 1 anno dal rilascio e finiscono entro 3 anni dall'inizio. Scaduti i termini, il permesso decade per la parte non eseguita, salvo proroga chiesta prima della scadenza. Sono i termini ordinari; le proroghe straordinarie di legge sono a parte.",
   "norma": "D.P.R. 380/2001",
   "articolo": "art. 15, c. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
@@ -193,7 +193,7 @@
   "id": "t11",
   "ufficio": "territorio",
   "titolo": "Tolleranze dopo il Salva Casa",
-  "testo": "Un'unità di 350 mq di superficie utile è stata ultimata prima del 24 maggio 2024. Quale tolleranza si applica?",
+  "testo": "Un'unità di 350 mq di superficie utile è stata realizzata entro il 24 maggio 2024. Quale tolleranza si applica?",
   "opzioni": [
    "2%",
    "3%",
@@ -201,7 +201,7 @@
    "5%"
   ],
   "corretta": 1,
-  "spiegazione": "Per gli interventi ultimati entro il 24 maggio 2024 la tolleranza cresce al ridursi della superficie: 2% oltre 500 mq, 3% tra 300 e 500 mq, 4% tra 100 e 300 mq, 5% sotto i 100 mq, 6% sotto i 60 mq.",
+  "spiegazione": "Per gli interventi realizzati entro il 24 maggio 2024 la tolleranza cresce al ridursi della superficie: 2% oltre 500 mq, 3% tra 300 e 500 mq, 4% tra 100 e 300 mq, 5% sotto i 100 mq, 6% sotto i 60 mq.",
   "norma": "D.P.R. 380/2001",
   "articolo": "art. 34-bis, c. 1-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
@@ -220,7 +220,7 @@
    "Nessuna: resta solo la demolizione"
   ],
   "corretta": 0,
-  "spiegazione": "L'art. 36 riguarda le opere senza permesso o in totale difformità. Serve la conformità urbanistica ed edilizia sia alla realizzazione sia alla domanda. Si paga il contributo di costruzione in misura doppia.",
+  "spiegazione": "L'art. 36 riguarda le opere senza permesso o in totale difformità, e quelle senza SCIA alternativa o in totale difformità da essa. Serve la conformità urbanistica ed edilizia sia alla realizzazione sia alla domanda. Si paga il contributo di costruzione in misura doppia.",
   "norma": "D.P.R. 380/2001",
   "articolo": "art. 36, cc. 1 e 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
@@ -296,7 +296,7 @@
    "1 anno, poi l'abuso si considera sanato"
   ],
   "corretta": 0,
-  "spiegazione": "Dopo 90 giorni opera, area di sedime e area per opere analoghe passano gratuitamente al Comune. L'area acquisita non può superare 10 volte la superficie abusiva. Il termine si può prorogare fino a 240 giorni per gravi motivi.",
+  "spiegazione": "Dopo 90 giorni opera, area di sedime e area per opere analoghe passano gratuitamente al Comune. L'area acquisita non può superare 10 volte la superficie abusiva. Il Comune può prorogare il termine con atto motivato fino a 240 giorni, solo per comprovate esigenze di salute dei residenti, assoluto bisogno o grave disagio socio-economico.",
   "norma": "D.P.R. 380/2001",
   "articolo": "art. 31, c. 3",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
@@ -391,9 +391,9 @@
    "90 giorni, non scade"
   ],
   "corretta": 1,
-  "spiegazione": "Il certificato si rilascia entro 30 giorni dalla domanda e vale 1 anno, se gli strumenti urbanistici non cambiano. Senza certificato, gli atti di trasferimento dei terreni sono nulli.",
+  "spiegazione": "Il certificato si rilascia entro 30 giorni dalla domanda e vale 1 anno, se gli strumenti urbanistici non cambiano. Senza certificato gli atti sui terreni sono nulli, salvo le pertinenze di edifici censiti inferiori a 5.000 mq. Se il certificato non arriva nei termini, l'alienante può sostituirlo con una dichiarazione.",
   "norma": "D.P.R. 380/2001",
-  "articolo": "art. 30, cc. 2 e 3",
+  "articolo": "art. 30, cc. 2, 3 e 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
   "verificatoSu": "Normattiva"
@@ -402,7 +402,7 @@
   "id": "t22",
   "ufficio": "territorio",
   "titolo": "Standard urbanistici",
-  "testo": "Stai controllando le aree pubbliche di un piano residenziale. Qual è la dotazione minima per abitante, strade escluse?",
+  "testo": "Stai controllando le aree pubbliche di un piano residenziale. Qual è la dotazione minima generale per abitante dell'art. 3, strade escluse?",
   "opzioni": [
    "9 mq",
    "18 mq",
@@ -410,9 +410,9 @@
    "36 mq"
   ],
   "corretta": 1,
-  "spiegazione": "Il minimo è 18 mq per abitante: 4,5 per l'istruzione, 2 per le attrezzature comuni, 9 per il verde e lo sport, 2,5 per i parcheggi.",
+  "spiegazione": "Il minimo è 18 mq per abitante: 4,5 per l'istruzione, 2 per le attrezzature comuni, 9 per il verde e lo sport, 2,5 per i parcheggi. Nelle zone C dei Comuni con popolazione prevista fino a 10.000 abitanti il minimo scende a 12 mq (art. 4).",
   "norma": "D.M. 1444/1968",
-  "articolo": "art. 3",
+  "articolo": "artt. 3 e 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.lavori.pubblici:decreto:1968-04-02;1444",
   "verificato": "2026-11-03",
   "verificatoSu": "Bosetti & Gatti, copia non ufficiale"

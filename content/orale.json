@@ -109,7 +109,7 @@
   "id": "ort2",
   "domanda": "Spiega le differenze tra l'accertamento di conformità dell'art. 36 e quello dell'art. 36-bis.",
   "puntiChiave": [
-   "Art. 36: senza permesso o totale difformità",
+   "Art. 36: senza permesso o totale difformità, e SCIA alternativa",
    "Art. 36: doppia conformità, silenzio-rifiuto a 60 giorni",
    "Art. 36-bis: parziali difformità e variazioni essenziali",
    "Art. 36-bis: urbanistica alla domanda, edilizia ai lavori",
@@ -128,7 +128,7 @@
    "Ultimo intervento sull'intero immobile, titoli pregressi verificati",
    "Epoca senza obbligo di titolo: catasto di primo impianto e documenti",
    "Tolleranza generale del 2%",
-   "Fasce per opere ultimate entro il 24/05/2024"
+   "Fasce per interventi realizzati entro il 24/05/2024"
   ],
   "norma": "D.P.R. 380/2001, artt. 9-bis e 34-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
@@ -234,7 +234,7 @@
    "Elenco annuale e fonti di finanziamento",
    "Due livelli: PFTE ed esecutivo",
    "Verifica incompatibile con progetto, direzione e collaudo",
-   "Validazione firmata dal RUP"
+   "Validazione firmata dal responsabile del relativo procedimento"
   ],
   "norma": "D.Lgs. 36/2023, artt. 37, 41 e 42",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36",

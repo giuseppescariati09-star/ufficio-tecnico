@@ -14,6 +14,7 @@ export function validateCase(c, { strict = false } = {}) {
     if (!filled(c[key])) e.push(`${c.id ?? '?'}: manca ${key}`);
   }
   if (!IDS.has(c.ufficio)) e.push(`${c.id}: ufficio non valido`);
+  if (!filled(c.materia)) e.push(`${c.id}: manca materia`);
   if (!Array.isArray(c.opzioni) || c.opzioni.length < 2 || !c.opzioni.every(filled)) e.push(`${c.id}: opzioni non valide`);
   if (!Number.isInteger(c.corretta) || c.corretta < 0 || c.corretta >= (c.opzioni?.length ?? 0)) e.push(`${c.id}: risposta corretta non valida`);
   if (!filled(c.fonte) || !c.fonte.startsWith('https://')) e.push(`${c.id}: fonte non valida`);

@@ -16,7 +16,8 @@
   "articolo": "art. 28, lett. a), cod. nav.; art. 822, c. 1, c.c.",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
   "verificato": "2026-11-03",
-  "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav.; Brocardi, copia non ufficiale"
+  "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav.; Brocardi, copia non ufficiale",
+  "materia": "demanio"
  },
  {
   "id": "b2",
@@ -35,7 +36,8 @@
   "articolo": "art. 36, c. 1; art. 14, c. 2, lett. a",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
   "verificato": "2026-11-03",
-  "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav.; Regione Lazio, testo coordinato R.R. 19/2016"
+  "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav.; Regione Lazio, testo coordinato R.R. 19/2016",
+  "materia": "demanio"
  },
  {
   "id": "b3",
@@ -54,7 +56,8 @@
   "articolo": "art. 8, c. 1",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale"
+  "verificatoSu": "Brocardi, copia non ufficiale",
+  "materia": "espropri"
  },
  {
   "id": "b4",
@@ -73,7 +76,8 @@
   "articolo": "art. 9, c. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale"
+  "verificatoSu": "Brocardi, copia non ufficiale",
+  "materia": "espropri"
  },
  {
   "id": "b5",
@@ -92,7 +96,8 @@
   "articolo": "art. 822, c. 2, e art. 824, c. 1",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale"
+  "verificatoSu": "Brocardi, copia non ufficiale",
+  "materia": "patrimonio"
  },
  {
   "id": "b6",
@@ -111,7 +116,8 @@
   "articolo": "art. 824, c. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale"
+  "verificatoSu": "Brocardi, copia non ufficiale",
+  "materia": "patrimonio"
  },
  {
   "id": "b7",
@@ -130,7 +136,8 @@
   "articolo": "art. 826, c. 3",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale"
+  "verificatoSu": "Brocardi, copia non ufficiale",
+  "materia": "patrimonio"
  },
  {
   "id": "b8",
@@ -149,7 +156,8 @@
   "articolo": "art. 829",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale"
+  "verificatoSu": "Brocardi, copia non ufficiale",
+  "materia": "patrimonio"
  },
  {
   "id": "b9",
@@ -168,7 +176,8 @@
   "articolo": "art. 823 e art. 824",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-16;262",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale"
+  "verificatoSu": "Brocardi, copia non ufficiale",
+  "materia": "patrimonio"
  },
  {
   "id": "b10",
@@ -187,7 +196,8 @@
   "articolo": "art. 9, cc. 3 e 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale"
+  "verificatoSu": "Brocardi, copia non ufficiale",
+  "materia": "espropri"
  },
  {
   "id": "b11",
@@ -206,7 +216,8 @@
   "articolo": "art. 13, cc. 4-6",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale; c. 5 riscontrato sul decreto n. 131/2026 pubblicato nel BUR Emilia-Romagna"
+  "verificatoSu": "Brocardi, copia non ufficiale; c. 5 riscontrato sul decreto n. 131/2026 pubblicato nel BUR Emilia-Romagna",
+  "materia": "espropri"
  },
  {
   "id": "b12",
@@ -225,7 +236,8 @@
   "articolo": "art. 20, c. 6",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-08;327",
   "verificato": "2026-11-03",
-  "verificatoSu": "Brocardi, copia non ufficiale"
+  "verificatoSu": "Brocardi, copia non ufficiale",
+  "materia": "espropri"
  },
  {
   "id": "b13",
@@ -244,7 +256,8 @@
   "articolo": "art. 1, c. 2, e art. 2, c. 1",
   "fonte": "https://www.regione.lazio.it/regolamenti-regionali-testo-coordinato/regolamento-regionale-12-agosto-2016-n-19/14052021",
   "verificato": "2026-11-03",
-  "verificatoSu": "Regione Lazio, testo coordinato R.R. 19/2016"
+  "verificatoSu": "Regione Lazio, testo coordinato R.R. 19/2016",
+  "materia": "demanio"
  },
  {
   "id": "b14",
@@ -263,7 +276,8 @@
   "articolo": "art. 55, cc. 1, 3 e 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:regio.decreto:1942-03-30;327",
   "verificato": "2026-11-03",
-  "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav."
+  "verificatoSu": "Regione Emilia-Romagna, copia non datata del Titolo II cod. nav.",
+  "materia": "demanio"
  },
  {
   "id": "b15",
@@ -282,6 +296,7 @@
   "articolo": "Albo regionale al 31/12/2025",
   "fonte": "https://www.regione.lazio.it/sites/default/files/documentazione/2026/SVI-DD-G07292-27-05-2026.pdf",
   "verificato": "2026-11-03",
-  "verificatoSu": "Regione Lazio, Det. G07292/2026"
+  "verificatoSu": "Regione Lazio, Det. G07292/2026",
+  "materia": "demanio"
  }
 ]

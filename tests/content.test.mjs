@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { validateCase, validatePack, isStale } from '../js/content.js';
 
 const good = {
-  id: 'x1', ufficio: 'territorio', titolo: 'Caso', testo: 'Domanda', opzioni: ['a', 'b', 'c', 'd'], corretta: 1,
+  id: 'x1', ufficio: 'territorio', materia: 'edilizia', titolo: 'Caso', testo: 'Domanda', opzioni: ['a', 'b', 'c', 'd'], corretta: 1,
   spiegazione: 'Perché', norma: 'L. 241/1990', articolo: 'art. 2',
   fonte: 'https://www.normattiva.it/x', verificato: '2026-11-03', verificatoSu: 'Normattiva',
 };

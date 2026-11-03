@@ -4,12 +4,16 @@ import { isStale, loadContent, UFFICI } from './content.js';
 import { daysUntil, grade, localToday, mastery, todayQueue } from './review.js';
 import { buildExam, remainingSeconds, score, shuffle } from './exam.js';
 import { createSync } from './sync.js';
+import { LEGGI, MATERIE, articleNumber, buildLawCases, casesOfLaw, citation, filterCases, isMarked, shouldGrade, statusOf } from './catalog.js';
 
 const store = createStore();
 const root = document.getElementById('app');
 let content = null;
 let sync = null;
 let syncTimer = null;
+let session = null;
+let catalogQuery = '';
+let collectionFilter = 'tutte';
 let cleanup = () => {};
 
 const SVG = 'http://www.w3.org/2000/svg';
@@ -49,10 +53,11 @@ function mount(view, { tabs = false } = {}) {
 }
 
 function tabBar() {
-  const current = location.hash.replace('#', '') || 'scrivania';
+  const raw = location.hash.replace('#', '') || 'scrivania';
+  const current = raw === 'leggi' || raw.startsWith('legge-') || raw.startsWith('materia-') ? 'materie' : raw;
   const tab = (id, label, ic) => h('a', { href: `#${id}`, 'aria-current': current === id ? 'page' : null }, icon(ic), label);
   return h('div', { class: 'tabbar' }, h('nav', { 'aria-label': 'Sezioni' },
-    tab('scrivania', 'Scrivania', 'folder'), tab('scritto', 'Scritto', 'clock'), tab('orale', 'Orale', 'mic'), tab('profilo', 'Profilo', 'user')));
+    tab('scrivania', 'Scrivania', 'folder'), tab('materie', 'Materie', 'layers'), tab('scritto', 'Scritto', 'clock'), tab('orale', 'Orale', 'mic'), tab('profilo', 'Profilo', 'user')));
 }
 
 function largeTitle(text) {
@@ -85,7 +90,7 @@ function sourceLink(c) {
 
 function verifiedNote(c) {
   return c.verificato
-    ? h('p', { class: 'foot' }, `Controllato il ${c.verificato} su ${c.verificatoSu}.`)
+    ? h('p', { class: 'foot' }, `Controllato il ${c.verificato.split('-').reverse().join('/')} su ${c.verificatoSu}.`)
     : h('p', { class: 'foot' }, 'Bozza: non ancora controllata sul testo ufficiale.');
 }
 
@@ -105,7 +110,10 @@ async function runSync() {
 /* Scrivania */
 function queue() {
   const { newLimit, reviewLimit } = store.state.settings;
-  return todayQueue(content.cases, store.state.progress, localToday(), { newLimit, reviewLimit });
+  const today = localToday();
+  const main = todayQueue(content.cases, store.state.progress, today, { newLimit, reviewLimit });
+  const law = todayQueue(content.lawCases, store.state.progress, today, { newLimit: 2, reviewLimit: 4 });
+  return [...main, ...law];
 }
 
 function nextExam() {
@@ -123,75 +131,304 @@ function nextExam() {
 
 function renderDesk() {
   const q = queue();
-  const reviews = q.filter((c) => store.state.progress[c.id]?.due).length;
+  const today = localToday();
+  const progress = store.state.progress;
+  const reviews = q.filter((c) => statusOf(progress[c.id], today) === 'ripasso').length;
   const fresh = q.length - reviews;
+  const marked = content.cases.filter((c) => isMarked(progress, c.id));
+  const weakest = MATERIE.map((m) => {
+    const list = content.cases.filter((c) => c.materia === m.id);
+    return { m, list, value: mastery(list, progress) };
+  }).sort((a, b) => a.value - b.value)[0];
   const hero = q.length
     ? h('div', { class: 'group hero' },
       h('p', { class: 'muted small' }, 'Pratiche di oggi'),
       h('p', { class: 'hero-number' }, String(q.length)),
-      h('p', { class: 'muted small' }, `${reviews} ${reviews === 1 ? 'ripasso' : 'ripassi'}, ${fresh} ${fresh === 1 ? 'caso nuovo' : 'casi nuovi'}`))
+      h('p', { class: 'muted small' }, `${reviews} ${reviews === 1 ? 'ripasso' : 'ripassi'}, ${fresh} ${fresh === 1 ? 'nuova' : 'nuove'}, comprese le norme`))
     : h('div', { class: 'group hero' },
       h('p', { class: 'muted small' }, 'Pratiche di oggi'),
       h('p', { class: 'question' }, 'Scrivania in ordine'),
-      h('p', { class: 'muted small' }, 'Per oggi hai finito. Se vuoi allenarti ancora, prova una simulazione.'));
+      h('p', { class: 'muted small' }, 'Per oggi hai finito. Se vuoi allenarti ancora, scegli una materia o prova una simulazione.'));
   mount(h('main', { class: 'screen' },
     h('div', {}, largeTitle('Scrivania'), nextExam() ? h('p', { class: 'muted' }, nextExam()) : null),
     storageWarning(),
     hero,
     q.length
-      ? h('button', { class: 'primary', onclick: () => go('#pratica') }, 'Apri la prossima pratica')
+      ? h('button', { class: 'primary', onclick: startToday }, 'Apri la prossima pratica')
       : h('button', { class: 'primary', onclick: () => go('#scritto') }, 'Fai una simulazione'),
+    h('section', {},
+      h('h2', { class: 'section-title' }, 'Allenamento mirato'),
+      h('div', { class: 'group' },
+        linkRow({ href: '#leggi', title: 'Leggi e codici', subtitle: `${LEGGI.length} fonti, domande in ordine di articolo` }),
+        linkRow({ title: 'Trova la norma', subtitle: `${content.lawCases.length} domande su leggi e articoli`, onclick: () => startSession({ title: 'Trova la norma', cases: shuffle(content.lawCases).slice(0, 15), back: '#scrivania' }) }),
+        linkRow({ href: `#materia-${weakest.m.id}`, title: `Da rinforzare: ${weakest.m.nome}`, subtitle: `Padronanza ${weakest.value}%` }),
+        marked.length ? linkRow({ title: 'Domande segnate', value: String(marked.length), onclick: () => startSession({ title: 'Domande segnate', cases: shuffle(marked), back: '#scrivania' }) }) : null)),
     h('section', {},
       h('h2', { class: 'section-title' }, 'Padronanza per ufficio'),
       h('div', { class: 'group' }, UFFICI.map((u) => {
-        const value = mastery(content.cases.filter((c) => c.ufficio === u.id), store.state.progress);
+        const value = mastery(content.cases.filter((c) => c.ufficio === u.id), progress);
         return h('div', { class: 'row' },
           h('div', { class: 'row-line' }, h('span', {}, u.nome), h('span', { class: 'muted' }, `${value}%`)),
           h('div', { class: 'meter' }, h('span', { width: `${value}%` })));
       })))), { tabs: true });
 }
 
-/* Pratica */
-function renderCase() {
-  const q = queue();
-  if (!q.length) { go('#scrivania'); return; }
-  const c = q[0];
+/* Sessione di domande */
+function startSession({ title, cases, back, grading = true }) {
+  session = { title, cases, back, grading, index: 0, results: [] };
+  go('#sessione');
+}
+
+function startToday() {
+  startSession({ title: 'Pratiche di oggi', cases: queue(), back: '#scrivania' });
+}
+
+function toggleMark(id) {
+  const key = `mark-${id}`;
+  store.state.progress[key] = stamped({ marked: !isMarked(store.state.progress, id) });
+  store.save();
+  scheduleSync();
+}
+
+function markButton(id) {
+  const button = h('button', { class: 'quiet mark', 'aria-pressed': String(isMarked(store.state.progress, id)) });
+  const paint = () => {
+    const on = isMarked(store.state.progress, id);
+    button.setAttribute('aria-pressed', String(on));
+    button.classList.toggle('on', on);
+    button.replaceChildren(icon('bookmark'), on ? 'Segnata' : 'Segna per dopo');
+  };
+  button.addEventListener('click', () => { toggleMark(id); paint(); });
+  paint();
+  return button;
+}
+
+function renderSession() {
+  if (!session) { go('#scrivania'); return; }
+  if (session.index >= session.cases.length) { renderSummary(); return; }
+  const c = session.cases[session.index];
+  const total = session.cases.length;
   const order = shuffle(c.opzioni.map((text, index) => ({ text, index })));
-  const options = order.map((o) => h('button', { class: 'option', onclick: () => answer(o.index) }, o.text));
+  const letters = ['A', 'B', 'C', 'D'];
+  const options = order.map((o, i) => h('button', { class: 'option', onclick: () => answer(o.index) },
+    h('span', { class: 'letter', 'aria-hidden': 'true' }, letters[i]), h('span', { class: 'option-text' }, o.text)));
   const feedback = h('div', { class: 'feedback', 'aria-live': 'polite' });
+  const dontKnow = h('button', { class: 'quiet', onclick: () => answer(-1) }, icon('circle-help'), 'Non lo so');
   let done = false;
+
+  function next() {
+    session.index += 1;
+    cleanup();
+    cleanup = () => {};
+    renderSession();
+  }
 
   function answer(index) {
     if (done) return;
     done = true;
     const correct = index === c.corretta;
-    store.state.progress[c.id] = stamped(grade(store.state.progress[c.id], correct, localToday()));
-    store.save();
-    scheduleSync();
+    session.results.push({ id: c.id, correct });
+    const today = localToday();
+    if (session.grading && shouldGrade(store.state.progress[c.id], correct, today)) {
+      store.state.progress[c.id] = stamped(grade(store.state.progress[c.id], correct, today));
+      store.save();
+      scheduleSync();
+    }
+    dontKnow.hidden = true;
     order.forEach((o, i) => {
       options[i].setAttribute('aria-disabled', 'true');
       if (o.index === c.corretta) { options[i].classList.add('right'); options[i].append(icon('check')); }
       else if (o.index === index) { options[i].classList.add('wrong'); options[i].append(icon('x')); }
     });
+    const verdict = correct
+      ? 'Giusto.'
+      : (index === -1 ? 'Nessun problema: ora la vedi e torna nei ripassi.' : 'Non proprio. Torna nei ripassi.');
+    const last = session.index === total - 1;
     feedback.append(
-      h('p', { class: `verdict ${correct ? 'ok' : 'no'}` }, correct ? 'Giusto.' : 'Non proprio. Torniamo su questo caso domani.'),
-      h('p', {}, c.spiegazione),
+      h('p', { class: `verdict ${correct ? 'ok' : (index === -1 ? '' : 'no')}` }, verdict),
+      h('div', { class: 'group law-card' },
+        h('p', { class: 'law-name' }, icon('scale'), h('span', {}, citation(c))),
+        h('p', { class: 'small' }, c.spiegazione)),
       sourceLink(c),
       verifiedNote(c),
-      h('button', { class: 'primary', onclick: () => { if (queue().length) renderCase(); else go('#scrivania'); } },
-        queue().length ? 'Prossima pratica' : 'Torna alla scrivania'));
+      markButton(c.id),
+      h('button', { class: 'primary sticky-next', onclick: next }, last ? 'Vedi il riepilogo' : 'Prossima domanda'));
     feedback.scrollIntoView({ block: 'nearest' });
   }
 
+  const onKey = (e) => {
+    if (e.target.matches('input, textarea')) return;
+    if (!done && ['1', '2', '3', '4'].includes(e.key)) options[Number(e.key) - 1]?.click();
+    if (done && e.key === 'Enter' && document.activeElement?.tagName !== 'A') { e.preventDefault(); next(); }
+  };
+  document.addEventListener('keydown', onKey);
+  cleanup = () => document.removeEventListener('keydown', onKey);
+
   mount(h('main', { class: 'screen' },
     h('div', { class: 'nav' },
-      h('a', { class: 'source back', href: '#scrivania' }, icon('chevron-left'), 'Scrivania'),
-      h('span', { class: 'muted small' }, `${q.length} da fare`)),
+      h('a', { class: 'source back', href: session.back }, icon('chevron-left'), 'Esci'),
+      h('span', { class: 'muted small' }, `${session.index + 1} di ${total}`)),
+    h('div', { class: 'meter session-meter', role: 'progressbar', 'aria-valuemin': '0', 'aria-valuemax': String(total), 'aria-valuenow': String(session.index + 1), 'aria-label': 'Avanzamento' },
+      h('span', { width: `${Math.round(((session.index + 1) / total) * 100)}%` })),
     h('div', {},
-      h('p', { class: 'muted small' }, `${nomeUfficio(c.ufficio)} · ${c.titolo}`),
-      h('h1', { class: 'question', tabIndex: -1 }, c.testo)),
+      h('p', { class: 'muted small' }, `${materiaName(c)} · ${c.titolo}`),
+      h('h1', { class: 'question', tabIndex: -1 }, c.domanda ?? c.testo)),
+    c.domanda ? h('p', { class: 'group case-text' }, c.testo) : null,
     h('div', { class: 'options' }, options),
+    dontKnow,
     feedback));
+}
+
+function renderSummary() {
+  const { results, cases, back, grading } = session;
+  const right = results.filter((r) => r.correct).length;
+  const wrong = results.filter((r) => !r.correct).map((r) => cases.find((c) => c.id === r.id));
+  const percent = results.length ? Math.round((right / results.length) * 100) : 0;
+  mount(h('main', { class: 'screen' },
+    h('h1', { class: 'large-title', tabIndex: -1 }, 'Riepilogo'),
+    h('div', { class: 'group hero' },
+      h('p', { class: 'muted small' }, session.title),
+      h('p', { class: 'hero-number' }, `${right} su ${results.length}`),
+      h('div', { class: 'meter' }, h('span', { width: `${percent}%` })),
+      h('p', { class: 'muted small summary-note' }, grading ? 'Il prossimo ripasso è già programmato.' : 'Questo giro di prova non cambia i ripassi.')),
+    wrong.length ? h('section', {},
+      h('h2', { class: 'section-title' }, 'Da rivedere'),
+      h('div', { class: 'group' }, wrong.map((c) => h('details', {},
+        h('summary', {}, c.titolo),
+        h('div', {},
+          h('p', { class: 'small' }, `Risposta giusta: ${c.opzioni[c.corretta]}`),
+          h('p', { class: 'small muted' }, c.spiegazione),
+          sourceLink(c)))))) : null,
+    wrong.length ? h('button', { class: 'primary', onclick: () => startSession({ title: 'Riprova gli errori', cases: shuffle(wrong), back, grading: false }) },
+      icon('rotate-ccw'), 'Riprova gli errori') : null,
+    h('button', { class: wrong.length ? '' : 'primary', onclick: () => { session = null; go(back); } }, 'Chiudi il riepilogo')));
+}
+
+/* Materie e leggi */
+const materiaName = (c) => MATERIE.find((m) => m.id === c.materia)?.nome ?? nomeUfficio(c.ufficio);
+const STATUS = { nuova: 'Nuova', ripasso: 'Da ripassare', corso: 'In corso', padroneggiata: 'Padroneggiata' };
+
+function linkRow({ href, title, subtitle, value, percent, onclick }) {
+  return h('a', { class: 'link-row', href: href ?? '#', onclick: onclick ? (e) => { e.preventDefault(); onclick(); } : null },
+    h('span', { class: 'link-main' },
+      h('span', { class: 'link-title' }, title),
+      subtitle ? h('span', { class: 'link-sub' }, subtitle) : null,
+      percent === undefined ? null : h('span', { class: 'meter' }, h('span', { width: `${percent}%` }))),
+    value ? h('span', { class: 'link-value' }, value) : null,
+    icon('chevron-right'));
+}
+
+function questionRow(c, list, title) {
+  const status = STATUS[statusOf(store.state.progress[c.id], localToday())];
+  const marked = isMarked(store.state.progress, c.id);
+  return linkRow({
+    title: c.titolo,
+    subtitle: `${c.articolo} · ${status}${marked ? ' · Segnata' : ''}`,
+    onclick: () => startSession({ title, cases: [c, ...shuffle(list.filter((o) => o.id !== c.id))], back: location.hash || '#materie' }),
+  });
+}
+
+function renderCatalog(tab) {
+  const results = h('div', { class: 'catalog-results' });
+  const search = h('input', {
+    id: 'catalog-search', type: 'search', autocomplete: 'off', placeholder: 'Parola, legge o articolo', value: catalogQuery,
+    oninput: (e) => { catalogQuery = e.target.value; paint(); },
+  });
+
+  function paint() {
+    const query = catalogQuery.trim();
+    if (query) {
+      const found = filterCases(content.cases, { query }, store.state.progress, localToday());
+      results.replaceChildren(h('section', {},
+        h('h2', { class: 'section-title' }, `${found.length} ${found.length === 1 ? 'domanda trovata' : 'domande trovate'}`),
+        h('div', { class: 'group' }, found.length
+          ? found.map((c) => questionRow(c, found, `Ricerca: ${query}`))
+          : h('div', { class: 'row' },
+            h('p', { class: 'muted' }, 'Nessuna domanda. Prova con un numero di articolo o una parola più breve.'),
+            h('button', { onclick: () => { catalogQuery = ''; search.value = ''; paint(); search.focus(); } }, 'Cancella la ricerca')))));
+      return;
+    }
+    if (tab === 'leggi') {
+      results.replaceChildren(h('section', {},
+        h('h2', { class: 'section-title' }, 'Dalla più presente in archivio'),
+        h('div', { class: 'group' }, LEGGI.map((l) => {
+          const list = casesOfLaw(content.cases, l.id);
+          return linkRow({ href: `#legge-${l.id}`, title: l.nome, subtitle: `${l.sigla} · ${list.length} ${list.length === 1 ? 'domanda' : 'domande'}`, percent: mastery(list, store.state.progress) });
+        }))));
+      return;
+    }
+    results.replaceChildren(...UFFICI.map((u) => h('section', {},
+      h('h2', { class: 'section-title' }, u.nome),
+      h('div', { class: 'group' }, MATERIE.filter((m) => m.ufficio === u.id).map((m) => {
+        const list = content.cases.filter((c) => c.materia === m.id);
+        return linkRow({ href: `#materia-${m.id}`, title: m.nome, subtitle: `${list.length} ${list.length === 1 ? 'domanda' : 'domande'}`, percent: mastery(list, store.state.progress) });
+      })))));
+  }
+
+  const onKey = (e) => { if (e.key === '/' && document.activeElement !== search) { e.preventDefault(); search.focus(); } };
+  document.addEventListener('keydown', onKey);
+  cleanup = () => document.removeEventListener('keydown', onKey);
+  paint();
+  mount(h('main', { class: 'screen' },
+    largeTitle('Materie'),
+    h('nav', { class: 'segmented', 'aria-label': 'Vista' },
+      h('a', { href: '#materie', 'aria-current': tab === 'materie' ? 'page' : null }, 'Materie'),
+      h('a', { href: '#leggi', 'aria-current': tab === 'leggi' ? 'page' : null }, 'Leggi e codici')),
+    h('label', { class: 'search', for: 'catalog-search' }, icon('search'), h('span', {}, 'Cerca'), search),
+    results), { tabs: true });
+}
+
+function renderCollection({ title, subtitle, list, back, backLabel, sortByArticle, lawHref }) {
+  const today = localToday();
+  const ordered = sortByArticle ? [...list].sort((a, b) => articleNumber(a) - articleNumber(b)) : list;
+  const lawIds = new Set(ordered.map((c) => `n-${c.id}`));
+  const drills = content.lawCases.filter((q) => lawIds.has(q.id));
+  const body = h('div', { class: 'group' });
+  const filters = [['tutte', 'Tutte'], ['nuova', 'Nuove'], ['ripasso', 'Da ripassare'], ['segnate', 'Segnate']];
+  const chips = h('div', { class: 'chips', role: 'group', 'aria-label': 'Filtra le domande' });
+
+  function paint() {
+    const shown = filterCases(ordered, { stato: collectionFilter }, store.state.progress, today);
+    chips.replaceChildren(...filters.map(([id, label]) => h('button', {
+      class: `chip${collectionFilter === id ? ' on' : ''}`, 'aria-pressed': String(collectionFilter === id),
+      onclick: () => { collectionFilter = id; paint(); },
+    }, label)));
+    body.replaceChildren(...(shown.length
+      ? shown.map((c) => questionRow(c, shown, title))
+      : [h('div', { class: 'row' },
+        h('p', { class: 'muted' }, 'Qui non ci sono domande con questo filtro.'),
+        h('button', { onclick: () => { collectionFilter = 'tutte'; paint(); } }, 'Mostra tutte le domande'))]));
+  }
+  paint();
+  const here = location.hash;
+  mount(h('main', { class: 'screen' },
+    h('div', { class: 'nav' }, h('a', { class: 'source back', href: back }, icon('chevron-left'), backLabel)),
+    h('div', {}, h('h1', { class: 'large-title', tabIndex: -1 }, title), h('p', { class: 'muted' }, subtitle)),
+    h('div', { class: 'group hero' },
+      h('div', { class: 'row-line' }, h('span', { class: 'muted small' }, 'Padronanza'), h('span', { class: 'muted small' }, `${mastery(list, store.state.progress)}%`)),
+      h('div', { class: 'meter' }, h('span', { width: `${mastery(list, store.state.progress)}%` }))),
+    h('button', { class: 'primary', onclick: () => startSession({ title, cases: shuffle(list), back: here }) }, 'Allenati su tutte'),
+    drills.length ? h('button', { onclick: () => startSession({ title: `Trova la norma: ${title}`, cases: shuffle(drills), back: here }) }, icon('scale'), 'Trova la norma') : null,
+    lawHref ? h('a', { class: 'source', href: lawHref, target: '_blank', rel: 'noopener noreferrer' }, 'Apri il testo della legge', icon('external-link')) : null,
+    h('section', {},
+      h('h2', { class: 'section-title' }, sortByArticle ? 'Domande in ordine di articolo' : 'Domande'),
+      chips,
+      body)), { tabs: true });
+}
+
+function renderMateria(id) {
+  const m = MATERIE.find((x) => x.id === id);
+  if (!m) { go('#materie'); return; }
+  const list = content.cases.filter((c) => c.materia === id);
+  renderCollection({ title: m.nome, subtitle: `${nomeUfficio(m.ufficio)} · ${list.length} domande`, list, back: '#materie', backLabel: 'Materie' });
+}
+
+function renderLegge(id) {
+  const l = LEGGI.find((x) => x.id === id);
+  if (!l) { go('#leggi'); return; }
+  const list = casesOfLaw(content.cases, id);
+  const single = l.match.length === 1 && id !== 'altre' ? list.find((c) => c.norma === l.match[0])?.fonte : null;
+  renderCollection({ title: l.nome, subtitle: `${l.sigla} · ${list.length} domande`, list, back: '#leggi', backLabel: 'Leggi e codici', sortByArticle: true, lawHref: single });
 }
 
 /* Scritto */
@@ -260,7 +497,14 @@ function renderExam() {
     h('div', { class: 'pair' },
       h('button', { onclick: () => move(-1), hidden: exam.index === 0 }, 'Indietro'),
       atEnd ? null : h('button', { onclick: () => move(1) }, 'Avanti')),
-    h('button', { class: atEnd ? 'primary' : '', onclick: askFinish }, 'Consegna')));
+    h('button', { class: atEnd ? 'primary' : '', onclick: askFinish }, 'Consegna'),
+    h('details', { class: 'group' },
+      h('summary', {}, `Vai a una domanda: ${Object.keys(exam.answers).length} risposte su ${exam.ids.length}`),
+      h('div', { class: 'exam-grid' }, exam.ids.map((id, i) => h('button', {
+        class: `grid-cell${exam.answers[id] !== undefined ? ' done' : ''}${i === exam.index ? ' current' : ''}`,
+        'aria-label': `Domanda ${i + 1}${exam.answers[id] !== undefined ? ', risposta data' : ''}`,
+        onclick: () => move(i - exam.index),
+      }, String(i + 1)))))));
 
   async function askFinish() {
     const missing = exam.ids.filter((id) => exam.answers[id] === undefined).length;
@@ -525,7 +769,18 @@ function render() {
   cleanup = () => {};
   const route = location.hash.replace('#', '') || 'scrivania';
   if (store.state.exam && route !== 'esame' && remainingSeconds(store.state.exam) > 0 && route === 'scritto') { renderExam(); return; }
-  const routes = { scrivania: renderDesk, pratica: renderCase, scritto: renderWrittenStart, esame: renderExam, orale: renderOralStart, profilo: renderProfile };
+  if (route.startsWith('materia-')) { collectionFilter = 'tutte'; renderMateria(route.slice(8)); return; }
+  if (route.startsWith('legge-')) { collectionFilter = 'tutte'; renderLegge(route.slice(6)); return; }
+  const routes = {
+    scrivania: renderDesk,
+    sessione: renderSession,
+    materie: () => renderCatalog('materie'),
+    leggi: () => renderCatalog('leggi'),
+    scritto: renderWrittenStart,
+    esame: renderExam,
+    orale: renderOralStart,
+    profilo: renderProfile,
+  };
   (routes[route] ?? renderDesk)();
 }
 
@@ -539,6 +794,7 @@ function renderLoadError() {
 async function start() {
   try {
     content = await loadContent();
+    content.lawCases = buildLawCases(content.cases);
     sync = createSync({ config: content.config.sync, store });
   } catch (err) {
     store.logError(err.message);

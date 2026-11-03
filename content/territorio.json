@@ -16,7 +16,8 @@
   "articolo": "art. 20, c. 8",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t2",
@@ -35,7 +36,8 @@
   "articolo": "art. 15, c. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t3",
@@ -54,7 +56,8 @@
   "articolo": "art. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.lavori.pubblici:decreto:1968-04-02;1444",
   "verificato": "2026-11-03",
-  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale",
+  "materia": "urbanistica"
  },
  {
   "id": "t4",
@@ -73,7 +76,8 @@
   "articolo": "art. 146, c. 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "paesaggio"
  },
  {
   "id": "t5",
@@ -92,7 +96,8 @@
   "articolo": "art. 19, cc. 3, 4 e 6-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t6",
@@ -111,7 +116,8 @@
   "articolo": "art. 5, c. 1, lett. a e b; art. 29-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "ambiente"
  },
  {
   "id": "t7",
@@ -130,7 +136,8 @@
   "articolo": "art. 6, c. 1, lett. b-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t8",
@@ -149,7 +156,8 @@
   "articolo": "art. 6-bis, c. 5",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t9",
@@ -168,7 +176,8 @@
   "articolo": "art. 9-bis, c. 1-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t10",
@@ -187,7 +196,8 @@
   "articolo": "art. 34-bis, c. 1",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t11",
@@ -206,7 +216,8 @@
   "articolo": "art. 34-bis, c. 1-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t12",
@@ -225,7 +236,8 @@
   "articolo": "art. 36, cc. 1 e 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t13",
@@ -244,7 +256,8 @@
   "articolo": "art. 36, c. 3",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t14",
@@ -263,7 +276,8 @@
   "articolo": "art. 36-bis, c. 1",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t15",
@@ -282,7 +296,8 @@
   "articolo": "art. 36-bis, c. 6",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t16",
@@ -301,7 +316,8 @@
   "articolo": "art. 31, c. 3",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t17",
@@ -320,7 +336,8 @@
   "articolo": "art. 34, c. 2",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t18",
@@ -339,7 +356,8 @@
   "articolo": "art. 23, cc. 1, 2 e 6",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t19",
@@ -358,7 +376,8 @@
   "articolo": "art. 23-ter, c. 1-bis",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t20",
@@ -377,7 +396,8 @@
   "articolo": "art. 24, cc. 2 e 3",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "edilizia"
  },
  {
   "id": "t21",
@@ -396,7 +416,8 @@
   "articolo": "art. 30, cc. 2, 3 e 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2001-06-06;380",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "urbanistica"
  },
  {
   "id": "t22",
@@ -415,7 +436,8 @@
   "articolo": "artt. 3 e 4",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.lavori.pubblici:decreto:1968-04-02;1444",
   "verificato": "2026-11-03",
-  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale",
+  "materia": "urbanistica"
  },
  {
   "id": "t23",
@@ -434,7 +456,8 @@
   "articolo": "art. 9",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.lavori.pubblici:decreto:1968-04-02;1444",
   "verificato": "2026-11-03",
-  "verificatoSu": "Bosetti & Gatti, copia non ufficiale"
+  "verificatoSu": "Bosetti & Gatti, copia non ufficiale",
+  "materia": "urbanistica"
  },
  {
   "id": "t24",
@@ -453,7 +476,8 @@
   "articolo": "art. 28",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1942-08-17;1150",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "urbanistica"
  },
  {
   "id": "t25",
@@ -472,7 +496,8 @@
   "articolo": "art. 28, c. 2",
   "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
   "verificato": "2026-11-03",
-  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato",
+  "materia": "urbanistica"
  },
  {
   "id": "t26",
@@ -491,7 +516,8 @@
   "articolo": "art. 54, c. 1, lett. b",
   "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
   "verificato": "2026-11-03",
-  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato",
+  "materia": "urbanistica"
  },
  {
   "id": "t27",
@@ -510,7 +536,8 @@
   "articolo": "art. 142, c. 1, lett. a e c",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "paesaggio"
  },
  {
   "id": "t28",
@@ -529,7 +556,8 @@
   "articolo": "art. 167, cc. 4 e 5",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "paesaggio"
  },
  {
   "id": "t29",
@@ -548,7 +576,8 @@
   "articolo": "artt. 2, c. 1, e 3, c. 1",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2017-02-13;31",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "paesaggio"
  },
  {
   "id": "t30",
@@ -567,7 +596,8 @@
   "articolo": "art. 11, cc. 5 e 9",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2017-02-13;31",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "paesaggio"
  },
  {
   "id": "t31",
@@ -586,7 +616,8 @@
   "articolo": "art. 192, c. 3",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "ambiente"
  },
  {
   "id": "t32",
@@ -605,7 +636,8 @@
   "articolo": "art. 6, c. 3",
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152",
   "verificato": "2026-11-03",
-  "verificatoSu": "Normattiva"
+  "verificatoSu": "Normattiva",
+  "materia": "ambiente"
  },
  {
   "id": "t33",
@@ -624,7 +656,8 @@
   "articolo": "D.C.R. Lazio n. 5/2021",
   "fonte": "https://www.regione.lazio.it/cittadini/urbanistica/pianificazione-paesaggistica/ptpr",
   "verificato": "2026-11-03",
-  "verificatoSu": "Regione Lazio"
+  "verificatoSu": "Regione Lazio",
+  "materia": "paesaggio"
  },
  {
   "id": "t34",
@@ -643,7 +676,8 @@
   "articolo": "scheda Comune di Itri; Albo al 31/12/2025",
   "fonte": "https://regione.lazio.it/sites/default/files/documentazione/SVI_DGR_PUAR_176_09_04_2019_Allegato1_PUAR-signed-signed.pdf",
   "verificato": "2026-11-03",
-  "verificatoSu": "Regione Lazio"
+  "verificatoSu": "Regione Lazio",
+  "materia": "demanio"
  },
  {
   "id": "t35",
@@ -662,6 +696,7 @@
   "articolo": "art. 28, cc. 1 e 2",
   "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=9334&sv=vigente",
   "verificato": "2026-11-03",
-  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato",
+  "materia": "paesaggio"
  }
 ]

@@ -54,7 +54,7 @@ function mount(view, { tabs = false } = {}) {
 
 function tabBar() {
   const raw = location.hash.replace('#', '') || 'scrivania';
-  const current = raw === 'leggi' || raw.startsWith('legge-') || raw.startsWith('materia-') ? 'materie' : raw;
+  const current = raw === 'leggi' || raw.startsWith('legge-') || raw.startsWith('materia-') || raw.startsWith('scheda-') ? 'materie' : raw;
   const tab = (id, label, ic) => h('a', { href: `#${id}`, 'aria-current': current === id ? 'page' : null }, icon(ic), label);
   return h('div', { class: 'tabbar' }, h('nav', { 'aria-label': 'Sezioni' },
     tab('scrivania', 'Scrivania', 'folder'), tab('materie', 'Materie', 'layers'), tab('scritto', 'Scritto', 'clock'), tab('orale', 'Orale', 'mic'), tab('profilo', 'Profilo', 'user')));
@@ -378,7 +378,7 @@ function renderCatalog(tab) {
     results), { tabs: true });
 }
 
-function renderCollection({ title, subtitle, list, back, backLabel, sortByArticle, lawHref }) {
+function renderCollection({ title, subtitle, list, back, backLabel, sortByArticle, lawHref, schedaHref }) {
   const today = localToday();
   const ordered = sortByArticle ? [...list].sort((a, b) => articleNumber(a) - articleNumber(b)) : list;
   const lawIds = new Set(ordered.map((c) => `n-${c.id}`));
@@ -409,6 +409,7 @@ function renderCollection({ title, subtitle, list, back, backLabel, sortByArticl
       h('div', { class: 'meter' }, h('span', { width: `${mastery(list, store.state.progress)}%` }))),
     h('button', { class: 'primary', onclick: () => startSession({ title, cases: shuffle(list), back: here }) }, 'Allenati su tutte'),
     drills.length ? h('button', { onclick: () => startSession({ title: `Trova la norma: ${title}`, cases: shuffle(drills), back: here }) }, icon('scale'), 'Trova la norma') : null,
+    schedaHref ? h('a', { class: 'button', href: schedaHref }, icon('book-open'), 'Leggi la scheda della legge') : null,
     lawHref ? h('a', { class: 'source', href: lawHref, target: '_blank', rel: 'noopener noreferrer' }, 'Apri il testo della legge', icon('external-link')) : null,
     h('section', {},
       h('h2', { class: 'section-title' }, sortByArticle ? 'Domande in ordine di articolo' : 'Domande'),
@@ -428,7 +429,33 @@ function renderLegge(id) {
   if (!l) { go('#leggi'); return; }
   const list = casesOfLaw(content.cases, id);
   const single = l.match.length === 1 && id !== 'altre' ? list.find((c) => c.norma === l.match[0])?.fonte : null;
-  renderCollection({ title: l.nome, subtitle: `${l.sigla} · ${list.length} domande`, list, back: '#leggi', backLabel: 'Leggi e codici', sortByArticle: true, lawHref: single });
+  renderCollection({ title: l.nome, subtitle: `${l.sigla} · ${list.length} domande`, list, back: '#leggi', backLabel: 'Leggi e codici', sortByArticle: true, lawHref: single, schedaHref: l.scheda ? `#scheda-${id}` : null });
+}
+
+function renderScheda(id) {
+  const doc = content.schede[id];
+  if (!doc) { go('#leggi'); return; }
+  const list = casesOfLaw(content.cases, id);
+  const here = location.hash;
+  mount(h('main', { class: 'screen' },
+    h('div', { class: 'nav' }, h('a', { class: 'source back', href: `#legge-${id}` }, icon('chevron-left'), 'Domande')),
+    h('div', {},
+      h('h1', { class: 'large-title', tabIndex: -1 }, doc.titolo),
+      h('p', { class: 'muted' }, doc.legge)),
+    h('button', { class: 'primary', onclick: () => startSession({ title: doc.titolo, cases: shuffle(list), back: here }) }, `Allenati su ${list.length} domande`),
+    h('a', { class: 'source', href: doc.fonte, target: '_blank', rel: 'noopener noreferrer' }, 'Apri il testo ufficiale', icon('external-link')),
+    h('section', {},
+      h('h2', { class: 'section-title' }, 'Scheda di studio'),
+      h('div', { class: 'group' }, doc.sezioni.map((s) => h('details', { class: 'scheda' },
+        h('summary', {}, h('span', {}, s.titolo), h('span', { class: 'link-value' }, String(s.punti.length))),
+        h('div', {}, s.punti.map((p) => h('p', { class: 'scheda-point' },
+          h('span', {}, p.testo), h('span', { class: 'scheda-art' }, p.articolo)))))))),
+    doc.daRicontrollare.length ? h('section', {},
+      h('h2', { class: 'section-title' }, 'Da controllare sul testo ufficiale'),
+      h('details', { class: 'group scheda' },
+        h('summary', {}, h('span', {}, 'Punti non confermati'), h('span', { class: 'link-value' }, String(doc.daRicontrollare.length))),
+        h('div', {}, doc.daRicontrollare.map((t) => h('p', { class: 'small' }, t))))) : null,
+    h('p', { class: 'foot' }, doc.aggiornamento)), { tabs: true });
 }
 
 /* Scritto */
@@ -770,6 +797,7 @@ function render() {
   const route = location.hash.replace('#', '') || 'scrivania';
   if (store.state.exam && route !== 'esame' && remainingSeconds(store.state.exam) > 0 && route === 'scritto') { renderExam(); return; }
   if (route.startsWith('materia-')) { collectionFilter = 'tutte'; renderMateria(route.slice(8)); return; }
+  if (route.startsWith('scheda-')) { renderScheda(route.slice(7)); return; }
   if (route.startsWith('legge-')) { collectionFilter = 'tutte'; renderLegge(route.slice(6)); return; }
   const routes = {
     scrivania: renderDesk,

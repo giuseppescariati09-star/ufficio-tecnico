@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { MATERIE, LEGGI, buildLawCases, casesOfLaw, citation, filterCases, firstArticle, shouldGrade, statusOf } from '../js/catalog.js';
 
 const read = (n) => JSON.parse(readFileSync(new URL(`../content/${n}.json`, import.meta.url)));
-const cases = ['procedimento', 'territorio', 'beni', 'opere'].flatMap(read);
+const cases = ['procedimento', 'territorio', 'beni', 'opere', 'lr38-casi'].flatMap(read);
 const today = '2026-11-03';
 
 test('ogni caso ha una materia esistente e ogni materia ha domande', () => {
@@ -17,6 +17,7 @@ test('ogni legge elencata ha domande e i codici principali ci sono', () => {
   for (const l of LEGGI) assert.ok(casesOfLaw(cases, l.id).length > 0, l.id);
   assert.equal(casesOfLaw(cases, 'contratti').length, 20);
   assert.equal(casesOfLaw(cases, 'tuel').length, 13);
+  assert.equal(casesOfLaw(cases, 'lr38').length, 22);
   const covered = new Set(LEGGI.flatMap((l) => casesOfLaw(cases, l.id).map((c) => c.id)));
   assert.equal(covered.size, cases.length, 'nessun caso resta fuori');
 });

@@ -119,6 +119,11 @@ button.quiet { background: none; color: var(--secondary); min-height: 44px; padd
 .law-name { display: flex; gap: 8px; font-weight: 600; color: var(--blue); }
 .sticky-next { position: sticky; bottom: calc(8px + env(safe-area-inset-bottom, 0px)); }
 .summary-note { margin-top: 8px; }
+.scheda summary { justify-content: space-between; gap: 12px; }
+.scheda + .scheda { border-top: 0.5px solid var(--sep); }
+.scheda-point { display: flex; flex-direction: column; gap: 2px; padding-bottom: 10px; border-bottom: 0.5px solid var(--sep); font-size: 15px; }
+.scheda-point:last-child { border-bottom: 0; padding-bottom: 0; }
+.scheda-art { font-size: 13px; color: var(--blue); }
 .link-row { display: flex; align-items: center; gap: 12px; padding: 11px 12px 11px 16px; min-height: 44px; position: relative; color: var(--label); text-decoration: none; -webkit-tap-highlight-color: transparent; }
 .link-row:active { background: var(--fill); }
 .link-row + .link-row::before, .row + .link-row::before, .link-row + .row::before { content: ""; position: absolute; top: 0; left: 16px; right: 0; border-top: 0.5px solid var(--sep); }

@@ -57,6 +57,8 @@ export async function loadContent(fetcher = fetch) {
     get('content/config.json'),
     ...UFFICI.map((u) => get(`content/${u.id}.json`)),
   ]);
-  const oral = await get('content/orale.json');
-  return { config, cases: packs.flat(), oral };
+  const [oral, lr38, schedaLr38] = await Promise.all([
+    get('content/orale.json'), get('content/lr38-casi.json'), get('content/lr38-doc.json'),
+  ]);
+  return { config, cases: [...packs.flat(), ...lr38], oral, schede: { lr38: schedaLr38 } };
 }

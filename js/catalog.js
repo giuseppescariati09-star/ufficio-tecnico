@@ -33,7 +33,8 @@ export const LEGGI = [
   { id: 'anticorruzione', nome: 'Legge anticorruzione', sigla: 'L. 190/2012', match: ['L. 190/2012'] },
   { id: 'urbanistica', nome: 'Standard e legge urbanistica', sigla: 'D.M. 1444/1968 e L. 1150/1942', match: ['D.M. 1444/1968', 'L. 1150/1942'] },
   { id: 'semplificata', nome: 'Autorizzazione paesaggistica semplificata', sigla: 'D.P.R. 31/2017', match: ['D.P.R. 31/2017'] },
-  { id: 'lazio', nome: 'Norme e atti del Lazio', sigla: 'Leggi, regolamenti e piani regionali', match: ['L.R. Lazio', 'R.R. Lazio', 'PTPR Lazio', 'PUAR Lazio', 'Regione Lazio'] },
+  { id: 'lr38', nome: 'Governo del territorio del Lazio', sigla: 'L.R. Lazio 38/1999', match: ['L.R. Lazio 38/1999'], scheda: true },
+  { id: 'lazio', nome: 'Altre norme e atti del Lazio', sigla: 'Parchi, demanio e piani regionali', match: ['L.R. Lazio 29/1997', 'R.R. Lazio', 'PTPR Lazio', 'PUAR Lazio', 'Regione Lazio'] },
   { id: 'altre', nome: 'Altre fonti', sigla: 'Soglie UE e mercato elettronico', match: ['L. 296/2006', 'Reg. delegato', 'Consip'] },
 ];
 

@@ -89,7 +89,7 @@
    "Serve sempre una variante separata del PTPG, con un nuovo iter completo di adozione e approvazione da parte della provincia",
    "Il Comune corregge da solo la cartografia del PTPG",
    "Il perimetro del PTPG non si può mai toccare in queste procedure",
-   "Si può proporre la precisazione: con esito positivo, la variante è automatica"
+   "Si può proporre una precisazione motivata: l'esito positivo, con l'approvazione dello strumento, comporta variante automatica"
   ],
   "corretta": 3,
   "spiegazione": "È una novità della L.R. 11/2026: nelle procedure di VAS o di verifica su strumenti comunali si possono proporre precisazioni dei perimetri del PTPG. L'esito positivo, con l'approvazione, vale come variante automatica.",
@@ -132,7 +132,7 @@
    "Il PUOC serve solo nei centri storici"
   ],
   "corretta": 2,
-  "spiegazione": "Il PUOC è obbligatorio in tre casi: zone degradate di centri e insediamenti storici, aree da riqualificare o ristrutturare e zone di nuova urbanizzazione.",
+  "spiegazione": "Il PUOC è obbligatorio in tre casi: zone fortemente degradate di centri storici o insediamenti storici puntuali, aree da riqualificare o ristrutturare e zone di nuova urbanizzazione.",
   "norma": "L.R. Lazio 38/1999",
   "articolo": "art. 30, c. 4",
   "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
@@ -192,7 +192,7 @@
    "Solo se la provincia dà parere negativo"
   ],
   "corretta": 0,
-  "spiegazione": "Passati novanta giorni dalla trasmissione, il sindaco convoca la conferenza, che deve concludersi entro sessanta giorni dalla convocazione.",
+  "spiegazione": "Passati novanta giorni dalla trasmissione, il sindaco, d'intesa con il presidente della provincia, convoca la conferenza, che deve concludersi entro sessanta giorni dalla convocazione.",
   "norma": "L.R. Lazio 38/1999",
   "articolo": "art. 33, c. 5",
   "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
@@ -292,9 +292,9 @@
    "Sì, e siccome supera il 5% la deve approvare la provincia al posto del Comune, seguendo il procedimento di variante al PUCG"
   ],
   "corretta": 2,
-  "spiegazione": "I PUOC non possono variare il PUCG, ma entro il 10% per funzione non c'è variante. In adozione il Comune motiva e attesta che il carico urbanistico non cresce.",
+  "spiegazione": "I PUOC non possono variare il PUCG, ma entro il 10% per funzione non c'è variante. In adozione il Comune motiva, dimostra i miglioramenti conseguibili e l'assenza di incremento del carico urbanistico.",
   "norma": "L.R. Lazio 38/1999",
-  "articolo": "art. 40, cc. 1, lett. b, 2",
+  "articolo": "art. 40, c. 1, lett. b; c. 2",
   "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
   "verificato": "2026-11-04",
   "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
@@ -304,7 +304,7 @@
   "ufficio": "territorio",
   "materia": "urbanistica",
   "titolo": "Quanti proprietari per il PUOC",
-  "testo": "Il PUCG prevede un PUOC a cura dei proprietari. Si presentano in tre, con la maggioranza delle teste ma solo il 60% del valore catastale. Cosa spieghi?",
+  "testo": "Il PUCG prevede un PUOC a cura dei proprietari. Si presentano in tre, con la maggioranza delle teste ma solo il 60% del valore catastale. Possono presentarlo?",
   "opzioni": [
    "Sì, perché per il PUOC a cura dei proprietari basta la maggioranza delle persone che risultano intestatarie al catasto",
    "Basta il 51% del valore catastale",
@@ -352,9 +352,9 @@
    "Il piano faunistico-venatorio"
   ],
   "corretta": 1,
-  "spiegazione": "È il PAR, piano regionale di settore per le zone E, a stabilire queste dimensioni per ciascun ambito rurale.",
+  "spiegazione": "È il PAR, piano regionale di settore per le zone E, a stabilire queste dimensioni per ciascun ambito rurale. Il PAR risulta ancora in formazione: per i valori applicati oggi leggi l'art. 55, c. 5.",
   "norma": "L.R. Lazio 38/1999",
-  "articolo": "art. 52, cc. 1, 3, lett. e",
+  "articolo": "art. 52, cc. 1, 3, lett. e; art. 55, c. 5",
   "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
   "verificato": "2026-11-04",
   "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
@@ -394,7 +394,7 @@
   "corretta": 3,
   "spiegazione": "La legge le consente tra le attività multimprenditoriali, a condizione di rispettare gli artt. 55, 57 e 57 bis e i regolamenti previsti. Se si svolgono dentro l'azienda agricola serve prima l'approvazione del PUA (art. 54, c. 3).",
   "norma": "L.R. Lazio 38/1999",
-  "articolo": "art. 54, cc. 2, lett. b, e 3",
+  "articolo": "art. 54, c. 2, lett. b, nn. 2 e 4; c. 3",
   "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
   "verificato": "2026-11-04",
   "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"

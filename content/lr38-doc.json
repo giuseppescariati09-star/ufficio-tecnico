@@ -99,7 +99,7 @@
      "articolo": "art. 21, c. 4"
     },
     {
-     "testo": "La provincia adotta il PTPG e lo trasmette alla Regione entro sessanta giorni.",
+     "testo": "Entro sessanta giorni dalla scadenza del termine di cui al c. 4, la provincia adotta il PTPG e lo trasmette alla Regione.",
      "articolo": "art. 21, c. 5"
     },
     {
@@ -115,7 +115,7 @@
      "articolo": "art. 24, c. 2"
     },
     {
-     "testo": "Nelle procedure di VAS o verifica su strumenti comunali si possono proporre precisazioni dei perimetri del PTPG, con variante automatica se l'esito è positivo.",
+     "testo": "Nelle procedure di VAS o verifica su strumenti comunali si possono proporre motivate precisazioni e adeguamenti dei perimetri delle componenti del PTPG: l'esito positivo, con l'approvazione dello strumento, comporta variante automatica.",
      "articolo": "art. 19, c. 6 bis"
     }
    ]
@@ -140,7 +140,7 @@
      "articolo": "art. 30, c. 1, lett. b"
     },
     {
-     "testo": "Il PUOC è obbligatorio per zone degradate di centri e insediamenti storici, aree da riqualificare e zone di nuova urbanizzazione.",
+     "testo": "Il PUOC è obbligatorio per zone fortemente degradate di centri storici o insediamenti storici puntuali, aree da riqualificare o ristrutturare e zone di nuova urbanizzazione.",
      "articolo": "art. 30, c. 4"
     },
     {
@@ -181,7 +181,7 @@
      "articolo": "art. 33, c. 4"
     },
     {
-     "testo": "Decorsi novanta giorni dalla trasmissione, il sindaco convoca la conferenza di copianificazione, da chiudere entro sessanta giorni dalla convocazione.",
+     "testo": "Decorsi novanta giorni dalla trasmissione, il sindaco, d'intesa con il presidente della provincia, convoca la conferenza di copianificazione, da chiudere entro sessanta giorni dalla convocazione.",
      "articolo": "art. 33, c. 5"
     },
     {
@@ -214,7 +214,7 @@
      "articolo": "art. 40, c. 1"
     },
     {
-     "testo": "In adozione il Comune motiva queste modifiche e attesta che il carico urbanistico non aumenta.",
+     "testo": "In adozione il Comune motiva queste modifiche, ne dimostra i miglioramenti e attesta che il carico urbanistico non aumenta; negli altri casi serve variante ex art. 34.",
      "articolo": "art. 40, c. 2"
     },
     {
@@ -226,11 +226,11 @@
      "articolo": "art. 42, c. 1"
     },
     {
-     "testo": "Lo schema resta depositato per quindici giorni consecutivi e le osservazioni si presentano entro i quindici giorni perentori successivi.",
+     "testo": "Entro trenta giorni dall'adozione lo schema è depositato per quindici giorni consecutivi; le osservazioni si presentano entro i quindici giorni perentori successivi.",
      "articolo": "art. 42, cc. 2, 4"
     },
     {
-     "testo": "Entro sessanta giorni il Comune trasmette lo schema alla provincia, che ha trenta giorni per le sue osservazioni.",
+     "testo": "Entro sessanta giorni dalla scadenza del termine per le osservazioni il Comune trasmette lo schema alla provincia, che ha trenta giorni dal ricevimento per le sue osservazioni.",
      "articolo": "art. 42, cc. 5, 6"
     },
     {
@@ -259,7 +259,7 @@
      "articolo": "art. 50, c. 1"
     },
     {
-     "testo": "Per le varianti di opere pubbliche previste dal DPR 327/2001 la provincia verifica la compatibilità entro quarantacinque giorni: il silenzio vale come esito positivo.",
+     "testo": "Per le varianti di opere pubbliche previste dal DPR 327/2001 la provincia verifica la compatibilità entro quarantacinque giorni dalla ricezione della delibera comunale: il silenzio vale come esito positivo.",
      "articolo": "art. 50 bis, c. 1"
     }
    ]
@@ -452,6 +452,23 @@
     {
      "testo": "Se gli aventi titolo non chiedono il titolo edilizio nei termini, il Comune espropria ed esegue o affida le trasformazioni.",
      "articolo": "art. 31, c. 1"
+    }
+   ]
+  },
+  {
+   "titolo": "Modifiche recenti",
+   "punti": [
+    {
+     "testo": "La L.R. 11/2026 modifica diversi punti degli artt. 54, 55, 57 e 57 bis: non fidarti dei testi di questi articoli anteriori a giugno 2026.",
+     "articolo": "L.R. 11/2026, art. 8"
+    },
+    {
+     "testo": "La L.R. 20/2024 ha inserito, tra l'altro, i frazionamenti ammessi, le pertinenze entro il 25% e i commi su finalità congiunte del PUA, recupero dei manufatti e interrati dell'abitazione rurale.",
+     "articolo": "L.R. 20/2024, art. 7"
+    },
+    {
+     "testo": "Il PAR risulta ancora in formazione in un documento regionale del 2025: per il lotto minimo vale intanto l'art. 55, c. 5.",
+     "articolo": "art. 52, c. 3, lett. e; art. 55, c. 5"
     }
    ]
   }

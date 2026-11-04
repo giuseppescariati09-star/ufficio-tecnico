@@ -82,7 +82,7 @@ await page.getByRole('button', { name: /^Domanda 3(,|$)/ }).click();
 await page.getByText(/Domanda 3 di/).waitFor();
 await page.getByRole('button', { name: 'Consegna' }).click();
 await page.getByRole('button', { name: 'Consegna comunque' }).click();
-await page.getByText(/su 30/).first().waitFor();
+await page.getByRole('heading', { name: 'Risultato' }).waitFor();
 await noScroll(page);
 if (shots) await shot(page); if (shots) await page.screenshot({ path: `${shots}/3-risultato.png` });
 

@@ -499,7 +499,7 @@ function renderExam() {
       atEnd ? null : h('button', { onclick: () => move(1) }, 'Avanti')),
     h('button', { class: atEnd ? 'primary' : '', onclick: askFinish }, 'Consegna'),
     h('details', { class: 'group' },
-      h('summary', {}, `Vai a una domanda: ${Object.keys(exam.answers).length} risposte su ${exam.ids.length}`),
+      h('summary', {}, `Vai a una domanda (risposte date: ${Object.keys(exam.answers).length} di ${exam.ids.length})`),
       h('div', { class: 'exam-grid' }, exam.ids.map((id, i) => h('button', {
         class: `grid-cell${exam.answers[id] !== undefined ? ' done' : ''}${i === exam.index ? ' current' : ''}`,
         'aria-label': `Domanda ${i + 1}${exam.answers[id] !== undefined ? ', risposta data' : ''}`,

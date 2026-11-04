@@ -1,402 +1,802 @@
 [
-  {
-    "id": "l1",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Durata delle previsioni",
-    "testo": "Un collega appena arrivato ti chiede se le previsioni di un piano hanno tutte la stessa durata. Cosa gli spieghi?",
-    "opzioni": [
-      "Durano tutte dieci anni, poi il piano va rifatto",
-      "Le strutturali scadono dopo cinque anni, mentre le programmatiche restano valide a tempo indeterminato",
-      "Le strutturali senza scadenza, le programmatiche per periodi determinati",
-      "La durata la decide ogni volta il sindaco"
-    ],
-    "corretta": 2,
-    "spiegazione": "La legge distingue due tipi di previsioni: quelle strutturali non hanno scadenza, quelle programmatiche guardano a un periodo definito.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 3, c. 3",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l2",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Atto non conforme al piano",
-    "testo": "Ti chiedono di preparare un atto comunale su una trasformazione del territorio, ma l'intervento non coincide con il piano vigente. Cosa ricordi?",
-    "opzioni": [
-      "Gli atti sulle trasformazioni devono essere conformi agli strumenti di pianificazione",
-      "Basta che la giunta lo motivi per ragioni di urgenza",
-      "Il piano conta solo per i privati, non per gli atti comunali",
-      "Si può procedere e sistemare il piano entro un anno"
-    ],
-    "corretta": 0,
-    "spiegazione": "Gli atti di Regione ed enti locali sulle trasformazioni del territorio devono rispettare gli strumenti di pianificazione territoriale e urbanistica.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 3, c. 5",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l3",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Chi adotta il PTRG",
-    "testo": "In ufficio un collega dice che il piano territoriale regionale generale lo adotta la Giunta regionale. Come lo correggi?",
-    "opzioni": [
-      "Lo adotta la provincia, la Regione lo ratifica",
-      "La Giunta prepara schema e proposta, il Consiglio regionale adotta il PTRG",
-      "Lo adotta la Giunta su proposta del Comitato regionale per il territorio, ed è efficace quindici giorni dopo la pubblicazione",
-      "Lo adotta il Presidente della Regione con decreto"
-    ],
-    "corretta": 1,
-    "spiegazione": "La Giunta prepara lo schema e poi la proposta. Il PTRG lo adotta il Consiglio regionale: si pubblica sul BUR e vale dal giorno successivo.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 10, cc. 2, 6, 7",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l4",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Osservazioni al PTPG",
-    "testo": "Un cittadino ha visto l'avviso di deposito dello schema di piano provinciale e vuole presentare osservazioni. Che termine gli indichi?",
-    "opzioni": [
-      "Sessanta giorni dall'adozione del piano",
-      "Trenta giorni dalla pubblicazione dell'avviso di deposito",
-      "Quindici giorni dall'ultimo giorno di deposito",
-      "Centoventi giorni dalla trasmissione alla Regione"
-    ],
-    "corretta": 1,
-    "spiegazione": "Per il PTPG il termine per le osservazioni è di trenta giorni dalla pubblicazione dell'avviso. Non confonderlo con i sessanta giorni del PUCG.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 21, c. 4",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l5",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Perimetro del PTPG da precisare",
-    "testo": "Durante la verifica di assoggettabilità a VAS di uno strumento comunale ti accorgi che un perimetro del piano provinciale va precisato. Cosa prevede la legge?",
-    "opzioni": [
-      "Serve sempre una variante separata del PTPG, con un nuovo iter completo di adozione e approvazione da parte della provincia",
-      "Il Comune corregge da solo la cartografia del PTPG",
-      "Il perimetro del PTPG non si può mai toccare in queste procedure",
-      "Si può proporre la precisazione: con esito positivo, la variante è automatica"
-    ],
-    "corretta": 3,
-    "spiegazione": "È una novità della L.R. 11/2026: nelle procedure di VAS o di verifica su strumenti comunali si possono proporre precisazioni dei perimetri del PTPG. L'esito positivo, con l'approvazione, vale come variante automatica.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 19, c. 6 bis",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale); L.R. 11/2026, art. 8, testo coordinato del Consiglio regionale"
-  },
-  {
-    "id": "l6",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Dove cercare i PUOC da fare",
-    "testo": "Stai leggendo un PUCG e vuoi sapere quali PUOC vanno redatti e entro quando. In quale parte del piano guardi?",
-    "opzioni": [
-      "Nelle disposizioni programmatiche",
-      "Nelle disposizioni strutturali",
-      "Nella relazione geologica",
-      "Nel piano territoriale regionale"
-    ],
-    "corretta": 0,
-    "spiegazione": "Sono le disposizioni programmatiche a indicare quali PUOC formare e i termini per farlo.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 30, c. 1, lett. b",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l7",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Quartiere di nuova urbanizzazione",
-    "testo": "Un operatore vuole realizzare un nuovo insediamento in una zona di nuova urbanizzazione del PUCG, senza piano attuativo. Cosa gli dici?",
-    "opzioni": [
-      "Basta una richiesta edilizia per ogni lotto",
-      "Decide caso per caso la commissione edilizia",
-      "Qui il PUOC è obbligatorio",
-      "Il PUOC serve solo nei centri storici"
-    ],
-    "corretta": 2,
-    "spiegazione": "Il PUOC è obbligatorio in tre casi: zone degradate di centri e insediamenti storici, aree da riqualificare o ristrutturare e zone di nuova urbanizzazione.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 30, c. 4",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l8",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Prima del nuovo PUCG",
-    "testo": "Il Comune decide di dotarsi di un nuovo PUCG. Prima di avviarlo, qual è il passaggio che ti aspetti?",
-    "opzioni": [
-      "Il consiglio comunale approva subito il piano definitivo",
-      "La provincia redige il piano per conto del Comune",
-      "Il Comune pubblica direttamente l'avviso di deposito sull'albo e su quattro quotidiani, così parte subito la fase delle osservazioni",
-      "Documento preliminare di indirizzo e conferenza con Regione e provincia"
-    ],
-    "corretta": 3,
-    "spiegazione": "Prima del PUCG o di una sua variante viene la conferenza di pianificazione: documento preliminare di indirizzo, poi confronto con Regione e provincia, entro trenta giorni.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 32, cc. 1, 2",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l9",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Osservazioni al PUCG",
-    "testo": "Una signora ha letto l'avviso di deposito del PUCG adottato e ti chiede quanto tempo ha per le osservazioni. Cosa le rispondi?",
-    "opzioni": [
-      "Quindici giorni dalla fine del deposito",
-      "Sessanta giorni dalla pubblicazione dell'avviso di deposito",
-      "Trenta giorni dalla delibera di adozione",
-      "Novanta giorni dalla trasmissione alla provincia"
-    ],
-    "corretta": 1,
-    "spiegazione": "Per il PUCG sono sessanta giorni dalla pubblicazione dell'avviso. Poi il Comune ha centoventi giorni per dedurre e trasmettere il piano alla provincia.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 33, cc. 3, 4",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l10",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Conferenza di copianificazione",
-    "testo": "Il PUCG è stato trasmesso alla provincia. Quando parte la conferenza di copianificazione?",
-    "opzioni": [
-      "Dopo novanta giorni dalla trasmissione la convoca il sindaco; si chiude entro sessanta giorni dalla convocazione",
-      "Subito dopo la trasmissione la convoca il presidente della provincia, e deve chiudersi entro trenta giorni dalla prima seduta in assoluto",
-      "Dopo sessanta giorni la convoca la Regione, senza un termine per chiuderla",
-      "Solo se la provincia dà parere negativo"
-    ],
-    "corretta": 0,
-    "spiegazione": "Passati novanta giorni dalla trasmissione, il sindaco convoca la conferenza, che deve concludersi entro sessanta giorni dalla convocazione.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 33, c. 5",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l11",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Dopo la firma dell'accordo",
-    "testo": "L'accordo di pianificazione sul PUCG è stato firmato. Che cosa deve fare ora il Comune?",
-    "opzioni": [
-      "Inviarlo alla Giunta regionale per l'approvazione finale",
-      "Ripubblicare il piano con l'accordo allegato, raccogliere nuove osservazioni per altri sessanta giorni e poi trasmettere tutto alla Regione",
-      "Ratifica del consiglio comunale entro trenta giorni, a pena di decadenza, e approvazione del PUCG",
-      "Attendere il decreto del prefetto"
-    ],
-    "corretta": 2,
-    "spiegazione": "La ratifica spetta al consiglio comunale, entro trenta giorni e a pena di decadenza. Insieme approva il PUCG, con le sole modifiche che servono a conformarlo all'accordo.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 33, cc. 9, 10, 11",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l12",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Variante alle programmatiche",
-    "testo": "Il Comune vuole modificare solo le disposizioni programmatiche del PUCG. Quale percorso segui?",
-    "opzioni": [
-      "Basta una delibera di giunta",
-      "Lo stesso procedimento di formazione, con termini ridotti della metà",
-      "Una nuova conferenza con lo Stato, senza pubblicità",
-      "Non si possono cambiare fino alla scadenza del piano"
-    ],
-    "corretta": 1,
-    "spiegazione": "Aggiornamenti e variazioni seguono le procedure dell'art. 33. Per le programmatiche e per gli adeguamenti a nuove norme i termini sono dimezzati.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 34, c. 1",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l13",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Salvaguardia dopo l'adozione",
-    "testo": "Il PUCG è stato adottato ma non è ancora esecutivo. Un tecnico ti chiede fino a quando valgono le misure di salvaguardia. Cosa rispondi?",
-    "opzioni": [
-      "Centoventi giorni dall'adozione",
-      "Un anno, prorogabile dalla giunta",
-      "Senza alcun limite di tempo: restano in vigore finché il piano non viene approvato dal consiglio comunale",
-      "Fino all'esecutività, e comunque non oltre cinque anni dall'adozione"
-    ],
-    "corretta": 3,
-    "spiegazione": "Le misure della L. 1902/1952 si applicano dall'adozione fino all'esecutività, con il tetto massimo di cinque anni dall'adozione.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 36, c. 1",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l14",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Chi firma le relazioni",
-    "testo": "Controlli gli elaborati di un PUCG. Chi deve redigere la relazione geologica e quella agro-pedologica?",
-    "opzioni": [
-      "Un iscritto all'albo dei geologi per la prima, un iscritto all'albo dei dottori agronomi e forestali per la seconda",
-      "Il responsabile dell'ufficio tecnico comunale per entrambe, con il visto del segretario comunale e dell'assessore competente",
-      "Un geometra iscritto all'albo per entrambe",
-      "Un ingegnere per la prima, un architetto per la seconda"
-    ],
-    "corretta": 0,
-    "spiegazione": "Ogni relazione ha il suo professionista: il geologo per quella geologica, il dottore agronomo o forestale per quella agro-pedologica e d'uso dei suoli.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 37, c. 2",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l15",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Una piccola variazione nel PUOC",
-    "testo": "Uno schema di PUOC sposta dell'8% le quantità attribuite a una funzione rispetto al PUCG. Il collega ti chiede se è una variante. Cosa rispondi?",
-    "opzioni": [
-      "Sì, ogni differenza dal PUCG è variante",
-      "No, e non serve scrivere altro negli atti",
-      "No, se il Comune lo motiva e il carico urbanistico non aumenta",
-      "Sì, e siccome supera il 5% la deve approvare la provincia al posto del Comune, seguendo il procedimento di variante al PUCG"
-    ],
-    "corretta": 2,
-    "spiegazione": "I PUOC non possono variare il PUCG, ma entro il 10% per funzione non c'è variante. In adozione il Comune motiva e attesta che il carico urbanistico non cresce.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 40, cc. 1, lett. b, 2",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l16",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Quanti proprietari per il PUOC",
-    "testo": "Il PUCG prevede un PUOC a cura dei proprietari. Si presentano in tre, con la maggioranza delle teste ma solo il 60% del valore catastale. Cosa spieghi?",
-    "opzioni": [
-      "Sì, perché per il PUOC a cura dei proprietari basta la maggioranza delle persone che risultano intestatarie al catasto",
-      "Basta il 51% del valore catastale",
-      "Serve l'unanimità di tutti i proprietari",
-      "No: serve almeno il 75% del valore imponibile catastale nel perimetro"
-    ],
-    "corretta": 3,
-    "spiegazione": "Non si contano le persone ma il valore: i proprietari devono rappresentare almeno il 75% dell'imponibile catastale degli immobili compresi nel perimetro.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 41, c. 1, lett. b",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l17",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Proposta di PUOC da respingere",
-    "testo": "Al Comune arriva una proposta di PUOC dai proprietari che non convince. Entro quando può respingerla, e come?",
-    "opzioni": [
-      "Con atto motivato, entro centoventi giorni perentori dalla ricezione",
-      "Senza motivazione, entro un anno dalla ricezione",
-      "Con atto motivato, in qualsiasi momento",
-      "Solo con il consenso della provincia, che deve esprimersi entro trenta giorni dal ricevimento della proposta dei proprietari"
-    ],
-    "corretta": 0,
-    "spiegazione": "Il Comune può respingere la proposta con motivazione entro centoventi giorni dalla ricezione: il termine è perentorio.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 42, c. 1",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l18",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Lotto minimo in ambito rurale",
-    "testo": "Un agricoltore vuole sapere quale strumento regionale stabilisce, per il suo ambito rurale, il lotto minimo e l'unità minima aziendale. Cosa gli indichi?",
-    "opzioni": [
-      "Il regolamento edilizio del Comune",
-      "Il Piano agricolo regionale (PAR)",
-      "Il PTPG della provincia",
-      "Il piano faunistico-venatorio"
-    ],
-    "corretta": 1,
-    "spiegazione": "È il PAR, piano regionale di settore per le zone E, a stabilire queste dimensioni per ciascun ambito rurale.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 52, cc. 1, 3, lett. e",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l19",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Strada tra i poderi",
-    "testo": "In zona agricola un proprietario vuole aprire una strada interpoderale per comodità, senza una vera necessità. Cosa gli dici?",
-    "opzioni": [
-      "Si può, se la strada è sterrata",
-      "Si può sempre, se resta dentro la proprietà",
-      "Non si può: l'apertura è vietata se non è strettamente necessaria",
-      "Si può, se ottiene il consenso dei vicini"
-    ],
-    "corretta": 2,
-    "spiegazione": "Nelle zone agricole è vietata l'apertura di strade interpoderali non strettamente necessarie. La legge fa salve le L.R. 29/1997, 24/1998 e 14/2006.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 54, c. 1, lett. c",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  },
-  {
-    "id": "l20",
-    "ufficio": "territorio",
-    "materia": "urbanistica",
-    "titolo": "Vendita e didattica in azienda",
-    "testo": "Un'azienda agricola vuole affiancare alla coltivazione la vendita diretta e attività didattiche. Cosa le rispondi?",
-    "opzioni": [
-      "In zona agricola è ammessa soltanto la coltivazione",
-      "Sono libere, nessuna norma le limita",
-      "Servono prima un cambio di destinazione di zona e una variante al piano, e poi un titolo edilizio distinto per ogni singola attività",
-      "Sono attività multimprenditoriali consentite, nel rispetto degli artt. 55, 57 e 57 bis"
-    ],
-    "corretta": 3,
-    "spiegazione": "La legge le consente tra le attività multimprenditoriali, a condizione di rispettare gli artt. 55, 57 e 57 bis e i regolamenti previsti.",
-    "norma": "L.R. Lazio 38/1999",
-    "articolo": "art. 54, c. 2, lett. b",
-    "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
-    "verificato": "2026-11-04",
-    "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato (letto con WebFetch: sintesi e brevi citazioni, non testo integrale)"
-  }
+ {
+  "id": "l1",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Durata delle previsioni",
+  "testo": "Un collega appena arrivato ti chiede se le previsioni di un piano hanno tutte la stessa durata. Cosa gli spieghi?",
+  "opzioni": [
+   "Durano tutte dieci anni, poi il piano va rifatto",
+   "Le strutturali scadono dopo cinque anni, mentre le programmatiche restano valide a tempo indeterminato",
+   "Le strutturali senza scadenza, le programmatiche per periodi determinati",
+   "La durata la decide ogni volta il sindaco"
+  ],
+  "corretta": 2,
+  "spiegazione": "La legge distingue due tipi di previsioni: quelle strutturali non hanno scadenza, quelle programmatiche guardano a un periodo definito.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 3, c. 3",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l2",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Atto non conforme al piano",
+  "testo": "Ti chiedono di preparare un atto comunale su una trasformazione del territorio, ma l'intervento non coincide con il piano vigente. Cosa ricordi?",
+  "opzioni": [
+   "Gli atti sulle trasformazioni devono essere conformi agli strumenti di pianificazione",
+   "Basta che la giunta lo motivi per ragioni di urgenza",
+   "Il piano conta solo per i privati, non per gli atti comunali",
+   "Si può procedere e sistemare il piano entro un anno"
+  ],
+  "corretta": 0,
+  "spiegazione": "Gli atti di Regione ed enti locali sulle trasformazioni del territorio devono rispettare gli strumenti di pianificazione territoriale e urbanistica.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 3, c. 5",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l3",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Chi adotta il PTRG",
+  "testo": "In ufficio un collega dice che il piano territoriale regionale generale lo adotta la Giunta regionale. Come lo correggi?",
+  "opzioni": [
+   "Lo adotta la provincia, la Regione lo ratifica",
+   "La Giunta prepara schema e proposta, il Consiglio regionale adotta il PTRG",
+   "Lo adotta la Giunta su proposta del Comitato regionale per il territorio, ed è efficace quindici giorni dopo la pubblicazione",
+   "Lo adotta il Presidente della Regione con decreto"
+  ],
+  "corretta": 1,
+  "spiegazione": "La Giunta prepara lo schema e poi la proposta. Il PTRG lo adotta il Consiglio regionale: si pubblica sul BUR e vale dal giorno successivo.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 10, cc. 2, 6, 7",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l4",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Osservazioni al PTPG",
+  "testo": "Un cittadino ha visto l'avviso di deposito dello schema di piano provinciale e vuole presentare osservazioni. Che termine gli indichi?",
+  "opzioni": [
+   "Sessanta giorni dall'adozione del piano",
+   "Trenta giorni dalla pubblicazione dell'avviso di deposito",
+   "Quindici giorni dall'ultimo giorno di deposito",
+   "Centoventi giorni dalla trasmissione alla Regione"
+  ],
+  "corretta": 1,
+  "spiegazione": "Per il PTPG il termine per le osservazioni è di trenta giorni dalla pubblicazione dell'avviso. Non confonderlo con i sessanta giorni del PUCG.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 21, c. 4",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l5",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Perimetro del PTPG da precisare",
+  "testo": "Durante la verifica di assoggettabilità a VAS di uno strumento comunale ti accorgi che un perimetro del piano provinciale va precisato. Cosa prevede la legge?",
+  "opzioni": [
+   "Serve sempre una variante separata del PTPG, con un nuovo iter completo di adozione e approvazione da parte della provincia",
+   "Il Comune corregge da solo la cartografia del PTPG",
+   "Il perimetro del PTPG non si può mai toccare in queste procedure",
+   "Si può proporre la precisazione: con esito positivo, la variante è automatica"
+  ],
+  "corretta": 3,
+  "spiegazione": "È una novità della L.R. 11/2026: nelle procedure di VAS o di verifica su strumenti comunali si possono proporre precisazioni dei perimetri del PTPG. L'esito positivo, con l'approvazione, vale come variante automatica.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 19, c. 6 bis",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l6",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Dove cercare i PUOC da fare",
+  "testo": "Stai leggendo un PUCG e vuoi sapere quali PUOC vanno redatti e entro quando. In quale parte del piano guardi?",
+  "opzioni": [
+   "Nelle disposizioni programmatiche",
+   "Nelle disposizioni strutturali",
+   "Nella relazione geologica",
+   "Nel piano territoriale regionale"
+  ],
+  "corretta": 0,
+  "spiegazione": "Sono le disposizioni programmatiche a indicare quali PUOC formare e i termini per farlo.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 30, c. 1, lett. b",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l7",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Quartiere di nuova urbanizzazione",
+  "testo": "Un operatore vuole realizzare un nuovo insediamento in una zona di nuova urbanizzazione del PUCG, senza piano attuativo. Cosa gli dici?",
+  "opzioni": [
+   "Basta una richiesta edilizia per ogni lotto",
+   "Decide caso per caso la commissione edilizia",
+   "Qui il PUOC è obbligatorio",
+   "Il PUOC serve solo nei centri storici"
+  ],
+  "corretta": 2,
+  "spiegazione": "Il PUOC è obbligatorio in tre casi: zone degradate di centri e insediamenti storici, aree da riqualificare o ristrutturare e zone di nuova urbanizzazione.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 30, c. 4",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l8",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Prima del nuovo PUCG",
+  "testo": "Il Comune decide di dotarsi di un nuovo PUCG. Prima di avviarlo, qual è il passaggio che ti aspetti?",
+  "opzioni": [
+   "Il consiglio comunale approva subito il piano definitivo",
+   "La provincia redige il piano per conto del Comune",
+   "Il Comune pubblica direttamente l'avviso di deposito sull'albo e su quattro quotidiani, così parte subito la fase delle osservazioni",
+   "Documento preliminare di indirizzo e conferenza con Regione e provincia"
+  ],
+  "corretta": 3,
+  "spiegazione": "Prima del PUCG o di una sua variante viene la conferenza di pianificazione: documento preliminare di indirizzo, poi confronto con Regione e provincia, entro trenta giorni.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 32, cc. 1, 2",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l9",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Osservazioni al PUCG",
+  "testo": "Una signora ha letto l'avviso di deposito del PUCG adottato e ti chiede quanto tempo ha per le osservazioni. Cosa le rispondi?",
+  "opzioni": [
+   "Quindici giorni dalla fine del deposito",
+   "Sessanta giorni dalla pubblicazione dell'avviso di deposito",
+   "Trenta giorni dalla delibera di adozione",
+   "Novanta giorni dalla trasmissione alla provincia"
+  ],
+  "corretta": 1,
+  "spiegazione": "Per il PUCG sono sessanta giorni dalla pubblicazione dell'avviso. Poi il Comune ha centoventi giorni per dedurre e trasmettere il piano alla provincia.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 33, cc. 3, 4",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l10",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Conferenza di copianificazione",
+  "testo": "Il PUCG è stato trasmesso alla provincia. Quando parte la conferenza di copianificazione?",
+  "opzioni": [
+   "Dopo novanta giorni dalla trasmissione la convoca il sindaco; si chiude entro sessanta giorni dalla convocazione",
+   "Subito dopo la trasmissione la convoca il presidente della provincia, e deve chiudersi entro trenta giorni dalla prima seduta in assoluto",
+   "Dopo sessanta giorni la convoca la Regione, senza un termine per chiuderla",
+   "Solo se la provincia dà parere negativo"
+  ],
+  "corretta": 0,
+  "spiegazione": "Passati novanta giorni dalla trasmissione, il sindaco convoca la conferenza, che deve concludersi entro sessanta giorni dalla convocazione.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 33, c. 5",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l11",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Dopo la firma dell'accordo",
+  "testo": "L'accordo di pianificazione sul PUCG è stato firmato. Che cosa deve fare ora il Comune?",
+  "opzioni": [
+   "Inviarlo alla Giunta regionale per l'approvazione finale",
+   "Ripubblicare il piano con l'accordo allegato, raccogliere nuove osservazioni per altri sessanta giorni e poi trasmettere tutto alla Regione",
+   "Ratifica del consiglio comunale entro trenta giorni, a pena di decadenza, e approvazione del PUCG",
+   "Attendere il decreto del prefetto"
+  ],
+  "corretta": 2,
+  "spiegazione": "La ratifica spetta al consiglio comunale, entro trenta giorni e a pena di decadenza. Insieme approva il PUCG, con le sole modifiche che servono a conformarlo all'accordo.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 33, cc. 9, 10, 11",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l12",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Variante alle programmatiche",
+  "testo": "Il Comune vuole modificare solo le disposizioni programmatiche del PUCG. Quale percorso segui?",
+  "opzioni": [
+   "Basta una delibera di giunta",
+   "Lo stesso procedimento di formazione, con termini ridotti della metà",
+   "Una nuova conferenza con lo Stato, senza pubblicità",
+   "Non si possono cambiare fino alla scadenza del piano"
+  ],
+  "corretta": 1,
+  "spiegazione": "Aggiornamenti e variazioni seguono le procedure dell'art. 33. Per le programmatiche e per gli adeguamenti a nuove norme i termini sono dimezzati.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 34, c. 1",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l13",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Salvaguardia dopo l'adozione",
+  "testo": "Il PUCG è stato adottato ma non è ancora esecutivo. Un tecnico ti chiede fino a quando valgono le misure di salvaguardia. Cosa rispondi?",
+  "opzioni": [
+   "Centoventi giorni dall'adozione",
+   "Un anno, prorogabile dalla giunta",
+   "Senza alcun limite di tempo: restano in vigore finché il piano non viene approvato dal consiglio comunale",
+   "Fino all'esecutività, e comunque non oltre cinque anni dall'adozione"
+  ],
+  "corretta": 3,
+  "spiegazione": "Le misure della L. 1902/1952 si applicano dall'adozione fino all'esecutività, con il tetto massimo di cinque anni dall'adozione.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 36, c. 1",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l14",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Chi firma le relazioni",
+  "testo": "Controlli gli elaborati di un PUCG. Chi deve redigere la relazione geologica e quella agro-pedologica?",
+  "opzioni": [
+   "Un iscritto all'albo dei geologi per la prima, un iscritto all'albo dei dottori agronomi e forestali per la seconda",
+   "Il responsabile dell'ufficio tecnico comunale per entrambe, con il visto del segretario comunale e dell'assessore competente",
+   "Un geometra iscritto all'albo per entrambe",
+   "Un ingegnere per la prima, un architetto per la seconda"
+  ],
+  "corretta": 0,
+  "spiegazione": "Ogni relazione ha il suo professionista: il geologo per quella geologica, il dottore agronomo o forestale per quella agro-pedologica e d'uso dei suoli.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 37, c. 2",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l15",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Una piccola variazione nel PUOC",
+  "testo": "Uno schema di PUOC sposta dell'8% le quantità attribuite a una funzione rispetto al PUCG. Il collega ti chiede se è una variante. Cosa rispondi?",
+  "opzioni": [
+   "Sì, ogni differenza dal PUCG è variante",
+   "No, e non serve scrivere altro negli atti",
+   "No, se il Comune lo motiva e il carico urbanistico non aumenta",
+   "Sì, e siccome supera il 5% la deve approvare la provincia al posto del Comune, seguendo il procedimento di variante al PUCG"
+  ],
+  "corretta": 2,
+  "spiegazione": "I PUOC non possono variare il PUCG, ma entro il 10% per funzione non c'è variante. In adozione il Comune motiva e attesta che il carico urbanistico non cresce.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 40, cc. 1, lett. b, 2",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l16",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Quanti proprietari per il PUOC",
+  "testo": "Il PUCG prevede un PUOC a cura dei proprietari. Si presentano in tre, con la maggioranza delle teste ma solo il 60% del valore catastale. Cosa spieghi?",
+  "opzioni": [
+   "Sì, perché per il PUOC a cura dei proprietari basta la maggioranza delle persone che risultano intestatarie al catasto",
+   "Basta il 51% del valore catastale",
+   "Serve l'unanimità di tutti i proprietari",
+   "No: serve almeno il 75% del valore imponibile catastale nel perimetro"
+  ],
+  "corretta": 3,
+  "spiegazione": "Non si contano le persone ma il valore: i proprietari devono rappresentare almeno il 75% dell'imponibile catastale degli immobili compresi nel perimetro.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 41, c. 1, lett. b",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l17",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Proposta di PUOC da respingere",
+  "testo": "Al Comune arriva una proposta di PUOC dai proprietari che non convince. Entro quando può respingerla, e come?",
+  "opzioni": [
+   "Con atto motivato, entro centoventi giorni perentori dalla ricezione",
+   "Senza motivazione, entro un anno dalla ricezione",
+   "Con atto motivato, in qualsiasi momento",
+   "Solo con il consenso della provincia, che deve esprimersi entro trenta giorni dal ricevimento della proposta dei proprietari"
+  ],
+  "corretta": 0,
+  "spiegazione": "Il Comune può respingere la proposta con motivazione entro centoventi giorni dalla ricezione: il termine è perentorio.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 42, c. 1",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l18",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Lotto minimo in ambito rurale",
+  "testo": "Un agricoltore vuole sapere quale strumento regionale stabilisce, per il suo ambito rurale, il lotto minimo e l'unità minima aziendale. Cosa gli indichi?",
+  "opzioni": [
+   "Il regolamento edilizio del Comune",
+   "Il Piano agricolo regionale (PAR)",
+   "Il PTPG della provincia",
+   "Il piano faunistico-venatorio"
+  ],
+  "corretta": 1,
+  "spiegazione": "È il PAR, piano regionale di settore per le zone E, a stabilire queste dimensioni per ciascun ambito rurale.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 52, cc. 1, 3, lett. e",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l19",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Strada tra i poderi",
+  "testo": "In zona agricola un proprietario vuole aprire una strada interpoderale per comodità, senza una vera necessità. Cosa gli dici?",
+  "opzioni": [
+   "Si può, se la strada è sterrata",
+   "Si può sempre, se resta dentro la proprietà",
+   "Non si può: l'apertura è vietata se non è strettamente necessaria",
+   "Si può, se ottiene il consenso dei vicini"
+  ],
+  "corretta": 2,
+  "spiegazione": "Nelle zone agricole è vietata l'apertura di strade interpoderali non strettamente necessarie. La legge fa salve le L.R. 29/1997, 24/1998 e 14/2006.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 54, c. 1, lett. c",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l20",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Vendita e didattica in azienda",
+  "testo": "Un'azienda agricola vuole affiancare alla coltivazione la vendita diretta e attività didattiche. Cosa le rispondi?",
+  "opzioni": [
+   "In zona agricola è ammessa soltanto la coltivazione",
+   "Sono libere, nessuna norma le limita",
+   "Servono prima un cambio di destinazione di zona e una variante al piano, e poi un titolo edilizio distinto per ogni singola attività",
+   "Sono attività multimprenditoriali consentite, nel rispetto degli artt. 55, 57 e 57 bis"
+  ],
+  "corretta": 3,
+  "spiegazione": "La legge le consente tra le attività multimprenditoriali, a condizione di rispettare gli artt. 55, 57 e 57 bis e i regolamenti previsti. Se si svolgono dentro l'azienda agricola serve prima l'approvazione del PUA (art. 54, c. 3).",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 54, cc. 2, lett. b, e 3",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l21",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Lotto minimo senza unità aziendale",
+  "testo": "Il Comune non ha individuato l'unità aziendale minima. Un'azienda agricola ti chiede quale lotto minimo si applica. Cosa rispondi?",
+  "opzioni": [
+   "10.000 mq",
+   "15.000 mq",
+   "30.000 mq",
+   "50.000 mq"
+  ],
+  "corretta": 2,
+  "spiegazione": "In mancanza dell'unità aziendale minima il lotto minimo è 30.000 mq. L'unità aziendale minima, invece, non può essere fissata sotto 10.000 mq.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 55, c. 5",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l22",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Abitazione rurale",
+  "testo": "Un imprenditore agricolo vuole realizzare un'abitazione rurale. Quali limiti della legge regionale gli ricordi, se il piano comunale non è più restrittivo?",
+  "opzioni": [
+   "0,01 mq/mq fino a 300 mq, su un lotto di almeno 30.000 mq",
+   "0,04 mq/mq fino a 500 mq, su un lotto di almeno 10.000 mq",
+   "0,01 mq/mq fino a 500 mq, su un lotto di almeno 5.000 mq",
+   "0,05 mq/mq senza limite massimo, su qualsiasi lotto"
+  ],
+  "corretta": 0,
+  "spiegazione": "L'abitazione rurale non può superare 0,01 mq/mq, fino a 300 mq, su un lotto minimo di 30.000 mq. Questi indici non si possono mai derogare.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 57, c. 3",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l23",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Bagno da adeguare",
+  "testo": "Un edificio residenziale in zona agricola esisteva già quando è entrata in vigore la legge. Il proprietario vuole ampliarlo per motivi igienico-sanitari. Cosa prevede la norma?",
+  "opzioni": [
+   "Nessun aumento, in nessun caso",
+   "Un aumento del 25% ogni dieci anni",
+   "Un aumento del 20%, ripetibile",
+   "Un aumento del 10%, per una sola volta"
+  ],
+  "corretta": 3,
+  "spiegazione": "Gli edifici esistenti non possono superare le superfici lorde utili esistenti, salvo un aumento del 10%, una sola volta, delle superfici o dei volumi residenziali per adeguamento igienico-sanitario.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 55, c. 2",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l24",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Annesso agricolo tamponato",
+  "testo": "Controlli un progetto di annesso agricolo tamponato. Il piano comunale non pone limiti più severi e non usa la facoltà di alzare il rapporto. Quali valori verifichi?",
+  "opzioni": [
+   "Lotto 10.000 mq, rapporto 0,01 mq/mq, altezza 7,50 m",
+   "Lotto 30.000 mq, rapporto 0,004 mq/mq, altezza 3,20 m alla gronda",
+   "Lotto 30.000 mq, rapporto 0,008 mq/mq, altezza 2,30 m alla gronda",
+   "Lotto 1.500 mq, rapporto 0,002 mq/mq, altezza 3,20 m al colmo"
+  ],
+  "corretta": 1,
+  "spiegazione": "Servono almeno 30.000 mq, rapporto massimo 0,004 mq/mq e altezza massima 3,20 m alla gronda, con copertura a tetto. Il Comune può prevedere nei suoi strumenti un rapporto fino a 0,008 mq/mq.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 55, c. 6",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l25",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Zona molto frazionata",
+  "testo": "Il tuo Comune ha zone agricole con elevato frazionamento. Un coltivatore con un lotto di 2.000 mq, coltivato da cinque anni, chiede un piccolo annesso. Quali limiti applichi?",
+  "opzioni": [
+   "Fino a 50 mq e 3,20 m, su lotti da almeno 1.000 mq",
+   "Fino a 30 mq e 2,50 m, su lotti da almeno 5.000 mq",
+   "Fino a 12 mq e 2,30 m alla gronda, su lotti da almeno 1.500 mq",
+   "Non si può costruire nulla sotto 30.000 mq"
+  ],
+  "corretta": 2,
+  "spiegazione": "Nei Comuni con elevato frazionamento gli annessi possono arrivare a 12 mq e 2,30 m alla gronda, su lotti da almeno 1.500 mq usati per attività agricole tradizionali da almeno tre anni.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 55, c. 7",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l26",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Terreno diviso tra eredi",
+  "testo": "Due fratelli ereditano un terreno in zona agricola e chiedono se possono frazionarlo. Cosa rispondi?",
+  "opzioni": [
+   "Sì: i frazionamenti per divisioni ereditarie sono consentiti",
+   "No: in zona agricola ogni frazionamento è vietato",
+   "Sì, ma solo per ricavare lotti edificabili",
+   "No, salvo una variante al piano"
+  ],
+  "corretta": 0,
+  "spiegazione": "Fermo il divieto di lottizzazione a scopo edilizio, sono consentiti i frazionamenti per divisioni ereditarie, donazioni tra coniugi e parenti in linea retta, testamenti e atti su diritti reali di garanzia e servitù.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 54, c. 3 bis",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l27",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Chi può costruire",
+  "testo": "Un privato che non svolge attività agricola chiede di costruire un nuovo annesso agricolo sul suo terreno. Cosa gli rispondi?",
+  "opzioni": [
+   "Può farlo se il terreno supera 30.000 mq",
+   "Può farlo con una semplice SCIA",
+   "Può farlo se paga il doppio del contributo",
+   "Non può: l'intervento è riservato a imprenditori agricoli, coltivatori diretti e IAP"
+  ],
+  "corretta": 3,
+  "spiegazione": "Salvi i casi espressamente esclusi, gli interventi spettano a imprenditori agricoli, coltivatori diretti e IAP, singoli o associati, con i requisiti aziendali richiesti.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 55, c. 4",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l28",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Insediamenti estensivi: quota",
+  "testo": "Un Comune con 12.000 abitanti vuole prevedere nel PUCG insediamenti residenziali estensivi in territorio agricolo frazionato. Qual è il limite?",
+  "opzioni": [
+   "Il 10% della capacità insediativa",
+   "Il 20% della capacità insediativa",
+   "Il 15% della capacità insediativa",
+   "Il 5% della capacità insediativa"
+  ],
+  "corretta": 1,
+  "spiegazione": "Sotto 15.000 abitanti il limite è il 20% della capacità insediativa del PUCG. Sale al 15% fino a 100.000 abitanti e al 5% oltre. Queste aree vanno classificate come zone C.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 56, c. 1",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l29",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Insediamenti estensivi: indici",
+  "testo": "Stai verificando un lotto in un insediamento residenziale estensivo. Il piano non è più restrittivo. Quali valori controlli?",
+  "opzioni": [
+   "Indice 0,05 mq/mq fino a 500 mq, lotto minimo 5.000 mq",
+   "Indice 0,01 mq/mq fino a 300 mq, lotto minimo 30.000 mq",
+   "Indice 0,5 mq/mq fino a 1.000 mq, lotto minimo 500 mq",
+   "Indice 0,05 mq/mq fino a 300 mq, lotto minimo 10.000 mq"
+  ],
+  "corretta": 0,
+  "spiegazione": "L'edificazione richiede un piano di lottizzazione o altro strumento attuativo, con indice massimo 0,05 mq/mq fino a 500 mq, lotto minimo 5.000 mq e almeno una pianta ogni 10 mq di superficie lorda utile fuori terra, minimo quindici per lotto.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 56, c. 2",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l30",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Chi approva il PUA",
+  "testo": "Un coltivatore diretto presenta un PUA per realizzare un'abitazione rurale. Chi lo approva?",
+  "opzioni": [
+   "La Giunta regionale, senza altri pareri",
+   "Il consiglio comunale, senza altri pareri",
+   "La struttura tecnica comunale, previo parere delle commissioni agrarie regionali",
+   "La sola commissione agraria comunale"
+  ],
+  "corretta": 2,
+  "spiegazione": "Per questo PUA decide la struttura tecnica comunale, nel procedimento unico dell'art. 8 della L.R. 1/2020, dopo il parere delle commissioni agrarie regionali. Attenzione ai manuali vecchi che parlano di commissione comunale.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 57, cc. 2, lett. e, 6 e 7",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l31",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Deroga agli indici",
+  "testo": "Un PUA chiede una deroga agli indici per annessi tamponati di nuova edificazione, per motivate esigenze di sviluppo aziendale. Chi lo approva?",
+  "opzioni": [
+   "Il sindaco con ordinanza",
+   "La struttura tecnica comunale",
+   "La commissione edilizia",
+   "Il consiglio comunale"
+  ],
+  "corretta": 3,
+  "spiegazione": "È l'ipotesi del comma 2, lettera d): il PUA è approvato con deliberazione del consiglio comunale, secondo l'art. 8, c. 3 septies, della L.R. 1/2020.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 57, cc. 2, lett. d, e 7",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l32",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Chi firma il PUA",
+  "testo": "Un geometra abilitato ti chiede se può sottoscrivere un PUA. Cosa rispondi?",
+  "opzioni": [
+   "No, firma solo un dottore agronomo forestale",
+   "Sì, nei limiti delle sue competenze professionali",
+   "No, firma solo un ingegnere",
+   "Sì, ma serve la controfirma del sindaco"
+  ],
+  "corretta": 1,
+  "spiegazione": "Il PUA è sottoscritto da dottore agronomo forestale, perito agrario, agrotecnico o agrotecnico laureato, oppure geometra, abilitati e nei limiti delle rispettive competenze.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 57, c. 4",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l33",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Durata della connessione",
+  "testo": "Un'azienda agricola vuole ospitare un'attività multimprenditoriale svolta da un soggetto non agricolo. Quanto deve durare almeno il regime di connessione?",
+  "opzioni": [
+   "Tre anni",
+   "Cinque anni",
+   "Dodici anni",
+   "Trenta anni"
+  ],
+  "corretta": 2,
+  "spiegazione": "Le attività multimprenditoriali sono svolte da soggetti diversi da quelli dell'art. 55, c. 4, in regime di connessione con l'attività agricola, per una durata non inferiore a dodici anni.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 57 bis, c. 2",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l34",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Quanta terra resta agricola",
+  "testo": "Nel PUA di un'attività multimprenditoriale, quale limite di superficie controlli?",
+  "opzioni": [
+   "Attività agricole almeno al 90% della superficie aziendale; multimprenditoriale al massimo 30 ettari",
+   "Attività agricole almeno al 50%; multimprenditoriale senza limite",
+   "Attività agricole almeno al 75%; multimprenditoriale al massimo 10 ettari",
+   "Nessun limite, decide la commissione agraria"
+  ],
+  "corretta": 0,
+  "spiegazione": "La superficie agricola non può mai scendere sotto il 90% di quella aziendale. La superficie destinata all'attività multimprenditoriale non può superare 30 ettari.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 57 bis, c. 3",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l35",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Standard in zona agricola",
+  "testo": "Per un intervento edilizio necessario alle attività agricole consentite, un collega vuole chiedere il reperimento degli standard del D.M. 1444/1968. Cosa gli dici?",
+  "opzioni": [
+   "Sono sempre dovuti, in misura piena",
+   "Sono dovuti al 50%",
+   "Si possono solo monetizzare",
+   "Non sono oggetto di reperimento"
+  ],
+  "corretta": 3,
+  "spiegazione": "Gli interventi edilizi necessari alle attività dell'art. 54, c. 2, non sono oggetto di reperimento degli standard del D.M. 1444/1968 né delle previsioni dell'art. 41 sexies della L. 1150/1942.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 55, c. 13",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l36",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "PRG o PUCG",
+  "testo": "Un Comune non ha approvato un PUCG e deve lavorare su una variante al suo PRG. Quale disciplina applichi?",
+  "opzioni": [
+   "La procedura del PUCG, obbligatoria dal 1999",
+   "Fino all'approvazione del PUCG continuano ad applicarsi le leggi regionali urbanistiche previgenti",
+   "Nessuna: il PRG è decaduto",
+   "Solo il PTPG, che sostituisce il PRG"
+  ],
+  "corretta": 1,
+  "spiegazione": "Adottare il PUCG è un'alternativa alla pianificazione secondo la legislazione previgente. Fino alla sua approvazione, a PRG, varianti e strumenti attuativi si applicano le leggi regionali urbanistiche previgenti.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 65, c. 1; art. 66, c. 1",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l37",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Comune senza piano",
+  "testo": "In un Comune senza strumento urbanistico generale arriva una richiesta di intervento. Cosa è consentito?",
+  "opzioni": [
+   "Solo gli interventi dell'art. 3, c. 1, lett. a), b), c) e d), D.P.R. 380/2001, dentro il centro abitato",
+   "Qualsiasi nuova costruzione, con permesso di costruire",
+   "Nessun intervento, neppure la manutenzione",
+   "Gli interventi di ogni tipo, ma solo fuori dal centro abitato"
+  ],
+  "corretta": 0,
+  "spiegazione": "Nei Comuni senza strumento generale e in quelli con programma di fabbricazione sono consentiti solo gli interventi delle lettere a), b), c) e d) dell'art. 3 del D.P.R. 380/2001, dentro il perimetro del centro abitato.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 65, c. 2",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l38",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Perimetro del centro storico",
+  "testo": "Non esiste cartografia antica per perimetrare un centro storico. Su cosa si basa la perimetrazione?",
+  "opzioni": [
+   "Sul solo rilievo degli edifici oggi esistenti",
+   "Sull'ultima variante del PRG",
+   "Sulle planimetrie catastali redatte dopo l'unità d'Italia",
+   "Sulla scelta discrezionale del sindaco"
+  ],
+  "corretta": 2,
+  "spiegazione": "In assenza di cartografia precedente ci si basa sulle planimetrie catastali redatte dopo l'avvento dello Stato unitario. Anche la sostituzione di parti cospicue dell'edilizia storica non cambia i criteri.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 60, c. 1",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l39",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Proprietari inadempienti",
+  "testo": "Un PUCG prevede una trasformazione senza PUOC, ma gli aventi titolo non chiedono il titolo edilizio entro i termini. Cosa prevede la legge?",
+  "opzioni": [
+   "Il termine si rinnova da solo",
+   "Il Comune applica soltanto una sanzione pecuniaria",
+   "La previsione decade subito",
+   "Il Comune espropria ed esegue o affida le trasformazioni, salvo che la richiesta arrivi e sospenda la procedura"
+  ],
+  "corretta": 3,
+  "spiegazione": "Il Comune espropria gli immobili ed esegue le trasformazioni o ne affida l'esecuzione. Sospende il procedimento se gli aventi titolo richiedono il titolo edilizio.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 31, c. 1",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "l40",
+  "ufficio": "territorio",
+  "materia": "urbanistica",
+  "titolo": "Deposito del PUOC",
+  "testo": "Lo schema di PUOC è stato adottato. Quali tempi di deposito e osservazioni verifichi?",
+  "opzioni": [
+   "Deposito per 60 giorni, osservazioni nei 60 giorni successivi",
+   "Deposito entro 30 giorni per 15 giorni consecutivi, osservazioni entro i 15 giorni successivi",
+   "Deposito per 30 giorni, osservazioni entro i 30 giorni successivi",
+   "Deposito per 15 giorni, senza osservazioni"
+  ],
+  "corretta": 1,
+  "spiegazione": "Entro trenta giorni dall'adozione lo schema è depositato per quindici giorni consecutivi. Le osservazioni si presentano entro il termine perentorio di quindici giorni dalla fine del deposito.",
+  "norma": "L.R. Lazio 38/1999",
+  "articolo": "art. 42, cc. 2 e 4",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ }
 ]

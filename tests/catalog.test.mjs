@@ -17,7 +17,7 @@ test('ogni legge elencata ha domande e i codici principali ci sono', () => {
   for (const l of LEGGI) assert.ok(casesOfLaw(cases, l.id).length > 0, l.id);
   assert.equal(casesOfLaw(cases, 'contratti').length, 20);
   assert.equal(casesOfLaw(cases, 'tuel').length, 13);
-  assert.equal(casesOfLaw(cases, 'lr38').length, 22);
+  assert.equal(casesOfLaw(cases, 'lr38').length, 42);
   const covered = new Set(LEGGI.flatMap((l) => casesOfLaw(cases, l.id).map((c) => c.id)));
   assert.equal(covered.size, cases.length, 'nessun caso resta fuori');
 });

@@ -1,7 +1,7 @@
 {
  "legge": "L.R. Lazio 22 dicembre 1999, n. 38",
  "titolo": "Norme sul governo del territorio",
- "aggiornamento": "Testo coordinato del Consiglio regionale consultato il 4 novembre 2026. La pagina non indica una data di aggiornamento, ma contiene commi aggiunti dalla L.R. 11/2026. Questa scheda si basa su sintesi degli artt. 1-54, non su una lettura integrale: gli articoli successivi sono solo parzialmente coperti.",
+ "aggiornamento": "Testo coordinato del Consiglio regionale letto sul sito ufficiale il 4 novembre 2026. La pagina non indica una data di aggiornamento, ma contiene modifiche della L.R. 11/2026.",
  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
  "sezioni": [
   {
@@ -300,49 +300,168 @@
      "articolo": "art. 54, c. 2"
     },
     {
-     "testo": "Tra le attività multimprenditoriali la L.R. 11/2026 ha aggiunto la ricerca applicata e i servizi tecnici, professionali, informativi, formativi e divulgativi alle imprese agricole.",
-     "articolo": "art. 54, c. 2, lett. b, nn. 4 bis, 6 ter"
+     "testo": "Dentro l'azienda agricola, le attività multimprenditoriali richiedono prima il PUA.",
+     "articolo": "art. 54, c. 3"
+    },
+    {
+     "testo": "Sono consentiti i frazionamenti per divisioni ereditarie, donazioni tra coniugi e parenti in linea retta, testamenti e atti su diritti reali di garanzia e servitù.",
+     "articolo": "art. 54, c. 3 bis"
     }
    ]
   },
   {
-   "titolo": "Modifiche recenti",
+   "titolo": "Edificazione in zona agricola",
    "punti": [
     {
-     "testo": "La L.R. 11/2026 ha definito fabbricati aziendali misti gli annessi agricoli strumentali in unico corpo di fabbrica con l'abitazione rurale.",
-     "articolo": "art. 55, c. 5 ter"
+     "testo": "La nuova edificazione è ammessa solo se necessaria alle attività dell'art. 54, c. 2, dando priorità al recupero dell'esistente.",
+     "articolo": "art. 55, c. 1"
     },
     {
-     "testo": "La L.R. 11/2026 ha abrogato il comma 14 dell'art. 57 bis.",
-     "articolo": "art. 57 bis, c. 14"
+     "testo": "Gli edifici esistenti non superano le superfici lorde utili, salvo il 10% una sola volta per adeguamento igienico-sanitario.",
+     "articolo": "art. 55, c. 2"
     },
     {
-     "testo": "La L.R. 20/2024 ha inserito il comma sui frazionamenti per divisioni ereditarie, donazioni tra coniugi e parenti in linea retta, testamenti e alcuni atti su diritti reali di garanzia e servitù.",
-     "articolo": "art. 54, c. 3 bis"
+     "testo": "Le pertinenze degli edifici abitativi esistenti arrivano al massimo al 25% del volume dell'edificio principale.",
+     "articolo": "art. 55, c. 3 quater"
     },
     {
-     "testo": "La L.R. 20/2024 ha inserito nell'art. 57 i commi su deroghe congiunte con PUA, recupero dei manufatti e interrati dell'abitazione rurale.",
-     "articolo": "art. 57, cc. 2 bis, 3 bis, 3 ter"
+     "testo": "Gli interventi spettano a imprenditori agricoli, coltivatori diretti e IAP, salvo i casi esclusi.",
+     "articolo": "art. 55, c. 4"
+    },
+    {
+     "testo": "L'unità aziendale minima non scende sotto 10.000 mq. In sua mancanza il lotto minimo è 30.000 mq.",
+     "articolo": "art. 55, c. 5"
+    },
+    {
+     "testo": "Annessi stamponati: lotto da 30.000 mq, rapporto 0,002 mq/mq, altezza massima 7,5 m al colmo.",
+     "articolo": "art. 55, c. 5 quater, lett. b"
+    },
+    {
+     "testo": "Annessi tamponati: lotto da 30.000 mq, rapporto 0,004 mq/mq, altezza 3,20 m alla gronda. Il Comune può prevedere fino a 0,008 mq/mq.",
+     "articolo": "art. 55, c. 6"
+    },
+    {
+     "testo": "Con elevato frazionamento: annessi fino a 12 mq e 2,30 m alla gronda, su lotti da 1.500 mq coltivati da almeno tre anni.",
+     "articolo": "art. 55, c. 7"
+    },
+    {
+     "testo": "Gli edifici realizzati senza titolo fino al 31 agosto 1967 si considerano legittimi, ai fini delle verifiche del comma 9.",
+     "articolo": "art. 55, c. 9 bis"
+    },
+    {
+     "testo": "Gli interventi necessari alle attività ammesse non richiedono il reperimento degli standard.",
+     "articolo": "art. 55, c. 13"
+    }
+   ]
+  },
+  {
+   "titolo": "Insediamenti residenziali estensivi",
+   "punti": [
+    {
+     "testo": "Il PUCG può destinarli a porzioni agricole molto frazionate, classificandole zone C: 20% sotto 15.000 abitanti, 15% fino a 100.000, 5% oltre.",
+     "articolo": "art. 56, c. 1"
+    },
+    {
+     "testo": "Serve un piano attuativo. Indice 0,05 mq/mq fino a 500 mq, lotto minimo 5.000 mq.",
+     "articolo": "art. 56, c. 2"
+    },
+    {
+     "testo": "Le zone non si ampliano in variante prima di aver usato almeno l'80% della superficie.",
+     "articolo": "art. 56, c. 3"
+    }
+   ]
+  },
+  {
+   "titolo": "PUA",
+   "punti": [
+    {
+     "testo": "Lo presentano al Comune coltivatori diretti e IAP, singoli o associati.",
+     "articolo": "art. 57, c. 1"
+    },
+    {
+     "testo": "Abitazione rurale: 0,01 mq/mq fino a 300 mq, su lotto minimo di 30.000 mq. Indici mai derogabili.",
+     "articolo": "art. 57, c. 3"
+    },
+    {
+     "testo": "Può firmarlo anche il geometra abilitato, nei limiti delle competenze.",
+     "articolo": "art. 57, c. 4"
+    },
+    {
+     "testo": "Esprimono il parere le commissioni agrarie regionali, nominate dal direttore regionale competente.",
+     "articolo": "art. 57, cc. 6 e 6 bis"
+    },
+    {
+     "testo": "Di regola approva la struttura tecnica comunale. Per la deroga agli indici del comma 2, lett. d, approva il consiglio comunale.",
+     "articolo": "art. 57, c. 7"
+    },
+    {
+     "testo": "Il PUA si realizza con atto d'obbligo o convenzione. Il vincolo di destinazione d'uso è trascritto.",
+     "articolo": "art. 57, cc. 8 e 9"
+    },
+    {
+     "testo": "Attività multimprenditoriali: connessione di almeno dodici anni.",
+     "articolo": "art. 57 bis, c. 2"
+    },
+    {
+     "testo": "La superficie agricola resta almeno al 90% e quella multimprenditoriale non supera 30 ettari.",
+     "articolo": "art. 57 bis, c. 3"
+    },
+    {
+     "testo": "Il vincolo sulla superficie aziendale asservita è trascritto nei registri immobiliari.",
+     "articolo": "art. 58, c. 1 bis"
+    }
+   ]
+  },
+  {
+   "titolo": "Centri storici",
+   "punti": [
+    {
+     "testo": "Gli interventi puntano a conservare o ricostruire il patrimonio edilizio e le pertinenze inedificate.",
+     "articolo": "art. 59, c. 1"
+    },
+    {
+     "testo": "Senza cartografia precedente, la perimetrazione usa le planimetrie catastali successive all'unità d'Italia.",
+     "articolo": "art. 60, c. 1"
+    },
+    {
+     "testo": "Gli insediamenti storici puntuali possono trovarsi anche fuori dalle strutture urbane.",
+     "articolo": "art. 60, c. 2"
+    }
+   ]
+  },
+  {
+   "titolo": "PRG e PUCG: regime transitorio",
+   "punti": [
+    {
+     "testo": "I Comuni possono adottare il PUCG in alternativa alla pianificazione secondo la legislazione previgente.",
+     "articolo": "art. 65, c. 1"
+    },
+    {
+     "testo": "Senza strumento generale o con programma di fabbricazione: solo interventi dell'art. 3, c. 1, lett. a-d, D.P.R. 380/2001, dentro il centro abitato.",
+     "articolo": "art. 65, c. 2"
+    },
+    {
+     "testo": "Fino all'approvazione del PUCG, a PRG, varianti e strumenti attuativi si applicano le leggi regionali previgenti.",
+     "articolo": "art. 66, c. 1"
+    }
+   ]
+  },
+  {
+   "titolo": "Quando il Comune espropria",
+   "punti": [
+    {
+     "testo": "Se gli aventi titolo non chiedono il titolo edilizio nei termini, il Comune espropria ed esegue o affida le trasformazioni.",
+     "articolo": "art. 31, c. 1"
     }
    ]
   }
  ],
  "daRicontrollare": [
-  "Art. 55, c. 5: lotto minimo e unità aziendale minima (30.000 e 10.000 mq nei testi più vecchi letti). Non l'ho letto nel testo vigente, e la L.R. 12/2025, art. 25, modifica la legge in un punto che non ho potuto aprire.",
-  "Art. 55, altri commi: indici e altezze degli annessi; c. 3 quater (pertinenze entro il 25% del volume, inserito dalla L.R. 20/2024); c. 13 (esonero dagli standard).",
-  "Art. 54, c. 3 bis: i frazionamenti ammessi. L'inserimento è certo, ma il comma non l'ho letto nel testo vigente.",
-  "Art. 56: limiti percentuali, indice e lotto minimo degli insediamenti residenziali estensivi, letti solo in un testo non datato.",
-  "Art. 57 (PUA): chi approva, numeri dell'abitazione rurale (0,01 mq/mq, 300 mq, 30.000 mq nei testi vecchi) e commissione agraria. I testi vecchi la dicono comunale, mentre la DGR 306/2026 parla di commissioni regionali nominate dal Direttore regionale (art. 57, c. 6 bis). Non fidarti dei manuali non aggiornati.",
-  "Artt. 57 bis e 58: contenuto attuale. Ho letto solo singole modifiche e pochi commi di testi vecchi. L'art. 57 ter risulta nel sommario come dichiarato illegittimo.",
-  "L.R. 12/2025, art. 25: è l'unico articolo con rubrica che cita la L.R. 38/1999, ma non ho potuto aprirne il testo. Controlla quale articolo modifica.",
-  "Artt. 65 e 66 (regime transitorio): decisivi per capire se un Comune lavora ancora con il PRG. Ho visto solo un parere regionale senza data, secondo cui l'art. 66 è stato sostituito dalla L.R. 44/2002.",
-  "Art. 66 bis: letta solo la rubrica, che riguarda lo strumento urbanistico generale del Comune di Roma.",
-  "Artt. 59-64 e 67-80 (tra cui i centri storici): non letti nel testo vigente.",
-  "Rapporto tra PUOC e art. 1, c. 3, L.R. 36/1987: negli artt. 39-51 letti non compare questo richiamo.",
-  "L.R. 7/2017: nelle parti lette non risulta che modifichi la L.R. 38/1999. Lo dico solo per le parti lette.",
-  "Art. 16, c. 1, lett. c; art. 23, c. 2; art. 26: compaiono tra parentesi quadre, ma le note non sono visibili. Probabili abrogazioni, non confermate.",
-  "Art. 42, c. 2 e art. 31, c. 1: due letture diverse hanno dato sfumature diverse (termine di 30 giorni per il deposito; esproprio dovuto o facoltativo). Leggi il testo.",
-  "Art. 51, c. 2: seconda frase sui comuni e il programma di fabbricazione. Due letture discordanti.",
-  "Comune di Itri: non ho trovato fonti sul suo strumento urbanistico. Controlla PRG, NTA e delibere direttamente in Comune."
+  "Comune di Itri: risultano atti su PRG e Variante di Salvaguardia, ma lo strumento oggi vigente non è confermato. Chiedilo in Comune o controlla le delibere: per l'art. 66 cambia la procedura applicabile.",
+  "Art. 66 bis e artt. 67-80: non sono stati letti per queste domande. L'art. 66 bis riguarda il Comune di Roma, secondo la sua rubrica.",
+  "L.R. 12/2025, art. 25: non è stato aperto. Il testo coordinato dovrebbe già riportarne gli effetti, ma non risulta una verifica diretta.",
+  "Art. 16, c. 1, lett. c; art. 23, c. 2; art. 26: compaiono tra parentesi quadre nel testo. Probabili abrogazioni, da confermare nelle note.",
+  "Art. 57 ter: compare tra parentesi quadre e nelle letture precedenti risulta dichiarato illegittimo. Non usarlo in risposta senza controllare la nota.",
+  "L'unità aziendale e il lotto minimo possono essere più severi nel PAR o nel piano comunale: l'art. 55 indica i limiti di legge, non quelli locali."
  ]
 }

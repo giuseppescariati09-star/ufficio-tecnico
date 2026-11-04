@@ -300,5 +300,48 @@
   "fonte": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81",
   "verificato": "2026-11-03",
   "verificatoSu": "Brocardi, copia non ufficiale (agg. 07/04/2026)"
+ },
+ {
+  "id": "orl1",
+  "domanda": "Spiega il rapporto tra PRG e PUCG nella legge regionale del Lazio.",
+  "puntiChiave": [
+   "PUCG alternativo alla pianificazione previgente (art. 65, c. 1)",
+   "Leggi previgenti fino all'approvazione del PUCG (art. 66, c. 1)",
+   "Disposizioni strutturali e programmatiche (artt. 3 e 28)",
+   "Limiti senza strumento generale (art. 65, c. 2)"
+  ],
+  "norma": "L.R. Lazio 38/1999",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "orl2",
+  "domanda": "Come si approva un PUCG nel Lazio?",
+  "puntiChiave": [
+   "Documento preliminare e conferenza di pianificazione (art. 32)",
+   "Adozione, deposito e 60 giorni per le osservazioni (art. 33)",
+   "Conferenza di copianificazione e accordo con la provincia (art. 33)",
+   "Ratifica e approvazione del consiglio comunale entro 30 giorni (art. 33)"
+  ],
+  "norma": "L.R. Lazio 38/1999",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
+ },
+ {
+  "id": "orl3",
+  "domanda": "Cosa si può costruire in zona agricola e con quali strumenti?",
+  "puntiChiave": [
+   "Divieti: trasformazioni estranee e lottizzazione (art. 54)",
+   "Soggetti e requisiti (art. 55, c. 4)",
+   "Lotto minimo e unità aziendale minima (art. 55, c. 5)",
+   "PUA: chi lo presenta, firma e approva (art. 57)",
+   "Abitazione rurale: 0,01 mq/mq, 300 mq, 30.000 mq (art. 57, c. 3)"
+  ],
+  "norma": "L.R. Lazio 38/1999",
+  "fonte": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=leggiregionalidettaglio&id=7647&sv=vigente",
+  "verificato": "2026-11-04",
+  "verificatoSu": "Consiglio Regionale del Lazio, testo coordinato"
  }
 ]
